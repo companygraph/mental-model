@@ -1,3 +1,3 @@
-# values
+# Values
 
-One file per entity of this type.
+One file per value, written against `meta/core/value-schema.md`.

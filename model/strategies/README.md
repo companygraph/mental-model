@@ -1,3 +1,3 @@
-# strategies
+# Strategies
 
-One file per entity of this type.
+One file per strategy, written against `meta/core/strategy-schema.md`.
