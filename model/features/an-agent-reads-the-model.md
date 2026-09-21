@@ -2,6 +2,11 @@
 source: Local
 products:
   - CompanyGraph Core
+concepts:
+  - Instance
+  - Entity
+  - Reference
+  - Pin
 ---
 
 # An agent reads the model

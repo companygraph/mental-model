@@ -2,6 +2,12 @@
 source: Local
 products:
   - CompanyGraph Core
+concepts:
+  - Check
+  - Rule
+  - Instance
+  - Release
+  - Agent pass
 ---
 
 # Checks an instance runs
