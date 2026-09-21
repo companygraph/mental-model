@@ -17,11 +17,12 @@ model/                         the company — everything under here is an entit
   strategies/                  how one gets reached, and what the route rules out
   surfaces/                    one file per place the model is published
   roles/                       the seats its work is done from, each naming no holder
+  profiles/ai-agent/           the agent that holds every seat but the ones people bring work to
   processes/                   its one kind of work, phase by phase
 AGENTS.md                      this instance's own rules; every modeling rule is in meta/core/CONVENTIONS.md
 ```
 
-**No person is described here.** CompanyGraph is operated by the company of one the reference instance describes, and that is where the person is. Writing a profile here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound, so no `profile`, `skill`, `experience` or `proficiency-level` is written in this repository. Core declares those types without obliging an instance to populate them, and this is the instance that exercises that. A `role` is written and a person is not, because a role is a seat: it names no holder, and who fills one is a fact this repository does not carry.
+**No person is described here.** CompanyGraph is operated by the company of one the reference instance describes, and that is where the person is. Writing a profile for a person here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound, so no `skill`, `experience` or `proficiency-level` is written in this repository and the one profile it carries is an agent. A `role` is a seat and names no holder; what holds a seat is said once, by the agent profile listing the seats an agent holds, and a seat no profile names is held by a person.
 
 The content is mastered here — `source: Local`, corrected in this repository and nowhere else — and what it says is drawn from prose that is already published: the organization profile on GitHub, the pages of companygraph.io, the specs in the meta-model and the introduction talk. Nothing is invented, and a claim that cannot be traced to one of those does not go in.
 
