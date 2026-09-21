@@ -13,11 +13,9 @@ url: https://companygraph.io
 
 - **Landing graph** — this company's own model, drawn as a graph from `company.json`.
 - **company.json** — this model parsed at the commit the site pins, published as a dataset.
-- **Model** — the vocabulary's types and the edges between them, drawn from `model.json`, which is parsed from the meta-model and not from here.
-- **Example** — the invented company the vocabulary ships with, drawn from `example.json`, parsed from the meta-model and not from here.
-- **Talks** — the introduction, as a deck, a PDF and audio, in both languages.
-- **Billing** — what would cost money and what never does, written by hand rather than drawn from the value it restates.
-- **Privacy** — what the site collects and who runs it, written by hand.
+- **Principles** — the vision and the values, drawn from `company.json`.
+- **Team** — each process's phases as a board of the roles that own, execute, support and approve each, and the profiles that hold those roles, drawn from `company.json`.
+- **Surfaces** — every surface the model records, with how each is made and what makes it, drawn from `company.json`.
 - **Structured data** — the organization, the software and the datasets each page describes to a crawler.
 
 ## Constraints
