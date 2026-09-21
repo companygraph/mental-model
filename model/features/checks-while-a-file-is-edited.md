@@ -2,6 +2,11 @@
 source: Local
 products:
   - CompanyGraph Core
+concepts:
+  - Check
+  - Rule
+  - Schema
+  - Reference
 ---
 
 # Checks while a file is edited

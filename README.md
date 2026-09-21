@@ -22,6 +22,7 @@ model/                         the company — everything under here is an entit
   products/                    what it ships
   features/                    what each product lets someone do
   domains/                     the areas its vocabulary falls into
+  concepts/                    the words it means something exact by, and how they hang together
 AGENTS.md                      this instance's own rules; every modeling rule is in meta/core/CONVENTIONS.md
 ```
 

@@ -2,6 +2,10 @@
 source: Local
 products:
   - CompanyGraph Core
+concepts:
+  - Type
+  - Schema
+  - Pin
 ---
 
 # The vocabulary on the web

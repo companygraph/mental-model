@@ -2,6 +2,11 @@
 source: Local
 products:
   - CompanyGraph Core
+concepts:
+  - Type
+  - Schema
+  - Entity
+  - Core
 ---
 
 # A vocabulary to describe a company in
