@@ -19,6 +19,9 @@ model/                         the company — everything under here is an entit
   roles/                       the seats its work is done from, each naming no holder
   profiles/ai-agent/           the agent that holds every seat but the ones people bring work to
   processes/                   its one kind of work, phase by phase
+  products/                    what it ships
+  features/                    what each product lets someone do
+  domains/                     the areas its vocabulary falls into
 AGENTS.md                      this instance's own rules; every modeling rule is in meta/core/CONVENTIONS.md
 ```
 
