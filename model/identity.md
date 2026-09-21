@@ -11,9 +11,7 @@ url: https://companygraph.io
 
 We publish a vocabulary for describing a company as a graph of Markdown files — one file per entity, folders named for their type, and a schema saying what each type carries. It is written for the people who run a company and for the agents that increasingly work beside them, because both need the same answer to the same question and only one of them can ask a colleague.
 
-The vocabulary is not invented. It is the generalization of two models that already worked in companies that never knew about each other, one with a payroll and one of one, and core is the union of what both had rather than either stretched to fit the other.
-
-Nothing here matches or merges records. What a company already keeps in its own systems stays there; this is the vocabulary its own knowledge is written in, and what anyone writes in it remains theirs.
+What the model holds is a projection of what a company already knows. Every page names the source with authority over its facts — this repository, where a fact is written and corrected in place, or a system the company already runs, which a sync writes from and where a correction belongs instead. Describing a company this way moves nothing out of the systems it runs on, and what anyone writes here stays theirs.
 
 ## Also at
 
