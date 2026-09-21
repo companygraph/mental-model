@@ -1,9 +1,9 @@
 {
-  "tooling": "0.37.0",
+  "tooling": "0.40.0",
   "core": {
     "version": "0.37.0",
     "shape": 3,
-    "source": "fetched:v0.37.0"
+    "source": "bundled"
   },
   "units": "meta",
   "packs": [],
@@ -31,6 +31,12 @@
     "meta/core/surface-schema.md": "sha256:9033ed89d4211a606870a7c1517cd62070eec723ee38919c90b36798032c0c53",
     "meta/core/track-schema.md": "sha256:431ad2272e4bfec7dbc5f54bbcd93d13eeadd2f28f53cadb54a5b39a41f72961",
     "meta/core/value-schema.md": "sha256:c4f353022f8e0a1dcd79b52d439c263d074d7b3b478b45c47da35848a14b5e84",
-    "meta/core/vision-schema.md": "sha256:72f6d87197eb3fd61fb38c6e86fac78e7b88d7dae1efaf0b702f8518b20f2414"
+    "meta/core/vision-schema.md": "sha256:72f6d87197eb3fd61fb38c6e86fac78e7b88d7dae1efaf0b702f8518b20f2414",
+    ".claude/skills/companygraph-export/SKILL.md": "sha256:b2825853242297b6c687bd48aee6dc0b8a015664fbb2ba3934ca51d538acac46",
+    ".claude/skills/companygraph-export/build.py": "sha256:897012625bb3fe9b594a4327cb338d50a154825dc66a45e936cfcda6ab6fd24a",
+    ".claude/skills/companygraph-export/verify.py": "sha256:9ee5ce3ecb64e30280d7b583e966a87c0dfccae7a16fff9b0b70dd23cd8745b4",
+    ".claude/skills/companygraph-surface/SKILL.md": "sha256:f0392a90eda6f7baea77bfb74d860d4619262053e1f80b35e7997e175024d58b",
+    ".claude/skills/companygraph-surface/facts.py": "sha256:9872ac6ec465c166a4114829aebffb4bd5bb76627dbfd4b29eed02402797c7e8",
+    ".claude/skills/companygraph-validate/SKILL.md": "sha256:e3815edb16b97feb2987a4c92a6b40161d413e2f027d70985aaebe77f88e26ef"
   }
 }
