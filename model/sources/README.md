@@ -1,3 +1,3 @@
-# sources
+# Sources
 
-One file per entity of this type.
+One file per source, written against `meta/core/source-schema.md`.
