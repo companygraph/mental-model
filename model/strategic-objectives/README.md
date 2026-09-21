@@ -1,3 +1,3 @@
-# strategic-objectives
+# Strategic objectives
 
-One file per entity of this type.
+One file per objective, written against `meta/core/strategic-objective-schema.md`.
