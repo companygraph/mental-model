@@ -30,7 +30,7 @@ Entries are written and reviewed one at a time — what it says, the case agains
 
 ## What it does not claim
 
-**No person is described here.** No `profile`, `skill`, `experience`, `role` or `proficiency-level` is written in this repository, by decision and not for the moment. CompanyGraph is operated by the company of one that `robertblust/mental-model` describes, and that is where the person is described; a profile here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound. Core declares a type without obliging an instance to populate it, so an instance that declares no profile is legal by design, and this is the instance that exercises it.
+**No person is described here.** No `profile`, `skill`, `experience` or `proficiency-level` is written in this repository, by decision and not for the moment. CompanyGraph is operated by the company of one that `robertblust/mental-model` describes, and that is where the person is described; a profile here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound. Core declares a type without obliging an instance to populate it, so an instance that declares no profile is legal by design, and this is the instance that exercises it. A `role` is written and a person is not, because a role is a seat: the schema forbids it to name its holder, `model/roles/` carries the seats Delivery names, and who fills one is a fact this repository does not carry.
 
 ## Where its facts are mastered
 
