@@ -16,6 +16,7 @@ url: https://companygraph.io
 - **Principles** — the vision and the values, drawn from `company.json`.
 - **Team** — each process's phases as a board of the roles that own, execute, support and approve each, and the profiles that hold those roles, drawn from `company.json`.
 - **Surfaces** — every surface the model records, with how each is made and what makes it, drawn from `company.json`.
+- **Chat** — the button at the foot of every prose page and the panel it opens, answered by the chat.companygraph.io chat.
 - **Structured data** — the organization, the software and the datasets each page describes to a crawler.
 
 ## Constraints
