@@ -14,4 +14,4 @@ concepts:
 
 ## Description
 
-In English and Swiss German, the model page lists every core type with its schema, drawn from a pinned commit of the vocabulary, and the example page draws a fictional company described in it; both are also published as files an agent can fetch. It stops at reading: nothing on the web writes to a model, and what the site must say and how it is built belong to the companygraph.io website.
+In English and Swiss Standard German, the model page is the model, drawn: every core type with its schema, as the graph of what references what, from a pinned commit of the vocabulary. The example page is one company, drawn: a fictional company described in that vocabulary, from the same commit. Both are also published as files an agent can fetch. It stops at reading: nothing on the web writes to a model, and what the site must say and how it is built belong to the companygraph.io website.

@@ -4,7 +4,7 @@ source: Local
 
 # Translator
 
-> The seat that makes the Swiss German of an element whose English the Owner has reviewed, and hands back a back-translation beside it.
+> The seat that makes the Swiss Standard German of an element whose English the Owner has reviewed, and hands back a back-translation beside it.
 
 ## What it takes
 
