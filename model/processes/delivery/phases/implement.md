@@ -41,7 +41,7 @@ An approved plan, a branch in a worktree of its own, and for each task the brief
 1. The Writer drafts the English from the brief, on the branch, and reports which claims it could not trace to the brief or to prose we have already published.
 2. An entry of the model goes to the Owner on its own: what it says, the case against it, a proposal, and the Owner decides.
 3. The Owner reviews on the branch, in the diff and, where a surface carries the text, on the rendered page.
-4. The Translator makes the Swiss German from the reviewed English only, one element at a time, with the glossary open, and hands back a back-translation beside each element.
+4. The Translator makes the Swiss Standard German from the reviewed English only, one element at a time, with the glossary open, and hands back a back-translation beside each element.
 5. An English edit re-runs the Translator on that element alone.
 
 ## What it produces
@@ -50,7 +50,7 @@ An approved plan, a branch in a worktree of its own, and for each task the brief
 | --- | --- |
 | Reviewed commits | One per task, on the branch, with every finding resolved or parked |
 | Reviewed English | The draft the Owner has read on the branch and, where a surface carries it, on the page |
-| Swiss German | For a surface that carries it: made from the reviewed English, with its back-translation |
+| Swiss Standard German | For a surface that carries it: made from the reviewed English, with its back-translation |
 
 ## What it never does
 

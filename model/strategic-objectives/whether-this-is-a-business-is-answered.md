@@ -9,7 +9,7 @@ adopted: 2026-08-24
 
 ## What it makes true
 
-The pages say plainly that nothing is being sold, that there is no rate and no proposal, and that whether this becomes consulting at all is being validated. That is honest and it is not an answer. When this holds, the question has been closed — either somebody paid for time and the terms the billing page describes turned out to be the terms, or it is written down that this is not a business and the pages stop implying the question is live.
+The pages say plainly that nothing is being sold, that there is no rate and no proposal, and that whether this becomes consulting at all is being validated. The terms are stated all the same: consulting would be billed time and material, per day and never per seat, with no license to buy and nothing hosted, and an engagement anyone can stop at any time with everything built sitting in their own repository. That is honest and it is not an answer. When this holds, the question has been closed — either somebody paid for time and the terms the billing page describes turned out to be the terms, or it is written down that this is not a business and the pages stop implying the question is live.
 
 It holds the day the answer is written where the question was asked. A no settles it as completely as a yes; what does not settle it is another year of the billing page saying the matter is open, because a question permanently under validation has become a position nobody has to defend.
 
