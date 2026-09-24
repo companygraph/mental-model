@@ -21,7 +21,7 @@ Everything below this line is this instance's own: how it is written, what it do
 
 ## What this is
 
-CompanyGraph, described in the vocabulary CompanyGraph publishes. What `model/` holds is the project behind the meta-model: where it is going, what it will and will not do, how it does its one kind of work, and the places the model is published. `meta/core/` is core, vendored and never edited here; `.companygraph/manifest.json` records which release and a hash per file.
+CompanyGraph, described in the vocabulary CompanyGraph publishes. What `model/` holds is the project behind the meta-model: where it is going, what it will and will not do, how it does its work, and the places the model is published. `meta/core/` is core, vendored and never edited here; `.companygraph/manifest.json` records which release and a hash per file.
 
 ## How it is written
 
@@ -31,7 +31,7 @@ Entries are written and reviewed one at a time — what it says, the case agains
 
 ## What it does not claim
 
-**No person is described here.** No `skill`, `experience` or `proficiency-level` is written in this repository, and the one profile it carries is an agent, by decision and not for the moment. CompanyGraph is operated by the company of one that `robertblust/mental-model` describes, and that is where the person is described; a profile for a person here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound. A `role` is a seat and the schema forbids it to name its holder, so `model/roles/` carries the seats the processes name and says nothing about who sits in them. What a seat is held by is said once, by the agent profile listing the seats an agent holds: a seat no profile names is held by a person, and which person is a fact this repository does not carry.
+**No person is described here.** No `skill`, `experience` or `proficiency-level` is written in this repository, and every profile it carries is an agent, by decision and not for the moment. CompanyGraph is operated by the company of one that `robertblust/mental-model` describes, and that is where the person is described; a profile for a person here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound. A `role` is a seat and the schema forbids it to name its holder, so `model/roles/` carries the seats the processes name and says nothing about who sits in them. What a seat is held by is said once, by the agent profiles listing the seats each agent holds: a seat no profile names is held by a person, and which person is a fact this repository does not carry.
 
 ## Where its facts are mastered
 
