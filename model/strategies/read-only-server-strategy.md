@@ -20,6 +20,8 @@ It serves any instance, not only ours, and the deployment we run points at the r
 
 Nothing is summarized away. Where a claim has evidence the answer carries the evidence, and where it has none the answer says so rather than filling the gap with something plausible. The server is published under the same terms as everything else, because an access layer that costs money is a seat count wearing a different name.
 
+A company runs all of it itself. Its model is a repository it keeps where it keeps its code, and the server and the chat beside it are deployed into the company's own cloud project from the parts this project publishes, so nothing a company writes passes through us. What leaves is what a chat visitor sends, which goes to the language model the deployment names: on Vertex AI in the company's own project, or to Anthropic under the company's own key.
+
 ## What it rules out
 
 No write path: an agent cannot change a company's model through the server, so no company has to decide whether to trust one with that. No embedding index as the way in — a retrieval layer answers with a paraphrase, and a paraphrase cannot be held to the evidence the model attached to the claim. No answer without a commit behind it, which rules out answering about a model's current state in general. No reasoning the server does that the model cannot show, however much more useful the inferred answer would be. And no hosted model bundled with it: the server reads an instance a company keeps, and a company that would have to hand over its model to be served has been charged for adoption.
