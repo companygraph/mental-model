@@ -9,7 +9,7 @@ adopted: 2026-08-23
 
 ## What it makes true
 
-Two instances exist and both are ours, which means every question the vocabulary has been asked so far was asked by someone who already knew the answer. When a company we have never met keeps its own model, the vocabulary has been read by people who owe it nothing, applied to facts we have never seen, and corrected where it did not fit — and the corrections arrive as questions we did not think to ask ourselves.
+Every instance so far is ours, which means every question the vocabulary has been asked so far was asked by someone who already knew the answer. When a company we have never met keeps its own model, the vocabulary has been read by people who owe it nothing, applied to facts we have never seen, and corrected where it did not fit — and the corrections arrive as questions we did not think to ask ourselves.
 
 It holds when the model is still current after we stop looking. Adoption that needs us present is a consulting engagement and not evidence about the vocabulary; what settles this is a model that was updated in a month when nobody asked it to be, because someone found it cheaper to change the model than to work around it.
 
