@@ -25,6 +25,7 @@ model/                         the company — everything under here is an entit
   domains/                     the areas its vocabulary falls into
   concepts/                    the words it means something exact by, and how they hang together
   questions/                   what visitors ask, and the entities each answer rests on
+  kpis/                        one file per quantity the company has chosen to watch
 AGENTS.md                      this instance's own rules; every modeling rule is in meta/core/CONVENTIONS.md
 ```
 
