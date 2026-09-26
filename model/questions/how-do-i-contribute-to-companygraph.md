@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Terms
 ---
 
 # How do I contribute to CompanyGraph?

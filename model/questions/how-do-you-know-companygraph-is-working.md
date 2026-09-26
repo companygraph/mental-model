@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Terms
 ---
 
 # How do you know CompanyGraph is working?

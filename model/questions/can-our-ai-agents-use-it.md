@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Getting started
 ---
 
 # Can our AI agents use it?

@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # Where do our targets and actual numbers go?

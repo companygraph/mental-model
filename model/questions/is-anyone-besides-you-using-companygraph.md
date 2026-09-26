@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Terms
 ---
 
 # Is anyone besides you using CompanyGraph?

@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Terms
 ---
 
 # Is CompanyGraph a business, or a side project?

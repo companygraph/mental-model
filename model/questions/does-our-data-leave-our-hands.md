@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Getting started
 ---
 
 # Does our data leave our hands?

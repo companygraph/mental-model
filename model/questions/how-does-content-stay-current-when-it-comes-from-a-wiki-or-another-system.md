@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # How does content stay current when it comes from a wiki or another system?

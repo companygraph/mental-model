@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Getting started
 ---
 
 # How do I create my own profile?

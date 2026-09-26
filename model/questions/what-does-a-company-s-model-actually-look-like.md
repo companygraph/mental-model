@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # What does a company's model actually look like?
