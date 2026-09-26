@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Terms
 ---
 
 # Do I need your service to run CompanyGraph, and what does it cost?

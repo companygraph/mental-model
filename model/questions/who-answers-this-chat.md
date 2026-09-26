@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: This chat
 ---
 
 # Who answers this chat?

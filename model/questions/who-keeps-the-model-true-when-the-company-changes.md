@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # Who keeps the model true when the company changes?

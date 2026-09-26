@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # Isn't this just a wiki, or Notion with rules?

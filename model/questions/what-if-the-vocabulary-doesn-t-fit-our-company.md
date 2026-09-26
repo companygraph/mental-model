@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # What if the vocabulary doesn't fit our company?

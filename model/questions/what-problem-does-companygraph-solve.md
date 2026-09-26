@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: Fit
 ---
 
 # What problem does CompanyGraph solve?

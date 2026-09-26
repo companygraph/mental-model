@@ -1,5 +1,6 @@
 ---
 source: Local
+kind: This chat
 ---
 
 # Can I trust what this chat says?
