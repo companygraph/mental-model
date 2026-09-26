@@ -43,4 +43,6 @@ A fact enters from prose that is already published and already reviewed: the org
 
 Two jobs, both required by the ruleset on `main`: `companygraph`, which calls meta-model's `instance-check.yml` at the release its workflow names and is shown by GitHub as `companygraph / companygraph`, and `conventions`, called from robertblust/conventions at the tag `conventions.json` names and shown as `conventions / conventions`. A ruleset requires a job by its id, so neither is renamed without its ruleset.
 
+The tooling's skills under `.claude/skills/`, `companygraph-validate`, `companygraph-export`, `companygraph-surface`, `companygraph-profile`, `companygraph-company` and `companygraph-consent`, are written by `init` and moved by an upgrade, and this instance owns no skill of its own.
+
 `meta/` is excluded from the prose check and from the Markdown form because it is core, vendored and never edited here; its words are core's to hold, and holding them here would fail this repository for a change made somewhere else.
