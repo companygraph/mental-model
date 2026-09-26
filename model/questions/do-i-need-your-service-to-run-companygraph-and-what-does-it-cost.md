@@ -5,7 +5,7 @@ kind: Terms
 
 # Do I need your service to run CompanyGraph, and what does it cost?
 
-> The value says what is free to take and what is paid for, and the instance says that a company's model is its own repository, which it runs without anyone else.
+> The value says what is free to take and what is paid for, and the instance says that a company's model is its own repository, which it runs without anyone else; the decision says why nothing is asked back and time is billed by the day.
 
 ## Rests on
 
@@ -13,3 +13,4 @@ kind: Terms
 | --- | --- | --- | --- |
 | value | Adoption is not taxed | | what is free and what is paid |
 | concept | Instance | | a model runs in the company's own repository |
+| decision | Everything under Apache 2.0, and consulting billed by the day | | why nothing is asked back |
