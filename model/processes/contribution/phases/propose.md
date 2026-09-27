@@ -5,7 +5,7 @@ executed-by:
   - Contributor
 gate-approvers:
   - Contributor
-escalation-authority: Owner
+escalation-authority: Contributor
 gate-to: Consider
 ---
 
