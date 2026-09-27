@@ -48,4 +48,10 @@ To leave Review, all of these hold:
 - The Owner has read the findings and said which are to be acted on.
 - What the review could not verify is written down.
 
-Where they cannot be met, the Owner decides whether the change is narrowed, carried on by someone else, or declined.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| narrowed | Review |
+| carried on by someone else | Review |
+| declined | |

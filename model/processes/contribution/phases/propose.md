@@ -5,7 +5,7 @@ executed-by:
   - Contributor
 gate-approvers:
   - Contributor
-escalation-authority: Owner
+escalation-authority: Contributor
 gate-to: Consider
 ---
 
@@ -44,4 +44,11 @@ To leave Propose, all of these hold:
 - It says what is now true that was not before.
 - Its commits carry the address their author means to be known by.
 
-Where they cannot be met, the Contributor decides whether to carry on or to stop; nothing here obliges anyone to finish what they started.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| carried on | Propose |
+| stopped | |
+
+Nothing here obliges anyone to finish what they started.

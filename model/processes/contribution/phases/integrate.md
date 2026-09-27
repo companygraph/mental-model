@@ -45,4 +45,10 @@ To leave Integrate, all of these hold:
 - Where something vendored moved, a release exists and its notes say what a consumer must do.
 - Every pin that names it has moved, or is recorded as deliberately behind.
 
-Where they cannot be met, the Owner reverts rather than leaving the default branch in a state nobody chose.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| reverted | |
+
+The Owner reverts rather than leave the default branch in a state nobody chose.
