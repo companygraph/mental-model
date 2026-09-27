@@ -50,4 +50,9 @@ To leave Shape, all of these hold:
 - What the change makes stale is named, or named as nothing.
 - The classification is stated, and the phases that will write a document are named.
 
-Where they cannot be met, the Owner decides whether the request is reshaped or dropped.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| reshaped | Shape |
+| dropped | |

@@ -70,4 +70,9 @@ To leave Implement, all of these hold:
 - Where a model changed, both halves of the validation pass have run over it: the mechanical checks, and an agent reading each entity against its schema's writing rules.
 - The branch does what the specification said, and nothing else.
 
-Where they cannot be met, the Owner decides whether the branch is reworked or abandoned.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| reworked | Implement |
+| abandoned | |

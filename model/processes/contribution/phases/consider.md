@@ -46,4 +46,10 @@ To leave Consider, all of these hold:
 - The Owner has said the change is wanted.
 - The status check has reported.
 
-Where they cannot be met, the Owner says which of them failed and closes the pull request, with what would make a later one succeed.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| pull request closed | |
+
+The Owner says which of the criteria failed, with what would make a later pull request succeed.

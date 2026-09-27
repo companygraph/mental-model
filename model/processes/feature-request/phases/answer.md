@@ -46,4 +46,10 @@ To leave Answer, all of these hold:
 - The asker has something to do next, or is told plainly that there is nothing.
 - No date appears that has not actually been chosen.
 
-Where they cannot be met, the issue stays open; an answer nobody can act on is not an answer and closing it does not make it one.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| left open | Answer |
+
+An answer nobody can act on is not an answer, and closing the issue does not make it one.

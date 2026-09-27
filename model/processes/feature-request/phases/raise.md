@@ -42,4 +42,10 @@ To leave Raise, all of these hold:
 - An issue exists, in the open, on the repository the request concerns.
 - It says what the Requestor was trying to describe and could not.
 
-Where they cannot be met, the Owner helps state it rather than closing it; a request nobody could phrase is still a finding about the vocabulary.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| stated with help | Raise |
+
+The Owner helps state it rather than closing it; a request nobody could phrase is still a finding about the vocabulary.

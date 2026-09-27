@@ -44,4 +44,10 @@ To leave Triage, all of these hold:
 - The reason is written where the request was made.
 - Where it is core vocabulary, the instance that had to be described with it is named.
 
-Where they cannot be met, the Owner leaves the request open and says what would settle it, rather than classifying it to be finished with it.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| left open | Triage |
+
+The Owner says what would settle it, rather than classifying it to be finished with it.

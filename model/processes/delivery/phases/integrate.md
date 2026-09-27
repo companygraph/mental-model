@@ -53,4 +53,9 @@ Integrate is the last phase. The work is done when all of these hold:
 - Where a release was due it is tagged, and its notes say whether a consumer re-syncs, re-pins or does more.
 - Every pin that names the release has moved with it, and every surface built from one of them has been rebuilt.
 
-Where they cannot be met, the Owner decides whether the change is reverted or the release held.
+## If not met
+
+| Outcome | Leads to |
+| --- | --- |
+| release held | Integrate |
+| reverted | |
