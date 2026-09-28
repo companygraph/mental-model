@@ -18,3 +18,4 @@ What the model holds is a projection of what a company already knows. Every page
 | Where | URL |
 | --- | --- |
 | GitHub | https://github.com/companygraph |
+| LinkedIn | https://www.linkedin.com/company/companygraph |
