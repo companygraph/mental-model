@@ -59,6 +59,11 @@ url: https://www.linkedin.com/company/companygraph
 - The optional units the network offers and this file does not name stay empty: Year founded,
   Specialties, Locations and Phone. The model holds no founding date, no list of specialties, no
   address and no number, and this surface invents none.
+- Commitments stays empty as well. The network files a commitment under one of its own categories,
+  each a promise an employer makes to the people who work for it, and CompanyGraph employs nobody
+  and the model describes no person. The decisions do not reach it either: each is a call about
+  the vocabulary or the tooling, not a promise to anyone who works here, and filed under a category
+  it would restate the mission or promote the product, the two uses the network rules out.
 - Nothing else the model holds reaches this surface: the identity's `## Also at`, the brand's
   colors, faces and voice as text, the sources and this file's own type. Each is either how the
   model is kept, or already carried by the Logo, the Cover image and the register.
