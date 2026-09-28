@@ -4,7 +4,7 @@ source: Local
 
 # CompanyGraph
 
-> Everything a company knows, in one graph that its people and its agents read alike.
+> Your company doesn't compile.
 
 ## Mark
 
