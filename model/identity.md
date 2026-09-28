@@ -1,5 +1,6 @@
 ---
 source: Local
+email: robert@blust.ch
 url: https://companygraph.io
 ---
 
