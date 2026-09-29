@@ -6,6 +6,7 @@ status: Standing
 by: Owner
 serves:
   - A company we have never met keeps its own model
+  - Every gate an agent's work passes is held by a person
 upholds:
   - Adoption is not taxed
   - Run on what we publish
