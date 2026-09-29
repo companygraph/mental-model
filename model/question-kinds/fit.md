@@ -9,6 +9,6 @@ rank: 10
 
 ## What it means
 
-A question about the problem and the match: why a model rather than a wiki, what a company's model looks like, whether the vocabulary fits, where targets and actual numbers go, how content stays current and who keeps it true.
+A question about the problem and the match: why a model rather than a wiki, what a company's model looks like, whether the vocabulary fits, where targets and actual numbers go, how content stays current and who keeps it true, and whether it works with the agent and the graph database a company already runs.
 
 How to begin is Getting started. What it costs, who is behind it and how it proves itself is Terms.
