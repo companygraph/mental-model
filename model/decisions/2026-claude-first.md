@@ -34,6 +34,12 @@ The work is validating the idea, and a skill written for one agent validates it 
 
 An instance made today can be kept with Claude and no other agent, and a company working with another agent reads that as "not for us"; the command-line page says so and says others are planned. `init` already takes the agent as an option, so adding one is a release and not a redesign. For the call to stay right, the model has to stay plain Markdown that no agent owns, and no skill may come to depend on something only Claude can do, or the second agent becomes a rewrite. The call ends when the idea is validated or work on a second agent starts, whichever comes first, and a later decision supersedes it.
 
+## Bears on
+
+| Type | Entity | Owner | How |
+| --- | --- | --- | --- |
+| feature | An agent does the work no script can, by the skills an instance ships | | made it for Claude first |
+
 ## References
 
 | What | URL |
