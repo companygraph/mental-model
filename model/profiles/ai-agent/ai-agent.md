@@ -20,4 +20,4 @@ roles:
 
 It holds every seat in Delivery but the Owner's, and none in the two processes that begin outside the company: a request is raised by a person and a change is offered by one. Whichever model runs it, the rulebooks are the same, every question it parks ends with the Owner's word, and nothing it produces reaches the default branch without the Owner merging it.
 
-This profile is here so the model can say what holds a seat. A seat no profile names is held by a person, and which person is a fact this repository does not carry.
+This profile is here so the model can say what holds a seat, as Robert Blust's says who holds the Owner's; a seat no profile names is held by whichever person brings the work to it.
