@@ -2,7 +2,7 @@
 
 > CompanyGraph described in the vocabulary CompanyGraph publishes: the company behind the meta-model, as an instance of it.
 
-The [reference instance](https://github.com/robertblust/mental-model) answered whether the vocabulary can hold a real company. It cannot answer whether the vocabulary holds a company that is not a person, because the company it describes is one — its vision, its strategies and its processes are all a person's, and nothing there shows which parts of the vocabulary need a person behind them and which do not. This instance has no people in it, and that is what separates the two. It is also the first instance the [meta-model](https://github.com/companygraph/meta-model)'s tooling created rather than a person laid out by hand; its design is the meta-model's [CompanyGraph instance spec](https://github.com/companygraph/meta-model/blob/main/docs/superpowers/specs/2026-09-21-companygraph-instance-design.md).
+The [reference instance](https://github.com/robertblust/mental-model) answered whether the vocabulary can hold a real company. It cannot answer whether the vocabulary holds a company that is not a person, because the company it describes is one — its vision, its strategies and its processes are all a person's, and nothing there shows which parts of the vocabulary need a person behind them and which do not. This instance describes no person beyond the seat one holds, and that is what separates the two. It is also the first instance the [meta-model](https://github.com/companygraph/meta-model)'s tooling created rather than a person laid out by hand; its design is the meta-model's [CompanyGraph instance spec](https://github.com/companygraph/meta-model/blob/main/docs/superpowers/specs/2026-09-21-companygraph-instance-design.md).
 
 ```text
 .companygraph/manifest.json    which units this vendors, and a hash per vendored file
@@ -30,7 +30,7 @@ model/                         the company — everything under here is an entit
 AGENTS.md                      this instance's own rules; every modeling rule is in meta/core/CONVENTIONS.md
 ```
 
-**No person is described here.** CompanyGraph is operated by the company of one the reference instance describes, and that is where the person is. Writing a profile for a person here would put one canonical name in two instances with two sets of facts behind it, and the second set would go stale without a sound, so no `skill`, `experience` or `proficiency-level` is written in this repository and the one profile it carries is an agent. A `role` is a seat and names no holder; what holds a seat is said once, by the agent profile listing the seats an agent holds, and a seat no profile names is held by a person.
+**One person, thinly.** The person behind CompanyGraph is described in the reference instance. The profile here says only what this repository needs: the address the Owner's commits are authored under, the seat, and where the rest is. No `skill`, `experience` or `proficiency-level` is written here, because a second set of facts under one canonical name would go stale without a sound. A `role` is a seat and names no holder; what holds one is said by the profile that lists it.
 
 The content is mastered here — `source: Local`, corrected in this repository and nowhere else — and what it says is drawn from prose that is already published: the organization profile on GitHub, the pages of companygraph.io, the specs in the meta-model and the introduction talk. Nothing is invented, and a claim that cannot be traced to one of those does not go in.
 
