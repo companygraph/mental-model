@@ -1,4 +1,5 @@
 ---
+id: 01a0dd52-bc30-73db-a8ef-876d2acf120d
 source: Local
 decided: 2026-08-25
 kind: Architecture
