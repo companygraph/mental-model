@@ -6,13 +6,12 @@ kind: Fit
 
 # Can a system outside our model keep a link to an entity after it is renamed?
 
-> The decision says how a link will survive a rename and a translation; it is decided,
-> and the feature says an agent reading the model resolves it, now that every page
-> carries an id.
+> The decision says why a link survives a rename and a translation, and the feature
+> says how an agent finds the entity from the id it holds.
 
 ## Rests on
 
 | Type | Entity | Owner | For |
 | --- | --- | --- | --- |
-| decision | Every entity carries an id that outlives its name | | how a link will survive |
-| feature | An agent reads the model | | who resolves it |
+| decision | Every entity carries an id that outlives its name | | why a link survives |
+| feature | An agent reads the model | | how an agent finds the entity |
