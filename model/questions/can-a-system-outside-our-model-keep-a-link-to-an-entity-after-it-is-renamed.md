@@ -6,7 +6,7 @@ kind: Fit
 
 # Can a system outside our model keep a link to an entity after it is renamed?
 
-> The decision says why a link survives a rename and a translation, and the feature
+> The decision says why a link survives a rename, and the feature
 > says how an agent finds the entity from the id it holds.
 
 ## Rests on
