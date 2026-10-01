@@ -13,11 +13,11 @@ serves:
 
 > Every entity carries an id in its frontmatter, set once and never changed or reused, in the
 > format the instance's identifier file declares, and every tool returns that id, so a link
-> from outside the model survives a rename and a translation.
+> from outside the model survives a rename.
 
 ## The question
 
-What an outside system holds on to when it links to an entity: a task to the feature it delivers, a commit to the decision it carries out, a node in a graph to the page it was loaded from. The only id the model offered was the folder and the slug of the H1, which changes the day the entity is renamed and differs in every language the entity is written in. It had to be decided in September 2026, when an adopter asked it in meta-model #194 and the chat answered that the model does not say.
+What an outside system holds on to when it links to an entity: a task to the feature it delivers, a commit to the decision it carries out, a node in a graph to the page it was loaded from. The only id the model offered was the folder and the slug of the H1, which changes the day the entity is renamed. It had to be decided in September 2026, when an adopter asked it in meta-model #194 and the chat answered that the model does not say.
 
 ## Alternatives
 
