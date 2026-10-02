@@ -17,7 +17,7 @@ The text in its file on the current branch, in the register the place calls for,
 
 ## What it never does
 
-- Never writes a fact the brief, the repository or a page we have published does not show.
+- Never writes a fact the brief or the repository does not show.
 - Never writes a count or a version of something that is still changing; it says where the number is read instead.
 - Never writes German; the translation is the Translator's.
 - Never commits and never runs the build.

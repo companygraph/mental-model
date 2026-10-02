@@ -5,7 +5,7 @@ source: Local
 
 # Owner
 
-> The seat that decides what the project is for, says the last word on every page, and is the only one that merges, tags and releases.
+> The seat that decides what the project is for, says the last word on every page, and gives the word every merge, tag and release waits on.
 
 ## What it takes
 
