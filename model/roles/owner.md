@@ -17,8 +17,7 @@ Decisions, recorded where they bind: a merge, a tag, a release and its notes, a 
 
 ## What it never does
 
-- Never approves a type no instance has already had to be written with.
-- Never releases a change to what another repository vendors without notes saying what it asks of a consumer.
+- Never approves a change a surface carries from the diff alone; the rendered page is read too.
 
 ## References
 

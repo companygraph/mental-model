@@ -31,7 +31,6 @@ supported-by:
 - Never promises a release date; naming the release a chosen gap is aimed at is not a promise.
 - Never closes a request without the reason written where it was asked.
 - Never adds vocabulary because it was asked for; a request is evidence of a gap and never the decision to fill it.
-- Never asks for the name of the company behind a request, or repeats one that is offered.
 
 ## References
 

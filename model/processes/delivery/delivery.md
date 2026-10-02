@@ -28,8 +28,6 @@ owner: Owner
 ## What it never does
 
 - Never begins a phase whose predecessor's gate the Owner has not approved.
-- Never adds vocabulary no instance has already had to be written with.
-- Never changes what another repository vendors without a release whose notes say what it asks of a consumer.
 
 ## References
 

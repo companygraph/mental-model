@@ -33,7 +33,6 @@ Whatever the Requestor was trying to describe and could not, in whatever words t
 ## What it never does
 
 - Never has to be written in the vocabulary's terms; putting it in them is the company's work.
-- Never has to name the company it asks for.
 - Never waits for a template, a label or a form; there is none, by design.
 
 ## Gate

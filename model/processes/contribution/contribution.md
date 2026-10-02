@@ -29,8 +29,6 @@ supported-by:
 ## What it never does
 
 - Never merges anything with a red check or no check.
-- Never squashes a pull request; a merge commit keeps the author it was given.
-- Never re-authors a contributor's commit, or asks a contributor to be anyone but themselves.
 - Never treats a review finding as a verdict; it is an input to whoever merges, and silence is a valid answer to one.
 - Never claims an interest in what a contributor describes in the vocabulary.
 
