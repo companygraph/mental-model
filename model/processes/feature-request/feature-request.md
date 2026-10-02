@@ -28,7 +28,7 @@ supported-by:
 ## What it never does
 
 - Never answers a request before knowing which page the asker could not write.
-- Never promises a release date; naming the release a chosen gap is aimed at is not a promise.
+- Never promises a release date or a place on the roadmap; naming the release a chosen gap is aimed at is not a promise.
 - Never closes a request without the reason written where it was asked.
 - Never adds vocabulary because it was asked for; a request is evidence of a gap and never the decision to fill it.
 
