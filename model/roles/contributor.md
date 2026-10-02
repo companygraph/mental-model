@@ -17,7 +17,6 @@ A pull request against the default branch, committed under their own address, sa
 
 ## What it never does
 
-- Never commits under an address that is not theirs, and is never asked to.
 - Never merges, tags or releases.
 - Never gives up an interest in what they describe in the vocabulary by contributing to it.
 

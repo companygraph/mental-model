@@ -36,7 +36,6 @@ A pull request against the default branch, from anyone, with a description sayin
 ## What it never does
 
 - Never reviews the writing of a change it has not decided is wanted.
-- Never asks a contributor to commit under an address that is not theirs.
 - Never leaves a contributor to discover a rule from a failing check that could have been named.
 
 ## Gate

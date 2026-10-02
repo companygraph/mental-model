@@ -5,7 +5,7 @@ source: Local
 
 # Owner
 
-> The seat that decides what the project is for, says the last word on every page, and is the only one that merges, tags and releases.
+> The seat that decides what the project is for, says the last word on every page, and gives the word every merge, tag and release waits on.
 
 ## What it takes
 
@@ -17,11 +17,7 @@ Decisions, recorded where they bind: a merge, a tag, a release and its notes, a 
 
 ## What it never does
 
-- Never delegates a merge, a tag or a release; an agent opens the pull request and reports, the Owner merges.
-- Never approves a type no instance has already had to be written with.
-- Never releases a change to what another repository vendors without notes saying what it asks of a consumer.
-- Never lets a published page outlive a disagreement with the model; the model is corrected and the page rebuilt from it.
-- Never states a number that was not counted or a claim the model does not hold.
+- Never approves a change a surface carries from the diff alone; the rendered page is read too.
 
 ## References
 

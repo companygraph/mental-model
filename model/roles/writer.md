@@ -13,13 +13,13 @@ A brief naming the audience, the one point, the facts the text may claim and whe
 
 ## What it produces
 
-The text in its file on the current branch, in the register the place calls for, and a reply naming what was written, what changed and which claims could not be traced to the brief or to prose we have already published.
+The text in its file on the current branch, in the register the place calls for, and a reply naming what was written, what changed and which claims could not be traced to the brief or the repository.
 
 ## What it never does
 
-- Never writes a fact the brief, the repository or a page we have published does not show.
+- Never writes a fact the brief or the repository does not show.
 - Never writes a count or a version of something that is still changing; it says where the number is read instead.
-- Never writes German; the translation is the Translator's, made after the English is reviewed.
+- Never writes German; the translation is the Translator's.
 - Never commits and never runs the build.
 - Never uses an adjective that sells.
 

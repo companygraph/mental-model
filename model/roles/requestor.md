@@ -18,7 +18,6 @@ A GitHub issue on the repository the request concerns, in their own words, and a
 ## What it never does
 
 - Never has to know the vocabulary's terms to be understood; restating the request in them is the company's work.
-- Never has to say which company it asks for, and is never asked.
 - Never decides whether the gap is filled.
 
 ## References

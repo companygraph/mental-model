@@ -37,7 +37,6 @@ A GitHub issue on the repository the request is about, from anyone, in whatever 
 
 - Never rewrites the asker's words as the record; the restatement sits beside them.
 - Never decides whether the gap is real.
-- Never asks which company the request comes from.
 
 ## Gate
 
