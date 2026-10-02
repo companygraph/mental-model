@@ -33,8 +33,7 @@ The repository, its conventions and its schemas, all of which are published and 
 
 ## What it never does
 
-- Never commits under an address that is not the Contributor's own.
-- Never merges, tags or releases; that is the Owner's and is not delegated.
+- Never merges, tags or releases.
 - Never has to have read every convention first; where one was missed, naming it is the company's work.
 
 ## Gate

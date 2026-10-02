@@ -17,7 +17,6 @@ The German in the element's own place, de-CH in the forms Switzerland uses, and 
 
 ## What it never does
 
-- Never translates a draft.
 - Never edits the English.
 - Never writes German into a model; a model is English, and the German a surface carries lives in the surface's own attributes.
 - Never writes a family term in any form but the glossary's.

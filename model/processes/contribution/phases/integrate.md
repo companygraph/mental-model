@@ -4,6 +4,7 @@ source: Local
 owner: Owner
 executed-by:
   - Owner
+  - Surveyor
 gate-approvers:
   - Owner
 escalation-authority: Owner
@@ -19,8 +20,8 @@ A change whose findings the Owner has ruled on, with one green check.
 
 ## Activities
 
-1. The Owner merges with a merge commit, never a squash, so the address the contributor committed under reaches the default branch unchanged.
-2. Where the change touches what another repository vendors or builds from, the Owner tags a release and writes its notes: a minor where a consumer re-syncs or re-pins, a major where it is asked to do more than either, and the notes say which.
+1. On the Owner's word the change is merged with a merge commit, never a squash, so the address the contributor committed under reaches the default branch unchanged.
+2. Where the change touches what another repository vendors or builds from, a release is tagged on the Owner's word, with notes the Owner has read: a minor where a consumer re-syncs or re-pins, a major where it is asked to do more than either, and the notes say which.
 3. The Owner moves every pin that names the release, each in a commit that says why, and every surface built from one of them is rebuilt at the commit it now names.
 4. The Owner deletes the branch, as their own step.
 
@@ -33,10 +34,7 @@ A change whose findings the Owner has ruled on, with one green check.
 
 ## What it never does
 
-- Never squashes, because a squash re-authors the commit to whoever pressed the button and a wrong identity would land looking correct.
-- Never merges on a contributor's say-so that a check passed.
-- Never leaves a pin that names a release the release has moved past.
-- Never chains deleting the branch to the merge, because a failed merge would still delete it.
+- Never leaves a pin behind a release without recording that it is deliberately behind.
 
 ## Gate
 
@@ -44,7 +42,7 @@ To leave Integrate, all of these hold:
 
 - The default branch carries the change under the address its author committed with.
 - Where something vendored moved, a release exists and its notes say what a consumer must do.
-- Every pin that names it has moved, or is recorded as deliberately behind.
+- Every pin that names the release has moved with it, or is recorded as deliberately behind.
 
 ## If not met
 
