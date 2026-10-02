@@ -17,11 +17,8 @@ Decisions, recorded where they bind: a merge, a tag, a release and its notes, a 
 
 ## What it never does
 
-- Never delegates a merge, a tag or a release; an agent opens the pull request and reports, the Owner merges.
 - Never approves a type no instance has already had to be written with.
 - Never releases a change to what another repository vendors without notes saying what it asks of a consumer.
-- Never lets a published page outlive a disagreement with the model; the model is corrected and the page rebuilt from it.
-- Never states a number that was not counted or a claim the model does not hold.
 
 ## References
 

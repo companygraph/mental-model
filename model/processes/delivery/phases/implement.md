@@ -56,11 +56,8 @@ An approved plan, a branch in a worktree of its own, and for each task the brief
 ## What it never does
 
 - Never changes a test's expectation to make it pass.
-- Never makes the German from English the Owner has not reviewed.
 - Never dispatches the next task while the last one's findings are open.
 - Never commits a change to a model that no validation pass has read.
-- Never claims a check that was not run.
-- Never merges.
 
 ## Gate
 

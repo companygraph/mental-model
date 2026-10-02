@@ -50,7 +50,6 @@ A classified request, the model and the vocabulary the change must not contradic
 - Never writes the change it specifies.
 - Never decides a question that is the Owner's; it names the options and parks it.
 - Never adds a type to the vocabulary that no instance has had to be written with.
-- Never states a fact the model does not hold, or one no published page shows.
 - Never leaves a question unasked because an assumption would be convenient.
 
 ## Gate

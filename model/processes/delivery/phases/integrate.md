@@ -38,12 +38,10 @@ A branch that left Implement with its checks green, and the specification it was
 
 ## What it never does
 
-- Never merges without the Owner; an agent opens and reports.
 - Never squashes a merge, because a squash re-authors the commit to whoever pressed the button and a wrong identity would land looking correct.
 - Never chains a branch delete after a merge, because a failed merge would still run the delete and close the pull request.
 - Never changes what another repository vendors without a release, because the change has made every copy of it stale.
 - Never leaves a consumer pinned to a release that no longer exists.
-- Never releases a change the model disagrees with.
 
 ## Gate
 

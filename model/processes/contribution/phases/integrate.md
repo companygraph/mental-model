@@ -34,7 +34,6 @@ A change whose findings the Owner has ruled on, with one green check.
 ## What it never does
 
 - Never squashes, because a squash re-authors the commit to whoever pressed the button and a wrong identity would land looking correct.
-- Never merges on a contributor's say-so that a check passed.
 - Never leaves a pin that names a release the release has moved past.
 - Never chains deleting the branch to the merge, because a failed merge would still delete it.
 
