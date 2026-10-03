@@ -4,7 +4,7 @@ source: Local
 kind: entity
 ---
 
-# Run
+# Check run
 
 > One checking of an instance as it stands, by one release of the checker, against the core and packs that instance vendored: it either refuses before reading a page or reads them all and reports what it found.
 

@@ -1,7 +1,7 @@
 ---
 id: 01a10042-5d16-7600-aa84-b9739571a03f
 source: Local
-root: Run
+root: Check run
 members:
   - Check
   - Finding
@@ -12,7 +12,7 @@ decisions:
   - The schema written as prose is the only schema
 ---
 
-# Run
+# Check run
 
 > A run holds an instance only to the rules it adopted, as the release it named, and its report says everything it found and everything it did not check.
 

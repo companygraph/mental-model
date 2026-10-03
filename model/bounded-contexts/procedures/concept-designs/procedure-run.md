@@ -4,7 +4,7 @@ source: Local
 kind: entity
 ---
 
-# Run
+# Procedure run
 
 > One following of a procedure against one instance, from the first question to the report, on behalf of the operator who asked for it. Everything it writes stays a proposal until the operator commits it.
 

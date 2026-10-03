@@ -47,7 +47,7 @@ Given an instance with no finding, when it is checked, then the run passes and s
 | Type | Entity | Context |
 | --- | --- | --- |
 | concept-design | Tooling pin | Checking |
-| concept-design | Run | Checking |
+| concept-design | Check run | Checking |
 | concept-design | Finding | Checking |
 | domain-event | Run refused | Checking |
 | domain-event | Instance checked | Checking |

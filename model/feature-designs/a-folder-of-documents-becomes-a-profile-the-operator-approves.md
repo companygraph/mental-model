@@ -46,7 +46,7 @@ Given an Update where a new document would change a claimed level, when the reco
 
 | Type | Entity | Context |
 | --- | --- | --- |
-| concept-design | Run | Procedures |
+| concept-design | Procedure run | Procedures |
 | concept-design | Reconciliation | Procedures |
 | concept-design | Agent pass | Procedures |
 | domain-event | Change left for approval | Procedures |

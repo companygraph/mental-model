@@ -1,7 +1,7 @@
 ---
 id: 01a10042-574b-7664-bb48-61c561e4b429
 source: Local
-root: Run
+root: Procedure run
 members:
   - Reconciliation
   - Consent record
@@ -11,7 +11,7 @@ decisions:
   - Agents write the model, and a person approves every change to it
 ---
 
-# Run
+# Procedure run
 
 > What a run writes into an instance is only what a schema holds, the operator kept and a consent allows, checked before it is handed back, and never committed by the run.
 

@@ -1,7 +1,7 @@
 ---
 id: 01a10042-5e73-7117-9b8c-8bf69d19fe2a
 source: Local
-emitted-by: Run
+emitted-by: Check run
 ---
 
 # Instance checked
