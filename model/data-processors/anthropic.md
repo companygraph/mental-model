@@ -10,7 +10,7 @@ sub-processor-authorization: general
 
 # Anthropic
 
-> Writes the chat's answers with Claude, through Anthropic's API, from the visitor's messages and what the model's tools returned.
+> Writes the chat's answers with Claude, through Anthropic's API, from the visitor's messages and what the model's tools returned; it may process a request in any country it chooses, and stores what it keeps in the United States.
 
 ## Own purposes
 
