@@ -10,12 +10,12 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Commit | commit hash | The commit the snapshot was taken at; empty for a working tree |
-| Repository | string | The repository it was read from; empty for a working tree |
-| Core version | version | The core release the instance vendors |
-| Parser | version | The release of the parser that drew the graph |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Commit | | hash | | The commit the snapshot was taken at; empty for a working tree |
+| Repository | | string | | The repository it was read from; empty for a working tree |
+| Core version | | version | | The core release the instance vendors |
+| Parser | | version | | The release of the parser that drew the graph |
 
 ## References
 

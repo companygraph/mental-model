@@ -10,13 +10,13 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Code | string | One of the closed list a client may branch on, such as `ambiguous_name` or `invalid_cursor` |
-| Message | string | The sentence for a reader |
-| Rule | string | The convention the refusal rests on, where one does |
-| Details | map of string | The facts the sentence names, such as the candidates an ambiguous name holds |
-| Provenance | Provenance | The snapshot that refused |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Code | | string | | One of the closed list a client may branch on, such as `ambiguous_name` or `invalid_cursor` |
+| Message | | string | | The sentence for a reader |
+| Rule | | string | | The convention the refusal rests on, where one does |
+| Details | | map | | The facts the sentence names, such as the candidates an ambiguous name holds, each a string |
+| Provenance | Provenance | | | The snapshot that refused |
 
 ## References
 

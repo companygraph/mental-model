@@ -11,13 +11,13 @@ refines: Agent pass
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Core version | version | The release of the rules the pass held the instance to |
-| Mechanical failures | list of string | What the check printed, copied as it is |
-| Findings | list of string | Each writing rule broken, in the rule's own words, with the file that breaks it |
-| Gaps | list of string | Each skill a held role requires and a human profile does not claim, outside the count of failures |
-| Not checked | list of string | Everything the pass skipped, such as the mechanical checks where they could not run |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Core version | | version | | The release of the rules the pass held the instance to |
+| Mechanical failures | | string | yes | What the check printed, copied as it is |
+| Findings | | string | yes | Each writing rule broken, in the rule's own words, with the file that breaks it |
+| Gaps | | string | yes | Each skill a held role requires and a human profile does not claim, outside the count of failures |
+| Not checked | | string | yes | Everything the pass skipped, such as the mechanical checks where they could not run |
 
 ## References
 

@@ -10,14 +10,14 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Tooling | version | The release whose checker the repository's workflow runs, and the one every command compares itself against |
-| Core version | version | The version of the core vendored; it may lag the tooling and never lead it |
-| Core shape | number | The shape of that core, as its own manifest gives it |
-| Core source | string | `bundled` for the core inside the release that ran, or `fetched:<tag>` for one fetched by tag |
-| Units | string | The folder core and the packs are vendored under, `meta` unless named |
-| Exclude | list of string | The paths the form leaves out |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Tooling | | version | | The release whose checker the repository's workflow runs, and the one every command compares itself against |
+| Core version | | version | | The version of the core vendored; it may lag the tooling and never lead it |
+| Core shape | | number | | The shape of that core, as its own manifest gives it |
+| Core source | | string | | `bundled` for the core inside the release that ran, or `fetched:<tag>` for one fetched by tag |
+| Units | | string | | The folder core and the packs are vendored under, `meta` unless named |
+| Exclude | | string | yes | The paths the form leaves out |
 
 ## Relations
 

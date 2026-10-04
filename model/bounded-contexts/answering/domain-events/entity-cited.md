@@ -10,9 +10,9 @@ emitted-by: Message
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Cite | Cite | The entity's id, title, type and the address of its page |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Cite | Cite | | | The entity's id, title, type and the address of its page |
 
 ## References
 

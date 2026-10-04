@@ -10,12 +10,12 @@ emitted-by: Procedure run
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Skill archive | path | `dist/<skill>-skill.zip`, byte-identical across runs over an unchanged model |
-| Notebook bundle | path | `dist/<instance>-gemini-notebook/` |
-| Commit | commit hash | The commit the build read, marked when what it read was not yet committed |
-| Core version | version | The core release the instance vendors |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Skill archive | | path | | `dist/<skill>-skill.zip`, byte-identical across runs over an unchanged model |
+| Notebook bundle | | path | | `dist/<instance>-gemini-notebook/` |
+| Commit | | hash | | The commit the build read, marked when what it read was not yet committed |
+| Core version | | version | | The core release the instance vendors |
 
 ## References
 

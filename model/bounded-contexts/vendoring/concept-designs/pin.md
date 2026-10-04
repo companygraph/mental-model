@@ -11,12 +11,12 @@ refines: Pin
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Kind | string | How the line is read and whether it names a tag or a commit: `core-release`, `npm-tag`, `source-commit`, `contract-commit` or one of the family's own |
-| File | string | The file the line is in |
-| Repository | string | The upstream, as `owner/repository` |
-| Declared | boolean | Whether `pins.json` names it, or it was only found |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Kind | | string | | How the line is read and whether it names a tag or a commit: `core-release`, `npm-tag`, `source-commit`, `contract-commit` or one of the family's own |
+| File | | string | | The file the line is in |
+| Repository | | string | | The upstream, as `owner/repository` |
+| Declared | | boolean | | Whether `pins.json` names it, or it was only found |
 
 ## References
 

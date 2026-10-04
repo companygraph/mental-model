@@ -10,12 +10,12 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Fact | string | The fact as read, with the document or address it came from |
-| Standing | string | `already held`, `new`, `held differently` or `left out by decision` |
-| Where held | string | The entity that holds it, for a fact already held or held differently |
-| Versions | list of string | Both versions quoted, for a fact held differently |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Fact | | string | | The fact as read, with the document or address it came from |
+| Standing | | string | | `already held`, `new`, `held differently` or `left out by decision` |
+| Where held | | string | | The entity that holds it, for a fact already held or held differently |
+| Versions | | string | yes | Both versions quoted, for a fact held differently |
 
 ## References
 

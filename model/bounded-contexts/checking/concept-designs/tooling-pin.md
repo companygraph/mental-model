@@ -11,11 +11,11 @@ refines: Pin
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Tooling | version | The release the manifest's `tooling` names |
-| Core version | version | The core release the manifest says was vendored, which may be older than the tooling and never newer |
-| Packs | list of string | The packs the manifest names |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Tooling | | version | | The release the manifest's `tooling` names |
+| Core version | | version | | The core release the manifest says was vendored, which may be older than the tooling and never newer |
+| Packs | | string | yes | The packs the manifest names |
 
 ## References
 

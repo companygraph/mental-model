@@ -10,11 +10,11 @@ emitted-by: Procedure run
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Source | string | The source, by its H1 |
-| Subject | string | The company, person or document whose consent was not given |
-| Agent-file line | string | The line proposed for the instance's agent file, so the question is not asked again |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Source | | string | | The source, by its H1 |
+| Subject | | string | | The company, person or document whose consent was not given |
+| Agent-file line | | string | | The line proposed for the instance's agent file, so the question is not asked again |
 
 ## References
 

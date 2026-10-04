@@ -10,13 +10,13 @@ emitted-by: Manifest
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| From | version | The core version the manifest named before |
-| To | version | The core version it names now |
-| Written | list of Vendored file | The files the release changed or added |
-| Removed | list of string | The paths the release no longer ships |
-| Given | list of string | The repository's own files written because it had none |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| From | | version | | The core version the manifest named before |
+| To | | version | | The core version it names now |
+| Written | Vendored file | | yes | The files the release changed or added |
+| Removed | | string | yes | The paths the release no longer ships |
+| Given | | string | yes | The repository's own files written because it had none |
 
 ## References
 

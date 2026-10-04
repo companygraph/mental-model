@@ -10,12 +10,12 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Checker release | version | The release doing the checking, which must be the one the tooling pin names |
-| Core version | version | The core release the manifest says the instance vendored |
-| Not checked | list of string | The types the vendored units carry no schema for |
-| Outcome | string | Refused, passed or failed |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Checker release | | version | | The release doing the checking, which must be the one the tooling pin names |
+| Core version | | version | | The core release the manifest says the instance vendored |
+| Not checked | | string | yes | The types the vendored units carry no schema for |
+| Outcome | | string | | Refused, passed or failed |
 
 ## Relations
 

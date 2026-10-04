@@ -11,11 +11,11 @@ refines: Instance
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Commit | commit hash | The commit the graph was read at, which names it |
-| Core version | version | The core release the instance vendors |
-| Entities | list of entities | Every page that describes an entity, each with its id, type and canonical name |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Commit | | hash | | The commit the graph was read at, which names it |
+| Core version | | version | | The core release the instance vendors |
+| Entities | Entity | | yes | Every page that describes an entity, each with its id, type and canonical name |
 
 ## Relations
 

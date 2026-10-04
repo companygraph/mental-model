@@ -10,14 +10,14 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Provenance | Provenance | Where every answer from it came from |
-| Entities | list of entities | Every entity of the graph, each with its page as written |
-| Edges | list of edges | The graph's edges, untouched |
-| Schemas | list of schemas | The types the instance declares and what each declares about the others |
-| Rules | list of rules | The conventions of the core the instance vendors, where it ships them |
-| Checks | list of checks | The checks the instance's own gate runs, listed and never run here |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Provenance | Provenance | | | Where every answer from it came from |
+| Entities | Entity | | yes | Every entity of the graph, each with its page as written |
+| Edges | Edge | | yes | The graph's edges, untouched |
+| Schemas | Schema | | yes | The types the instance declares and what each declares about the others |
+| Rules | Rule | | yes | The conventions of the core the instance vendors, where it ships them |
+| Checks | Check | | yes | The checks the instance's own gate runs, listed and never run here |
 
 ## References
 

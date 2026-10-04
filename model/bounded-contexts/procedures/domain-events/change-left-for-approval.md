@@ -10,13 +10,13 @@ emitted-by: Procedure run
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Created | list of path | Each file written |
-| Reused | list of string | The H1s written against rather than created |
-| Answers | list of string | Every question the operator answered, and the answer |
-| Left out | list of string | Each fact no schema holds, by kind |
-| Validation | Agent pass | The checks and the writing rules, with the gaps and what was not checked |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Created | | path | yes | Each file written |
+| Reused | | string | yes | The H1s written against rather than created |
+| Answers | | string | yes | Every question the operator answered, and the answer |
+| Left out | | string | yes | Each fact no schema holds, by kind |
+| Validation | Agent pass | | | The checks and the writing rules, with the gaps and what was not checked |
 
 ## References
 

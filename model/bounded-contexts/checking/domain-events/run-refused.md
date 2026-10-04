@@ -10,11 +10,11 @@ emitted-by: Check run
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Tooling pin | Tooling pin | What the manifest names |
-| Checker release | version | The release that refused |
-| Reason | string | The pin or pack that disagreed, and what to move |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Tooling pin | Tooling pin | | | What the manifest names |
+| Checker release | | version | | The release that refused |
+| Reason | | string | | The pin or pack that disagreed, and what to move |
 
 ## References
 

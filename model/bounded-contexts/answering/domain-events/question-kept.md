@@ -10,9 +10,9 @@ emitted-by: Message
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Kept question | Kept question | The question, its page's language, what was cited, the calls and rounds, and the refusal's code |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Kept question | Kept question | | | The question, its page's language, what was cited, the calls and rounds, and the refusal's code |
 
 ## References
 

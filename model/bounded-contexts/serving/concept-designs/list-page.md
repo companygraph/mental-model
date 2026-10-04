@@ -10,12 +10,12 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Total | number | The entries the list holds after its filters |
-| Returned | number | The entries this page holds |
-| Has more | boolean | Whether entries follow this page |
-| Next cursor | Cursor | Where the next page starts; empty when none follows |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Total | | number | | The entries the list holds after its filters |
+| Returned | | number | | The entries this page holds |
+| Has more | | boolean | | Whether entries follow this page |
+| Next cursor | Cursor | | | Where the next page starts; empty when none follows |
 
 ## References
 

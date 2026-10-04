@@ -10,10 +10,10 @@ emitted-by: Manifest
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Manifest | Manifest | The manifest as written, with its tooling and what the form leaves out |
-| Written | list of string | The paths written |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Manifest | Manifest | | | The manifest as written, with its tooling and what the form leaves out |
+| Written | | string | yes | The paths written |
 
 ## References
 

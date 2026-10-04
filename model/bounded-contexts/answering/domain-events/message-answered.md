@@ -10,12 +10,12 @@ emitted-by: Message
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Model | string | The host's provenance, the commit the answer was read at |
-| Spent | input-equivalent tokens | What the message cost |
-| Day left | input-equivalent tokens | What is left of today's share |
-| Cut | boolean | Present where the output limit stopped the answer mid-sentence |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Model | | string | | The host's provenance, the commit the answer was read at |
+| Spent | | number | | What the message cost, in input-equivalent tokens |
+| Day left | | number | | What is left of today's share, in input-equivalent tokens |
+| Cut | | boolean | | Present where the output limit stopped the answer mid-sentence |
 
 ## References
 

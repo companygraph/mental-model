@@ -10,8 +10,8 @@ emitted-by: Graph
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Name | string | The name as written |
-| Where | string | The page and the field, column or heading it was written in |
-| Scope | Scope | The type, and the owner where the type is owned, that was searched |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Name | | string | | The name as written |
+| Where | | string | | The page and the field, column or heading it was written in |
+| Scope | Scope | | | The type, and the owner where the type is owned, that was searched |

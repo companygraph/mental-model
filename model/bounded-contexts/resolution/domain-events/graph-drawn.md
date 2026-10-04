@@ -10,8 +10,8 @@ emitted-by: Graph
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Graph | Graph | The graph as drawn |
-| Commit | commit hash | The commit it was read at |
-| Core version | version | The core release it was read against |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Graph | Graph | | | The graph as drawn |
+| Commit | | hash | | The commit it was read at |
+| Core version | | version | | The core release it was read against |

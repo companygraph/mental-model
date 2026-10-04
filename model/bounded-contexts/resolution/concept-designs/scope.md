@@ -10,7 +10,7 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Type | string | The type the declaration names, or the row's Type cell for `ref → by` |
-| Owner | string | The owner the referring page sits in, or the row's Owner cell; empty for a type nothing owns |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Type | | string | | The type the declaration names, or the row's Type cell for `ref → by` |
+| Owner | | string | | The owner the referring page sits in, or the row's Owner cell; empty for a type nothing owns |
