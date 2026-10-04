@@ -35,10 +35,19 @@ decisions:
 
 | Command | Emits | When | Description |
 | --- | --- | --- | --- |
-| Check an instance | | | Holds every page to the vendored schemas and every recorded file to its hash; refuses when the pins disagree, the core is newer or a pack is unknown |
+| Check an instance | Run refused | a pin disagrees (INV-K2, INV-K3, INV-K4) | Holds every page to the vendored schemas and every recorded file to its hash; refuses when the pins disagree, the core is newer or a pack is unknown |
+| Check an instance | Instance checked | the pins agree | |
 | Check the form | | | Holds every Markdown file to the one form at the pinned tool version; refuses when the tooling pin names another release, unless asked to fix |
 | Check a range of ids | | | Fails every page a range of commits modified or renamed whose id differs from the one it carried at the base |
 | Check a range of commits | | | Judges every commit of a range, or one message before it is committed, against the seats, processes, phases and tracks the governing instance declares, and refuses one whose seat the named phase does not list |
+
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Check an instance | Refused |
+| | Check an instance | Passed |
+| | Check an instance | Failed |
 
 ## References
 
