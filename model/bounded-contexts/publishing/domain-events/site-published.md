@@ -10,10 +10,10 @@ emitted-by: Site
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Commit | commit hash | The commit that went live |
-| Before | commit hash | The commit live before it, its first parent |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Commit | | hash | | The commit that went live |
+| Before | | hash | | The commit live before it, its first parent |
 
 ## References
 

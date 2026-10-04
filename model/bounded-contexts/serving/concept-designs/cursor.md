@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Offset | number | Where the next page starts in the list's fixed order |
-| Commit | commit hash | The commit of the snapshot that wrote it |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Offset | | number | | Where the next page starts in the list's fixed order |
+| Commit | | hash | | The commit of the snapshot that wrote it |
 
 ## References
 

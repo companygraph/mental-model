@@ -10,11 +10,11 @@ emitted-by: Check run
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Findings | Finding | Every finding of the run, none when it passed |
-| Not checked | list of string | The types the vendored units carry no schema for |
-| Core version | version | The core release the instance was held to |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Findings | Finding | | yes | Every finding of the run, none when it passed |
+| Not checked | | string | yes | The types the vendored units carry no schema for |
+| Core version | | version | | The core release the instance was held to |
 
 ## References
 

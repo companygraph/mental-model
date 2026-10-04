@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Name | string | `core`, or the name of the pack |
-| Folder | string | `<units>/<name>/`, where its files sit |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Name | | string | | `core`, or the name of the pack |
+| Folder | | string | | `<units>/<name>/`, where its files sit |
 
 ## References
 

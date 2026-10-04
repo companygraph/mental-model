@@ -10,11 +10,11 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Status | string | `current`, `behind`, `unknown` where the upstream cannot be reached, `unmanaged` for a line no declaration names, `missing` for a declaration that names no line or `family` for a kind the family's own resync reads |
-| Pinned | list of string | The tags or commits the line names |
-| Newest | string | The highest version tag, or the upstream's head commit, as the upstream offers it now; said only when the pin is behind |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Status | | string | | `current`, `behind`, `unknown` where the upstream cannot be reached, `unmanaged` for a line no declaration names, `missing` for a declaration that names no line or `family` for a kind the family's own resync reads |
+| Pinned | | string | yes | The tags or commits the line names |
+| Newest | | string | | The highest version tag, or the upstream's head commit, as the upstream offers it now; said only when the pin is behind |
 
 ## Relations
 

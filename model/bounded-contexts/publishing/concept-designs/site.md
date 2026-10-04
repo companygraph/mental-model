@@ -10,9 +10,9 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Origin | URL | The scheme and host every address it publishes starts with |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Origin | | URL | | The scheme and host every address it publishes starts with |
 
 ## Relations
 

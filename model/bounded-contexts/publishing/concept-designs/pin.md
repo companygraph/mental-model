@@ -11,11 +11,11 @@ refines: Pin
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Name | string | What the site calls it, `meta-model` or `mental-model` |
-| Repository | string | The repository it points into |
-| Commit | commit hash | The commit drawn |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Name | | string | | What the site calls it, `meta-model` or `mental-model` |
+| Repository | | string | | The repository it points into |
+| Commit | | hash | | The commit drawn |
 
 ## References
 

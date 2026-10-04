@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Where | string | The path of the page, schema or vendored file the finding is about |
-| What | string | What is wrong there, and what the schema permits or requires |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Where | | string | | The path of the page, schema or vendored file the finding is about |
+| What | | string | | What is wrong there, and what the schema permits or requires |
 
 ## References
 

@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Path | string | Where it sits, plain and relative, under the units folder or the skills folder |
-| Hash | string | `sha256:` and the digest of its text, line ends read as `\n` |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Path | | string | | Where it sits, plain and relative, under the units folder or the skills folder |
+| Hash | | string | | `sha256:` and the digest of its text, line ends read as `\n` |
 
 ## References
 

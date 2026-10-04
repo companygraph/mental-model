@@ -11,10 +11,10 @@ refines: Check
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Name | string | What the check asserts, in a sentence: "required sections are present" |
-| Rule | string | The rule in the conventions it holds part of, such as `R16` |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Name | | string | | What the check asserts, in a sentence: "required sections are present" |
+| Rule | | string | | The rule in the conventions it holds part of, such as `R16` |
 
 ## References
 

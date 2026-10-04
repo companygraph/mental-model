@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Id | id | The entity's id, as the host gave it |
-| Title | string | The title the page looks for in the answer's text |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Id | | id | | The entity's id, as the host gave it |
+| Title | | string | | The title the page looks for in the answer's text |
 
 ## References
 

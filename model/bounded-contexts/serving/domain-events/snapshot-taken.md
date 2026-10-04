@@ -10,11 +10,11 @@ emitted-by: Snapshot
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Provenance | Provenance | The commit, repository, core and parser it was taken with |
-| Entities | number | How many entities it holds |
-| Edges | number | How many edges it holds |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Provenance | Provenance | | | The commit, repository, core and parser it was taken with |
+| Entities | | number | | How many entities it holds |
+| Edges | | number | | How many edges it holds |
 
 ## References
 

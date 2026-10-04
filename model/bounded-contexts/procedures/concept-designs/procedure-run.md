@@ -10,14 +10,14 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Mode | string | `Create` or `Update`, for a run that writes a profile or builds an instance |
-| Operator | string | The person who asked for the run and decides what is theirs |
-| Answers | list of string | Every question the operator answered, and the answer |
-| Created | list of path | Every file the run wrote |
-| Reused | list of string | The H1s of entities the run wrote against rather than created |
-| Left out | list of string | Each fact no schema holds, named by its kind and never by its value |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Mode | | string | | `Create` or `Update`, for a run that writes a profile or builds an instance |
+| Operator | | string | | The person who asked for the run and decides what is theirs |
+| Answers | | string | yes | Every question the operator answered, and the answer |
+| Created | | path | yes | Every file the run wrote |
+| Reused | | string | yes | The H1s of entities the run wrote against rather than created |
+| Left out | | string | yes | Each fact no schema holds, named by its kind and never by its value |
 
 ## Relations
 

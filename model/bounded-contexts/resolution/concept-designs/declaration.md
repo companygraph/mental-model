@@ -11,9 +11,9 @@ refines: Schema
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Form | string | `ref`, `ref?` or `qualifier` |
-| Target | string | The type a written name is looked for in |
-| By | string | For `ref → by <Column>`, the column of the same row that names the type |
-| In | string | For `… in <Owner>`, the column of the same row that names the owner |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Form | | string | | `ref`, `ref?` or `qualifier` |
+| Target | | string | | The type a written name is looked for in |
+| By | | string | | For `ref → by <Column>`, the column of the same row that names the type |
+| In | | string | | For `… in <Owner>`, the column of the same row that names the owner |

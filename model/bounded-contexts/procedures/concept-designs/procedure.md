@@ -10,12 +10,12 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Name | string | The name the agent calls it by, `companygraph-profile` and its siblings |
-| Agent | string | The agent it is written for |
-| Work | string | What it does and why no script does it, in one paragraph |
-| Allowed tools | list of string | What the agent may use while following it |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Name | | string | | The name the agent calls it by, `companygraph-profile` and its siblings |
+| Agent | | string | | The agent it is written for |
+| Work | | string | | What it does and why no script does it, in one paragraph |
+| Allowed tools | | string | yes | What the agent may use while following it |
 
 ## Relations
 

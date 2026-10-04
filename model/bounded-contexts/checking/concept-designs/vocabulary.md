@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Types | list of string | Each type with its folder, its owner where it is owned, and where it carries labels |
-| Units | list of string | Core and each pack the manifest names, each with the folder it is vendored in |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Types | | string | yes | Each type with its folder, its owner where it is owned, and where it carries labels |
+| Units | | string | yes | Core and each pack the manifest names, each with the folder it is vendored in |
 
 ## References
 

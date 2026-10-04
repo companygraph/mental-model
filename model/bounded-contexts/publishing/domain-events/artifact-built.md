@@ -10,10 +10,10 @@ emitted-by: Site
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Artifact | Artifact | The file as written |
-| Pin | Pin | The pin it was drawn from |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Artifact | Artifact | | | The file as written |
+| Pin | Pin | | | The pin it was drawn from |
 
 ## References
 

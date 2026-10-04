@@ -10,11 +10,11 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Page | string | The page it is rendered from |
-| Image | file | `og.png` beside the page |
-| Stamp | hash | `og.sha` beside it: a hash of the page, every local file it draws, the artifact it names included, and the frame it is rendered in |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Page | | string | | The page it is rendered from |
+| Image | | file | | `og.png` beside the page |
+| Stamp | | hash | | `og.sha` beside it: a hash of the page, every local file it draws, the artifact it names included, and the frame it is rendered in |
 
 ## References
 

@@ -10,13 +10,13 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Conversation | list of turns | The visitor's and the chat's turns that reach the model, the visitor's last |
-| Page language | `en` or `de` | The language of the page it was sent from, which the answer takes only where the message's own words do not tell |
-| Rounds | number | The requests the model answered |
-| Spent | input-equivalent tokens | What its requests cost, as the meter counts it |
-| Cut | boolean | Whether the output limit stopped the answer mid-sentence |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Conversation | Turn | | yes | The visitor's and the chat's turns that reach the model, the visitor's last |
+| Page language | | language | | The language of the page it was sent from, `en` or `de`, which the answer takes only where the message's own words do not tell |
+| Rounds | | number | | The requests the model answered |
+| Spent | | number | | What its requests cost, as the meter counts it, in input-equivalent tokens |
+| Cut | | boolean | | Whether the output limit stopped the answer mid-sentence |
 
 ## Relations
 

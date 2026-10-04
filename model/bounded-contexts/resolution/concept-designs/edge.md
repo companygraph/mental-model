@@ -11,12 +11,12 @@ refines: Reference
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| From | id | The entity whose page writes the name |
-| To | id | The entity the name resolves to |
-| Via | string | The field, `<Section>.<Column>` or `<Section>.<Heading>` that drew it |
-| Qualifiers | map of string | The row's other cells, which describe the edge and draw none of their own |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| From | | id | | The entity whose page writes the name |
+| To | | id | | The entity the name resolves to |
+| Via | | string | | The field, `<Section>.<Column>` or `<Section>.<Heading>` that drew it |
+| Qualifiers | | map | | The row's other cells, which describe the edge and draw none of their own, each a string |
 
 ## Relations
 

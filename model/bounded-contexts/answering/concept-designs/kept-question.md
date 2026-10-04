@@ -10,15 +10,15 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Question | string | The visitor's last turn as it was sent, trimmed |
-| Page language | `en` or `de` | The page's language where it is one the interface names, else empty |
-| Cited | list of ids | The entities the answer cited, in order |
-| Calls | number | How many tool calls the answer made |
-| Empty | number | How many of those found nothing: refused, an error, or a list with no rows |
-| Rounds | number | How many requests the model answered |
-| Refused | string | The refusal's code, empty where the model answered |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Question | | string | | The visitor's last turn as it was sent, trimmed |
+| Page language | | language | | The page's language, `en` or `de`, where it is one the interface names, else empty |
+| Cited | | id | yes | The entities the answer cited, in order |
+| Calls | | number | | How many tool calls the answer made |
+| Empty | | number | | How many of those found nothing: refused, an error, or a list with no rows |
+| Rounds | | number | | How many requests the model answered |
+| Refused | | string | | The refusal's code, empty where the model answered |
 
 ## References
 

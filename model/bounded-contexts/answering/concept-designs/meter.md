@@ -10,13 +10,13 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Month ceiling | input-equivalent tokens | What the month may spend, as the deployment states it |
-| Day share | input-equivalent tokens | What one day may spend, a tenth of the month's ceiling |
-| Day spent | input-equivalent tokens | What today has spent, counted from midnight UTC |
-| Month spent | input-equivalent tokens | What this month has spent, counted from the first at midnight UTC |
-| Closed | boolean | Whether the owner switched the chat off |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Month ceiling | | number | | What the month may spend, as the deployment states it, in input-equivalent tokens |
+| Day share | | number | | What one day may spend, a tenth of the month's ceiling, in input-equivalent tokens |
+| Day spent | | number | | What today has spent, counted from midnight UTC, in input-equivalent tokens |
+| Month spent | | number | | What this month has spent, counted from the first at midnight UTC, in input-equivalent tokens |
+| Closed | | boolean | | Whether the owner switched the chat off |
 
 ## References
 

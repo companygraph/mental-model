@@ -10,10 +10,10 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Address | string | Where the page is: `/model/`, `/example/` or the landing page |
-| Source folder | string | The folder of the repository the artifact was read from, which the source link names |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Address | | string | | Where the page is: `/model/`, `/example/` or the landing page |
+| Source folder | | string | | The folder of the repository the artifact was read from, which the source link names |
 
 ## Relations
 

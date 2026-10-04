@@ -10,12 +10,12 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Id | id | The entity's id, as the host gave it |
-| Title | string | Its title |
-| Type | string | Its type |
-| URL | string | The address of its page, empty where the host names no file |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Id | | id | | The entity's id, as the host gave it |
+| Title | | string | | Its title |
+| Type | | string | | Its type |
+| URL | | string | | The address of its page, empty where the host names no file |
 
 ## References
 

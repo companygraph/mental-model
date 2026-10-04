@@ -10,10 +10,10 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Page | string | The page it sits in, or is |
-| Kind | string | What it is: a JSON-LD graph, the vision and values, a team board, the surfaces, the principles, an id page |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Page | | string | | The page it sits in, or is |
+| Kind | | string | | What it is: a JSON-LD graph, the vision and values, a team board, the surfaces, the principles, an id page |
 
 ## Relations
 

@@ -10,11 +10,11 @@ emitted-by: Manifest
 
 ## Payload
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Manifest | Manifest | The manifest as written |
-| Units | list of Unit | Core and the packs vendored |
-| Folders | list of string | The root folders given a README |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Manifest | Manifest | | | The manifest as written |
+| Units | Unit | | yes | Core and the packs vendored |
+| Folders | | string | yes | The root folders given a README |
 
 ## References
 

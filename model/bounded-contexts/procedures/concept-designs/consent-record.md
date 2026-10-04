@@ -10,15 +10,15 @@ kind: value object
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Terms | string | What the content is published under, or "no stated terms" |
-| Read on | date | When the terms were read |
-| Who | string | The person who consented, for a consent given |
-| Capacity | string | In what capacity they consented |
-| Consented on | date | When |
-| How | string | By mail, by a signed letter, in person, or an assumption the operator made for a test run |
-| To what | string | The use consented to |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Terms | | string | | What the content is published under, or "no stated terms" |
+| Read on | | date | | When the terms were read |
+| Who | | string | | The person who consented, for a consent given |
+| Capacity | | string | | In what capacity they consented |
+| Consented on | | date | | When |
+| How | | string | | By mail, by a signed letter, in person, or an assumption the operator made for a test run |
+| To what | | string | | The use consented to |
 
 ## References
 

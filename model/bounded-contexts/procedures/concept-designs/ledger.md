@@ -10,13 +10,13 @@ kind: entity
 
 ## Attributes
 
-| Attribute | Type | Description |
-| --- | --- | --- |
-| Date | date | The day of the run, in its file name |
-| Rows | list of string | One table per type, one row per proposed entity or fact, with its address and the words the source uses |
-| Further sources | list of string | What a search surfaced and the run did not read |
-| Read for nothing | list of string | Pages read that yielded nothing |
-| Not read | list of string | Pages not read, and why: a robots rule, a login, a paywall |
+| Attribute | Term | Type | Many | Description |
+| --- | --- | --- | --- | --- |
+| Date | | date | | The day of the run, in its file name |
+| Rows | | string | yes | One table per type, one row per proposed entity or fact, with its address and the words the source uses |
+| Further sources | | string | yes | What a search surfaced and the run did not read |
+| Read for nothing | | string | yes | Pages read that yielded nothing |
+| Not read | | string | yes | Pages not read, and why: a robots rule, a login, a paywall |
 
 ## References
 
