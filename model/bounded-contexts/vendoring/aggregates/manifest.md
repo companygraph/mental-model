@@ -28,11 +28,11 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Make an instance | Writes core, the packs asked for, the skills, the manifest, a README per root folder, the starting entities, the workflow and the agent's files into an empty folder, or beside a repository's files with `--here`; refuses a units folder or `.companygraph/` already there |
-| Move an instance to a release | Writes what the release changed and removes what it dropped, takes a pack not taken before, then runs the check and says what the model owes; with `--dry-run` it lists what it would write and remove, and it refuses while the Markdown is out of the form unless forced |
-| Adopt a repository | Writes a manifest with no core, the workflow that runs the form, the seat hook and a `pins.json` into a repository with no manifest; refuses one that has a manifest and points at the move |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Make an instance | | | Writes core, the packs asked for, the skills, the manifest, a README per root folder, the starting entities, the workflow and the agent's files into an empty folder, or beside a repository's files with `--here`; refuses a units folder or `.companygraph/` already there |
+| Move an instance to a release | | | Writes what the release changed and removes what it dropped, takes a pack not taken before, then runs the check and says what the model owes; with `--dry-run` it lists what it would write and remove, and it refuses while the Markdown is out of the form unless forced |
+| Adopt a repository | | | Writes a manifest with no core, the workflow that runs the form, the seat hook and a `pins.json` into a repository with no manifest; refuses one that has a manifest and points at the move |
 
 ## References
 

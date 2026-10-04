@@ -32,11 +32,11 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Answer a message | Puts the conversation to the model with the host's tools and streams the answer, citing and naming as it goes; refuses before the first request what the fence or the meter refuses |
-| Stop answering | The visitor closed the page: asks no further round, settles the meter, and sends nothing more |
-| Keep the question | Writes the one line kept of the message once it has its answer or its refusal |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Answer a message | | | Puts the conversation to the model with the host's tools and streams the answer, citing and naming as it goes; refuses before the first request what the fence or the meter refuses |
+| Stop answering | | | The visitor closed the page: asks no further round, settles the meter, and sends nothing more |
+| Keep the question | | | Writes the one line kept of the message once it has its answer or its refusal |
 
 ## References
 

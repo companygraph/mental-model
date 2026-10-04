@@ -1,7 +1,7 @@
 {
-  "tooling": "0.78.0",
+  "tooling": "0.79.0",
   "core": {
-    "version": "0.58.0",
+    "version": "0.59.0",
     "shape": 3,
     "source": "bundled"
   },
@@ -31,7 +31,7 @@
     "meta/core/identity-schema.md": "sha256:d53b1414f6c457374d8af800a5bc832ae80bb839446d334c7060dd1eea0bed30",
     "meta/core/kpi-schema.md": "sha256:3069d5a246630d595c0735325e67f1101573525497539a4f26b99a4782a202d4",
     "meta/core/localization-schema.md": "sha256:6d5ef97f36d10b4bde890c52d97a01c19d1529c3fb92956ed26a0dab9eb0950a",
-    "meta/core/manifest.json": "sha256:b942d5d5afd428c6e8b9232cc6703654a620d9ee03c0216de3ecdba062b4c7a4",
+    "meta/core/manifest.json": "sha256:d7cfc1e516eebe2d1e48d184fe4143133e7a27520fea7d3873f5509bd54188fc",
     "meta/core/phase-schema.md": "sha256:e8f09d7ebff4ba2b862b92e88ac635c38561cc4375db3871065f447b2e75dbcf",
     "meta/core/process-schema.md": "sha256:3b27dda5375531ca88f44c4daffed9f0ff17191f4e3896c508e17e79c6a38696",
     "meta/core/product-schema.md": "sha256:ffaa028ff73d01b45aac84225ee95d0f5483b7ae11da752b934f4c33010eb77b",
@@ -51,12 +51,12 @@
     "meta/core/value-schema.md": "sha256:9358dffc5498c77d911858cdcfb75d64c3ae952fa384cf9171ca7ae620b05ac1",
     "meta/core/vision-schema.md": "sha256:bdadaf15113582d76d20357897959c2c15d1fd068d317d47c8710829efbaa4ef",
     "meta/software/README.md": "sha256:ec026f211e1691a88a5ffc4483efd047bdc142d9509b3a17b20aa4f29fb9db26",
-    "meta/software/aggregate-schema.md": "sha256:db759d523e3b3e3578d31536f20d7db93a073e201822caf482afe1faefa5b7a1",
+    "meta/software/aggregate-schema.md": "sha256:e91a72e48a7efb452659aea5a13609e959f2b1b06efe5b3c1ba8f753c5f4751d",
     "meta/software/bounded-context-schema.md": "sha256:fb8ba61f67b11ac4cb9c8c3f6d600c79db07bd8b4042cdffd27269fd537d1f76",
     "meta/software/concept-design-schema.md": "sha256:87ea9fe4d860df45df098333609e26784e39a02f78cfd191a36043046feec7c7",
     "meta/software/domain-event-schema.md": "sha256:8c7a388f10ef940d1a5a5bd569f1519bfd070a4d349d5ac226eb4eb018e8d20a",
     "meta/software/feature-design-schema.md": "sha256:e57a6eb521cb47222ccd9840fabd5fe7e605a51891367e7fc8ea145de09f2103",
-    "meta/software/manifest.json": "sha256:d8b39eac6c6fb7bedfa4f60acd39f920183e5b360dee35d46a4cac4fba1cc186",
+    "meta/software/manifest.json": "sha256:23aae295876745e44679cb5adeb52517e937dfa7a236e427fdf264a65f627dd8",
     ".claude/skills/companygraph-company/SKILL.md": "sha256:22f18eb0970277a95ade1da329787333b22b041411daa53fcb680295ef09f3e2",
     ".claude/skills/companygraph-consent/SKILL.md": "sha256:ad2d803fb23a4678d2b9c6ed25ff6bb96cf9d437f180c81811c6aef9371aed61",
     ".claude/skills/companygraph-export/SKILL.md": "sha256:24f12111ec7b1526253145ec59645767e2756da40034f6d7fcfb3ce1e155c8a3",

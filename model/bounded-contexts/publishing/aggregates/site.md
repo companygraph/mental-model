@@ -32,14 +32,14 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Move a pin | A person commits a new commit for a pin; then the artifacts, the derived regions, the pictures, the cards and the sitemap are rebuilt in that order |
-| Build the artifacts | Reads each target at its pin through the parser and writes its artifact; refuses a checkout at another commit and stops at the first read that fails |
-| Check the artifacts | Compares each committed artifact with what its pin parses to, and names the command to run where one differs |
-| Render the derived regions | Writes every derived region from the artifacts; refuses an artifact that is missing or at another commit, and a JSON-LD graph it does not recognize |
-| Render the share cards | Renders each card from its page in a browser and writes its stamp beside it |
-| Date the sitemap | Dates each sitemap entry from its page's last commit |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Move a pin | | | A person commits a new commit for a pin; then the artifacts, the derived regions, the pictures, the cards and the sitemap are rebuilt in that order |
+| Build the artifacts | | | Reads each target at its pin through the parser and writes its artifact; refuses a checkout at another commit and stops at the first read that fails |
+| Check the artifacts | | | Compares each committed artifact with what its pin parses to, and names the command to run where one differs |
+| Render the derived regions | | | Writes every derived region from the artifacts; refuses an artifact that is missing or at another commit, and a JSON-LD graph it does not recognize |
+| Render the share cards | | | Renders each card from its page in a browser and writes its stamp beside it |
+| Date the sitemap | | | Dates each sitemap entry from its page's last commit |
 
 ## References
 

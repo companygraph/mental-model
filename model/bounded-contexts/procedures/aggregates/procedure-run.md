@@ -31,14 +31,14 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Build an instance from a web address | Reads what the company publishes, puts the ledger to the operator and writes what was kept; on an Update it stops when the address is a different company |
-| Write a profile from documents | Reads a folder of a person's documents and writes or extends their profile; on an Update it stops when the documents describe a different person |
-| Record a source's terms and consent | Writes the terms found and each consent the operator states onto one source; it infers no consent the operator cannot state |
-| Validate an instance | Runs the mechanical checks at the release the manifest names, then judges every writing rule; where the checks cannot run it says so rather than walking them by hand |
-| Produce a surface | Writes one surface's content by the rules its page records; a request naming no surface against a model holding several is asked, not chosen |
-| Export the instance | Builds the agent's skill archive and the notebook bundle from one walk and verifies both against the model |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Build an instance from a web address | | | Reads what the company publishes, puts the ledger to the operator and writes what was kept; on an Update it stops when the address is a different company |
+| Write a profile from documents | | | Reads a folder of a person's documents and writes or extends their profile; on an Update it stops when the documents describe a different person |
+| Record a source's terms and consent | | | Writes the terms found and each consent the operator states onto one source; it infers no consent the operator cannot state |
+| Validate an instance | | | Runs the mechanical checks at the release the manifest names, then judges every writing rule; where the checks cannot run it says so rather than walking them by hand |
+| Produce a surface | | | Writes one surface's content by the rules its page records; a request naming no surface against a model holding several is asked, not chosen |
+| Export the instance | | | Builds the agent's skill archive and the notebook bundle from one walk and verifies both against the model |
 
 ## References
 
