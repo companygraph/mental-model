@@ -8,6 +8,7 @@ supported-by:
   - Writer
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Plan
 ---
@@ -55,10 +56,10 @@ A classified request, the model and the vocabulary the change must not contradic
 
 To leave Spec, all of these hold:
 
-- The Owner has read the specification or the brief and approved it.
+- The Owner or the Partner has read the specification or the brief and approved it.
 - What is explicitly not being done is written down.
 - Where the change reaches another repository, what its release asks of a consumer is written down.
-- Every parked question has the Owner's word on it.
+- Every parked question has the word of the Owner or the Partner on it.
 
 ## If not met
 

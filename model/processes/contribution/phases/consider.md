@@ -4,10 +4,12 @@ source: Local
 owner: Owner
 executed-by:
   - Owner
+  - Partner
 supported-by:
   - Contributor
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Review
 ---
@@ -43,7 +45,7 @@ A pull request against the default branch, from anyone, with a description sayin
 To leave Consider, all of these hold:
 
 - The pull request says what is now true that was not before.
-- The Owner has said the change is wanted.
+- The Owner or the Partner has said the change is wanted.
 - The status check has reported.
 
 ## If not met

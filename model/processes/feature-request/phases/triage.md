@@ -4,8 +4,10 @@ source: Local
 owner: Owner
 executed-by:
   - Owner
+  - Partner
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Answer
 ---

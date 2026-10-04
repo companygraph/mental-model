@@ -8,6 +8,7 @@ supported-by:
   - Specifier
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Implement
 ---
@@ -54,7 +55,7 @@ A specification or brief the Owner has approved, and the repository the work lan
 
 To leave Plan, all of these hold:
 
-- The Owner has read the plan and approved it.
+- The Owner or the Partner has read the plan and approved it.
 - Every brief states how its holder can tell the task is done.
 - The order is one the briefs can actually be worked in.
 
