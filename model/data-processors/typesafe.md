@@ -16,7 +16,7 @@ sub-processor-authorization: general
 
 | Jurisdiction | Safeguard |
 | --- | --- |
-| ch | Standard contractual clauses, module two, under the Swiss data protection laws |
+| ch | Standard contractual clauses, module two, with Swiss courts and the FDPIC for transfers from Switzerland, under Irish governing law |
 
 ## References
 

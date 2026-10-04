@@ -20,7 +20,7 @@ sub-processor-authorization: general
 
 | Jurisdiction | Safeguard |
 | --- | --- |
-| ch | Standard contractual clauses, module two, under the Swiss data protection laws with the FDPIC as authority |
+| ch | Standard contractual clauses, module two, as the DPA's Swiss addendum amends them for Swiss law, with the FDPIC as authority and Swiss courts |
 
 ## References
 
