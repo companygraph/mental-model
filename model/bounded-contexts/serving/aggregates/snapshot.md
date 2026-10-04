@@ -27,11 +27,11 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Take a snapshot | Reads an instance at a commit, from a repository or a working tree, against the core and packs it vendors; refuses with one line when the instance cannot be read |
-| Answer a tool call | Holds the arguments to the tool's input schema and answers from the snapshot, or refuses with a code |
-| Hand out the next page | Answers the page a cursor points at, or refuses a cursor this server did not write or wrote for another commit |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Take a snapshot | | | Reads an instance at a commit, from a repository or a working tree, against the core and packs it vendors; refuses with one line when the instance cannot be read |
+| Answer a tool call | | | Holds the arguments to the tool's input schema and answers from the snapshot, or refuses with a code |
+| Hand out the next page | | | Answers the page a cursor points at, or refuses a cursor this server did not write or wrote for another commit |
 
 ## References
 

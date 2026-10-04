@@ -28,10 +28,10 @@ decisions:
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Read an instance | Reads every page against the schemas the instance vendors and draws the graph, or refuses at the first name that resolves to nothing |
-| Resolve a row | Finds what one table row's Type, Entity and Owner cells name, for an editor completing a cell as it is written |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Read an instance | | | Reads every page against the schemas the instance vendors and draws the graph, or refuses at the first name that resolves to nothing |
+| Resolve a row | | | Finds what one table row's Type, Entity and Owner cells name, for an editor completing a cell as it is written |
 
 ## References
 

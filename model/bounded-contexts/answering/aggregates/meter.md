@@ -21,11 +21,11 @@ root: Meter
 
 ## Handled commands
 
-| Command | Description |
-| --- | --- |
-| Reserve for a request | Adds the estimate to the day and the month, or refuses where the chat is closed or a line would be crossed |
-| Settle a request | Replaces the estimate with what the request cost |
-| Read the standing | Gives the ceiling, the share, what the day and the month have spent and whether the chat is closed, without spending anything |
+| Command | Emits | When | Description |
+| --- | --- | --- | --- |
+| Reserve for a request | | | Adds the estimate to the day and the month, or refuses where the chat is closed or a line would be crossed |
+| Settle a request | | | Replaces the estimate with what the request cost |
+| Read the standing | | | Gives the ceiling, the share, what the day and the month have spent and whether the chat is closed, without spending anything |
 
 ## References
 
