@@ -21,7 +21,7 @@ url: https://companygraph.io
 - **Example** — one company, drawn: the fictional company the vocabulary's example describes, as a graph from the same commit.
 - **Talks** — the introduction talk, narrated in both languages with a PDF, and the questions it ends on.
 - **Billing** — how consulting would be counted if it ever were, what is free and stays so, and the ways to charge that were refused and why.
-- **Privacy** — what leaves a visitor's browser and what stays in it, listed in full.
+- **Privacy** — what leaves a visitor's browser and what stays in it, listed in full from the model's data processors, processing activities and stored items.
 - **company.json** — this model parsed at the commit the site pins, published as a dataset.
 - **Chat** — the button at the foot of every prose page and the panel it opens, answered by the chat.companygraph.io chat.
 - **Structured data** — the organization, the software and the datasets each page describes to a crawler.
