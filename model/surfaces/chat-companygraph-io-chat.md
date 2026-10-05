@@ -14,6 +14,7 @@ url: https://chat.companygraph.io
 
 - **Endpoint** — `/chat` on this address, which a page of companygraph.io posts a visitor's conversation to and which answers it as a stream of events.
 - **Answer** — the text a language model writes from what the MCP server's tools returned for the visitor's question, in the language of the visitor's message, naming the entity each claim rests on.
+- **Not fully backed** — a dotted underline under each statement of an answer that the tool answers it rests on back only in part or not at all, where the probability of that verdict is above the deployment's threshold, with a note saying which, and a line under the answer counting the statements marked.
 - **From the model** — a link to each entity a tool returned on its own, opening it on the model page of companygraph.io.
 - **Refusals** — the sentences a visitor reads instead of an answer when the day's or the month's share is spent, when one address has sent too many messages in an hour, when the host does not answer or when the chat is switched off.
 - **Page** — what a browser gets at the chat's own address: the host's name, the vision's and the identity's taglines, the paths and the events the endpoint answers, the fence that bounds what it spends, and the commit of the model it answers from.

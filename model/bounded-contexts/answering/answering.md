@@ -7,6 +7,7 @@ realizes:
 decisions:
   - The server only reads, and answers at one named commit
   - A model is written in one language
+  - A model that writes no text checks every claim of the chat's answers
 ---
 
 # Answering
@@ -21,6 +22,7 @@ decisions:
 - Cite each entity a tool answered with whole, once a message, and name every entity a list answer held, so the page can link it where the answer writes it
 - Hand a diagram the host drew to the page to draw, and let the model read only what it shows
 - Tell the model to answer in the language the visitor's last message is written in, and in any other language than English to name each entity in that language before its exact title
+- Read each claim of an answer back against the tool answers that carried the entities it names, and send every claim's verdict before the answer ends, or nothing where the check cannot run
 - Count what every request to the model costs against the day's share and the month's ceiling, before the request and after it
 - Keep one line of every question asked, with no address and no word of the answer
 - Stop where the visitor left, and spend nothing more

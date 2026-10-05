@@ -7,6 +7,8 @@ serves:
   - An agent answers as well as the person who runs the company
 unit: percent of questions per week
 direction: higher
+read-with:
+  - Carried Claim Rate
 ---
 
 # Grounded Answer Rate
@@ -21,7 +23,7 @@ Each chat's weekly report reads its lines of the ISO week that ended, Monday mid
 
 ## What it can hide
 
-An answer that cites the right entity and says something wrong about it counts as answered: the rate measures whether the answer rested on the model, not whether it was true, and nothing kept can tell the two apart, because the answer is not kept. It rises when the model reads the identity entity for every question, since one cite is enough, so a week where every answer cites the same entity reads as well as one where each cites the entity the question was about; the report's table of most cited entities shows the difference. It falls when the fence refuses, for a spent share or a host that is down, which is the fence working and not the answer failing; the report's table of unanswered questions separates a refusal from an answer without material. A question that was not about the model, which the Answerer meets with one sentence and no tool, counts as not answered though it got the right reply.
+An answer that cites the right entity and says something wrong about it counts as answered: the rate measures whether the answer rested on the model, not whether what it said was carried by what it rested on. The answer is not kept, but where a chat checks its answers the kept line counts the claims each made and those their evidence does not carry, and Carried Claim Rate, read beside it, shows the difference. It rises when the model reads the identity entity for every question, since one cite is enough, so a week where every answer cites the same entity reads as well as one where each cites the entity the question was about; the report's table of most cited entities shows the difference. It falls when the fence refuses, for a spent share or a host that is down, which is the fence working and not the answer failing; the report's table of unanswered questions separates a refusal from an answer without material. A question that was not about the model, which the Answerer meets with one sentence and no tool, counts as not answered though it got the right reply.
 
 ## References
 

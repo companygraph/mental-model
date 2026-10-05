@@ -19,6 +19,8 @@ kind: value object
 | Empty | | number | | How many of those found nothing: refused, an error, or a list with no rows |
 | Rounds | | number | | How many requests the model answered |
 | Refused | | string | | The refusal's code, empty where the model answered |
+| Claims | | number | | How many claims the answer made, where it was checked; empty where it was not |
+| Not carried | | number | | How many of those were judged anything but `supported` or `says-nothing`, where it was checked; empty where it was not |
 
 ## References
 
