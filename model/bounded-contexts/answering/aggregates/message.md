@@ -6,8 +6,10 @@ members:
   - Cite
   - Name
   - Fence
+  - Claim
 decisions:
   - A model is written in one language
+  - A model that writes no text checks every claim of the chat's answers
 ---
 
 # Message
@@ -29,6 +31,10 @@ decisions:
 | INV-A9 | Every request after a tool round ends with the naming note, which quotes the visitor's last message and asks for an entity's name in the answer's language before its exact title. |
 | INV-A10 | An answered message ends with one done event naming the host's commit and what the message spent, marked cut where the output limit stopped it; a message whose visitor left sends nothing after the request in flight. |
 | INV-A11 | A message keeps one line of itself, with its answer or its refusal, and a message refused as malformed, too long or foreign keeps none. |
+| INV-A18 | A message's claims are checked after its last text and before its done event, and a check that cannot run within its budget sends no verdict and changes neither the answer nor what follows it. |
+| INV-A19 | A claim's evidence is the text of the tool answers that carried the entities it names, cut where the model's own was cut, and nothing more. |
+| INV-A20 | A claim that writes the title of an entity no tool returned in the message is `unsourced` and carries no probability, and a claim that says the model holds nothing where a tool call found something is `withheld`. |
+| INV-A21 | A checked message's kept line counts its claims and those not carried, and a message whose check did not run carries neither count. |
 
 ## Handled commands
 
@@ -37,6 +43,7 @@ decisions:
 | Answer a message | | | Puts the conversation to the model with the host's tools and streams the answer, citing and naming as it goes; refuses before the first request what the fence or the meter refuses |
 | Stop answering | | | The visitor closed the page: asks no further round, settles the meter, and sends nothing more |
 | Keep the question | | | Writes the one line kept of the message once it has its answer or its refusal |
+| Check the answer | Answer checked | the deployment checks its answers and the check ran within its budget (INV-A18) | Reads each claim back against its evidence after the last text, and sends nothing where the check cannot run |
 
 ## References
 

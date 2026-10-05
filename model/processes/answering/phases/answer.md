@@ -25,7 +25,8 @@ A message the fence has let through: under the length it allows, from a page the
 2. The Answerer asks the host's tools, up to four rounds: a kind of thing by its type, a named thing by search and then the entity itself.
 3. The Answerer writes the answer from what the tools said, naming the entity each claim rests on, and where they said nothing, that the model does not say.
 4. The page links each entity the answer was read from, to the model page and to the file at the commit.
-5. Nobody reads the answer before the Visitor does. The Owner's gate was passed once, before any question: the rules the seat runs under, the commit the host pins, the fence, and the switch that stops the chat without a deploy.
+5. Where the deployment checks its answers, each claim is read back against the tool answers that carried the entities it names, and the page marks one the evidence does not carry.
+6. Nobody reads the answer before the Visitor does. The Owner's gate was passed once, before any question: the rules the seat runs under, the commit the host pins, the fence, and the switch that stops the chat without a deploy.
 
 ## What it produces
 

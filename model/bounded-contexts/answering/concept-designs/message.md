@@ -26,6 +26,7 @@ kind: entity
 | Cite | many | |
 | Name | many | |
 | Kept question | maybe one | kept as |
+| Claim | many | |
 
 ## References
 
