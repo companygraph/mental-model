@@ -2,6 +2,8 @@
 id: 01a10042-593c-7fc9-b96e-fd14be5decb8
 source: Local
 classification: supporting
+realizes:
+  - Core
 decisions:
   - A model is written in one language
   - Every entity carries an id that outlives its name
