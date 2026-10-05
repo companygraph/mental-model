@@ -7,8 +7,10 @@ executed-by:
 supported-by:
   - Contributor
   - Owner
+  - Partner
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Integrate
 ---
@@ -45,7 +47,7 @@ A change the Owner has said is wanted, with its check reporting.
 To leave Review, all of these hold:
 
 - Every finding carries a severity and the line it sits on.
-- The Owner has read the findings and said which are to be acted on.
+- The Owner or the Partner has read the findings and said which are to be acted on.
 - What the review could not verify is written down.
 
 ## If not met

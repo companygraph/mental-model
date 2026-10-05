@@ -27,7 +27,7 @@ owner: Owner
 
 ## What it never does
 
-- Never begins a phase whose predecessor's gate the Owner has not approved.
+- Never begins a phase whose predecessor's gate neither the Owner nor the Partner has approved.
 
 ## References
 

@@ -9,10 +9,12 @@ executed-by:
   - Writer
   - Translator
   - Owner
+  - Partner
 supported-by:
   - Planner
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Integrate
 ---

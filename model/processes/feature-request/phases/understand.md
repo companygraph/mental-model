@@ -4,10 +4,12 @@ source: Local
 owner: Owner
 executed-by:
   - Owner
+  - Partner
 supported-by:
   - Requestor
 gate-approvers:
   - Owner
+  - Partner
 escalation-authority: Owner
 gate-to: Triage
 ---
