@@ -72,3 +72,5 @@ Given a host re-pinned to a new commit while the chat runs, when a tool's answer
 | --- | --- |
 | Implementation | https://github.com/companygraph/chat-server/blob/main/lib/loop.mjs |
 | The interface | https://github.com/companygraph/chat-server/blob/main/docs/INTERFACE.md |
+| The design of one message answered | https://github.com/companygraph/chat-server/blob/main/docs/design/answering.md |
+| The design of the prompt | https://github.com/companygraph/chat-server/blob/main/docs/design/prompt.md |

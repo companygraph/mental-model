@@ -65,3 +65,4 @@ Given a judge that does not answer within the check's budget, when the answer en
 | Implementation | https://github.com/companygraph/chat-server/blob/main/lib/loop.mjs |
 | Implementation | https://github.com/robertblust/design/blob/main/assets/chat.js |
 | The design, with what was measured | https://github.com/companygraph/chat-server/blob/main/docs/superpowers/specs/2026-09-26-the-answer-is-checked-design.md |
+| The design of one message answered, the check among its steps | https://github.com/companygraph/chat-server/blob/main/docs/design/answering.md |
