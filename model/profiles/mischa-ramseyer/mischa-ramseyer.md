@@ -3,7 +3,7 @@ id: 01a1076d-db09-7ca5-b107-6571176ea946
 source: Local
 nature: human
 email: mischa@beacon.build
-roles:
+seats:
   - Partner
 ---
 

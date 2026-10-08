@@ -18,5 +18,5 @@ A request is worth what it says about the shape a company could not describe, an
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Requestor | |
+| seat | Requestor | |
 | process | Feature request | |

@@ -40,7 +40,7 @@ A model is kept in one language, as UML, SysML and an XML schema are: the vocabu
 | --- | --- | --- | --- |
 | localization | Languages | | changed it |
 | feature | Checks an instance runs | | changed it |
-| role | Translator | | changed it |
+| seat | Translator | | changed it |
 
 ## References
 

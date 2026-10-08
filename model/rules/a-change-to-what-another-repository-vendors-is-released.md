@@ -18,7 +18,7 @@ What we make is taken as a tag with its notes, and a repository that vendors it 
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Owner | |
+| seat | Owner | |
 | process | Delivery | |
 | phase | Integrate | Delivery |
 | phase | Integrate | Contribution |

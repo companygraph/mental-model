@@ -20,6 +20,6 @@ Our history tells a contributor from a seat and a seat from the Owner by the aut
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Contributor | |
+| seat | Contributor | |
 | process | Contribution | |
 | phase | Integrate | Delivery |

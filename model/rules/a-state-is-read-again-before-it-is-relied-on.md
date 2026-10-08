@@ -16,7 +16,7 @@ Several sessions and people move the same repositories at once, so a state read 
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Surveyor | |
+| seat | Surveyor | |
 | process | Deciding | |
 | phase | Integrate | Delivery |
 | phase | Integrate | Contribution |

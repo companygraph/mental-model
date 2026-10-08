@@ -20,7 +20,7 @@ The model is where a fact about us is mastered, entered only from prose we have 
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Owner | |
-| role | Specifier | |
-| role | Writer | |
+| seat | Owner | |
+| seat | Specifier | |
+| seat | Writer | |
 | phase | Spec | Delivery |
