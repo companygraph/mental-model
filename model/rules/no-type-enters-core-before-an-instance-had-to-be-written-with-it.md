@@ -20,8 +20,8 @@ A schema reviewed by its author agrees with itself, so the only evidence that a 
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Owner | |
-| role | Specifier | |
+| seat | Owner | |
+| seat | Specifier | |
 | process | Delivery | |
 | phase | Spec | Delivery |
 | phase | Triage | Feature request |

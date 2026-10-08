@@ -18,8 +18,8 @@ A report is a claim, and the person or agent writing it is the one least placed 
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Controller | |
-| role | Implementer | |
-| role | Reviewer | |
+| seat | Controller | |
+| seat | Implementer | |
+| seat | Reviewer | |
 | process | Delivery | |
 | process | Contribution | |

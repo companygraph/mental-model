@@ -16,6 +16,6 @@ Several sessions work in our repositories at once, and the Surveyor already work
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Surveyor | |
+| seat | Surveyor | |
 | phase | Integrate | Delivery |
 | phase | Carry | Deciding |

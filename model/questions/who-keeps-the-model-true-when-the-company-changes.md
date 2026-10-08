@@ -15,4 +15,4 @@ kind: Fit
 | feature | Checks while a file is edited | | while a page is written |
 | feature | Checks an instance runs | | before a change lands |
 | concept | Agent pass | | what no script can read |
-| role | Owner | | who has the last word |
+| seat | Owner | | who has the last word |

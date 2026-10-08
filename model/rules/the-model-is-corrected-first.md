@@ -20,6 +20,6 @@ Every surface we publish is derived from the model at a commit it names, and not
 
 | Type | Entity | Owner |
 | --- | --- | --- |
-| role | Owner | |
+| seat | Owner | |
 | process | Delivery | |
 | phase | Integrate | Delivery |
