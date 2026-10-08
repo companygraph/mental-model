@@ -54,7 +54,7 @@ url: https://www.linkedin.com/company/companygraph
 - The Logo is the mark's tile, made from the mark's master as `## Mark` in the brand says, and the
   Cover image sets the promise in the brand's faces and colors, with the mark and the name in the
   top left corner, because the network lays the Logo over the lower left of the cover.
-- The values, the strategic objectives, the strategies, the processes, the roles and the products
+- The values, the strategic objectives, the strategies, the processes, the seats and the products
   reach no unit. A page on the network is followed for its posts, and a visitor who wants what
   the company holds to is sent to the Website, where every one of them is drawn.
 - The optional units the network offers and this file does not name stay empty: Year founded,

@@ -20,7 +20,7 @@ Typing in a field or cell that a schema declares as a reference offers the canon
 
 ### SC-E1: A field offers its type
 
-Given a field declared `ref → role`, when its value is typed, then the editor offers the roles' names and no other type's.
+Given a field declared `ref → seat`, when its value is typed, then the editor offers the seats' names and no other type's.
 
 ### SC-E2: A row offers its owner's names
 

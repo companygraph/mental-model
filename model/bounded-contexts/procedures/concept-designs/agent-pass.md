@@ -16,7 +16,7 @@ refines: Agent pass
 | Core version | | version | | The release of the rules the pass held the instance to |
 | Mechanical failures | | string | yes | What the check printed, copied as it is |
 | Findings | | string | yes | Each writing rule broken, in the rule's own words, with the file that breaks it |
-| Gaps | | string | yes | Each skill a held role requires and a human profile does not claim, outside the count of failures |
+| Gaps | | string | yes | Each skill a held seat requires and a human profile does not claim, outside the count of failures |
 | Not checked | | string | yes | Everything the pass skipped, such as the mechanical checks where they could not run |
 
 ## References

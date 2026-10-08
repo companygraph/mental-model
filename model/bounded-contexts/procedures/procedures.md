@@ -17,7 +17,7 @@ decisions:
 ## Responsibilities
 
 - Build an instance from what a company publishes, keeping only what a schema has a place for and what the operator keeps
-- Write a profile, or extend one, from a folder of a person's documents, reusing the skills, levels, kinds and roles the model already holds
+- Write a profile, or extend one, from a folder of a person's documents, reusing the skills, levels, kinds and seats the model already holds
 - Record on a source the terms its content is published under and each consent its use needs, as the operator states them
 - Judge every page against its schema's writing rules after the mechanical checks, and say what was not checked
 - Produce a surface's content from the model by the rules its page records, and stop where a rule needs what the model does not hold

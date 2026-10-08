@@ -13,5 +13,5 @@ refines: Schema
 
 | Attribute | Term | Type | Many | Description |
 | --- | --- | --- | --- | --- |
-| Type | | string | | The type by its unit and name, such as `core/role` |
+| Type | | string | | The type by its unit and name, such as `core/seat` |
 | Sections | | map | | What the schema declares, section by section |

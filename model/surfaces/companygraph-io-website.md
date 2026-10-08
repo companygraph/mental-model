@@ -14,7 +14,7 @@ url: https://companygraph.io
 
 - **Landing graph** — this company's own model, drawn as a graph from `company.json`.
 - **CLI** — the one command an instance is made and kept from: what each pick of its menu does, and how the command is run from a release.
-- **Team** — each process's phases as a board of the roles that own, execute, support and approve each, and the profiles that hold those roles, drawn from `company.json`.
+- **Processes** — each process's phases as a board of the seats that own, execute, support and approve each, and the profiles that hold those seats, drawn from `company.json`.
 - **Principles** — the vision and the values, drawn from `company.json`.
 - **Surfaces** — every surface the model records, with how each is made and what makes it, and nothing kept beside the model, drawn from `company.json`.
 - **Model** — the vocabulary, drawn: every core type with its schema, as a graph from a pinned commit of core.
