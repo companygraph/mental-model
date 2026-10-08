@@ -14,7 +14,7 @@ decisions:
 
 ## Operational principle
 
-Handed a folder of a person's CVs and certificates, the agent lists every file before reading any, reads each, proposes only the skills, levels, kinds and roles the model lacks, writes the experiences and then the profile, runs the checks and the agent pass, and leaves the change for the operator to approve and commit.
+Handed a folder of a person's CVs and certificates, the agent lists every file before reading any, reads each, proposes only the skills, levels, kinds and seats the model lacks, writes the experiences and then the profile, runs the checks and the agent pass, and leaves the change for the operator to approve and commit.
 
 ## Scenarios
 

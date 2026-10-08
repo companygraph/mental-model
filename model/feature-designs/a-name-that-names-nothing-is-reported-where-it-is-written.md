@@ -24,7 +24,7 @@ Given a concept design whose Relations row names «Declarations», when the inst
 
 ### SC-C2: A name under another type
 
-Given a decision whose `by` names a person's profile rather than a role, when the instance is checked, then it fails, saying the name is an entity of type profile, not role, and never resolves it to the profile.
+Given a decision whose `by` names a person's profile rather than a seat, when the instance is checked, then it fails, saying the name is an entity of type profile, not seat, and never resolves it to the profile.
 
 ### SC-C3: A name inside its owner
 

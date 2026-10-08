@@ -19,7 +19,7 @@ Two of these sources carry documents about the model: this guide and the reposit
 | `strategic-objectives.md` | the objectives the vision needs made true, {{count:Strategic objectives}} entities | Ask what it is trying to make true, and how it would know |
 | `strategies.md` | the strategies pursuing them, {{count:Strategies}} entities | Ask how an objective gets reached, and what the route rules out |
 | `kpis.md` | the {{count:Kpis}} KPIs the company watches, each defined with what could make it lie and no value | Ask what a number counts, who answers for it and what it can hide |
-| `roles.md` | the {{count:Roles}} seats its work is done from, each naming no holder | Ask what a seat is responsible for, and what it refuses |
+| `seats.md` | the {{count:Seats}} seats its work is done from, each naming no holder | Ask what a seat is responsible for, and what it refuses |
 | `profiles.md` | the {{count:Profiles}} agents that fill those seats | Ask what does the work, and in what voice it speaks |
 | `processes.md` | the processes and their phases, {{count:Processes}} entities | Ask how a change gets made, phase by phase |
 | `decisions.md` | the {{count:Decisions}} decisions taken, each with the alternatives it ruled out | Ask what was decided, why, and what was not chosen |
