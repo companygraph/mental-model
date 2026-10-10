@@ -14,6 +14,12 @@ serves:
 
 > Holds CompanyGraph's repositories, among them the vocabulary, the tools and its own model, with their pull requests, issues and releases, for the seats that work on them.
 
+## Holds
+
+| Concept | Data object | Access |
+| --- | --- | --- |
+| Instance | Repository | master |
+
 ## References
 
 | What | URL |

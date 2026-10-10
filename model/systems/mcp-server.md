@@ -17,6 +17,12 @@ part-of: Cloud Run
 | --- | --- | --- | --- | --- |
 | GitHub | the instance's repository, at image build | | Instance | HTTPS |
 
+## Holds
+
+| Concept | Data object | Access |
+| --- | --- | --- |
+| Instance | Snapshot | reads |
+
 ## References
 
 | What | URL |

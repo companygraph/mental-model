@@ -19,6 +19,12 @@ part-of: Cloud Run
 | Claude API | Messages API | | | HTTPS |
 | TypeSafe | System One API | | | HTTPS |
 
+## Holds
+
+| Concept | Data object | Access |
+| --- | --- | --- |
+| Conversation | Question log | writes |
+
 ## References
 
 | What | URL |
