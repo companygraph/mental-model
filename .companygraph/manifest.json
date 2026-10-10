@@ -1,5 +1,5 @@
 {
-  "tooling": "0.89.0",
+  "tooling": "0.90.0",
   "core": {
     "version": "0.65.0",
     "shape": 3,
@@ -8,7 +8,8 @@
   "units": "meta",
   "packs": [
     "software",
-    "organization"
+    "organization",
+    "landscape"
   ],
   "exclude": [
     "dist",
@@ -67,6 +68,12 @@
     "meta/organization/group-schema.md": "sha256:b008ec2dff1f217c98cb008c3bfbc9857ef786e64579e1a3309d8537a9030c40",
     "meta/organization/job-schema.md": "sha256:4bef987b4df475c0f8d095ed602d1e2f9ab7466f38bde272dacc2f0c2f32a43e",
     "meta/organization/manifest.json": "sha256:12fda957152d53d762eab7db71397be42386546580b64a92f43727f3b7861f3b",
+    "meta/landscape/README.md": "sha256:c863968677344206c977e9f6729ff2a368aca3e73558750147cbf6f32019a986",
+    "meta/landscape/data-object-schema.md": "sha256:c81877776c7ad44c27a9b08ffc0a05b58fcd91154f90bd2522c65ef98edc8ccf",
+    "meta/landscape/manifest.json": "sha256:c460d92e481e8fd7957fffbe76cfe45970aa1ed0f35c4e30445532af3a64e3a8",
+    "meta/landscape/service-schema.md": "sha256:48d7f4459e81d10ab1865a47be8c0f96317ddcb22d5ee7c69c44496e08366868",
+    "meta/landscape/system-kind-schema.md": "sha256:b707f53a4f30457250ab6934168d19ea722ae6596b255f063b3385546e7a77e2",
+    "meta/landscape/system-schema.md": "sha256:aed8046dfd6c2c93436c9223297f94b2d7cec59c533a09494edb3c2674de483c",
     ".claude/skills/companygraph-company/SKILL.md": "sha256:20c98ef47a903de3f5ae762c423692a8e22d5fe96c063a425090d295e3c62d26",
     ".claude/skills/companygraph-consent/SKILL.md": "sha256:ad2d803fb23a4678d2b9c6ed25ff6bb96cf9d437f180c81811c6aef9371aed61",
     ".claude/skills/companygraph-export/SKILL.md": "sha256:b637d333bcb143ce13ee342843bf4762e6893e22745e95e0494bdb44acf4fea3",
