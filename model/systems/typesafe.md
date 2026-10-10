@@ -2,7 +2,6 @@
 id: 01a1256e-f10e-71e1-be79-fad934671484
 source: Local
 kind: SaaS
-vendor: TypeSafe
 owner: Owner
 processor: TypeSafe
 serves:
