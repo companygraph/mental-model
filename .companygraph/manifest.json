@@ -7,7 +7,8 @@
   },
   "units": "meta",
   "packs": [
-    "software"
+    "software",
+    "organization"
   ],
   "exclude": [
     "dist",
@@ -60,6 +61,11 @@
     "meta/software/domain-event-schema.md": "sha256:8c7a388f10ef940d1a5a5bd569f1519bfd070a4d349d5ac226eb4eb018e8d20a",
     "meta/software/feature-design-schema.md": "sha256:e57a6eb521cb47222ccd9840fabd5fe7e605a51891367e7fc8ea145de09f2103",
     "meta/software/manifest.json": "sha256:fa3cc28dd86511cf16bfe9ed43714f0d662ca4b6e49adb6b49be0e3ed35c669a",
+    "meta/organization/README.md": "sha256:8cb1ddd97fd8ff305d8c8cc205cf940ed668c70c2c4b95afa17babd98e6d87c3",
+    "meta/organization/group-kind-schema.md": "sha256:af9f8e2231089a1e7a274f1fb82e0ca00a4f937752130fd34850078c1edf501b",
+    "meta/organization/group-schema.md": "sha256:b008ec2dff1f217c98cb008c3bfbc9857ef786e64579e1a3309d8537a9030c40",
+    "meta/organization/job-schema.md": "sha256:4bef987b4df475c0f8d095ed602d1e2f9ab7466f38bde272dacc2f0c2f32a43e",
+    "meta/organization/manifest.json": "sha256:81d0f339fc11a28e8c67c14e853600a60810fbfd01b2d19ab9a8bf7687937a52",
     ".claude/skills/companygraph-company/SKILL.md": "sha256:98216d0733f6003504080ce9cca766834c7a0e2812bdfac3757af04943a50e38",
     ".claude/skills/companygraph-consent/SKILL.md": "sha256:ad2d803fb23a4678d2b9c6ed25ff6bb96cf9d437f180c81811c6aef9371aed61",
     ".claude/skills/companygraph-export/SKILL.md": "sha256:b637d333bcb143ce13ee342843bf4762e6893e22745e95e0494bdb44acf4fea3",
