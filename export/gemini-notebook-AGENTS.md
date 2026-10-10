@@ -2,7 +2,7 @@
 
 > CompanyGraph, described in CompanyGraph. This notebook is that model whole: {{entities}} entities across {{sources}} sources, every page as it is written in the repository it is mastered in.
 
-The model answers questions about the company that publishes the meta-model: what it is building and toward what, the values and the strategies it works under, the product it ships and what that product lets someone do, the seats its work is done from and the agents that fill them, the processes a change goes through, the decisions it has taken and what each ruled out, and the words it means something exact by. There are no people in it. Every seat names no holder, and every profile is an agent's.
+The model answers questions about the company that publishes the meta-model: what it is building and toward what, the values and the strategies it works under, the product it ships and what that product lets someone do, the seats its work is done from and the agents that fill them, the processes a change goes through, the decisions it has taken and what each ruled out, the systems it runs and what each of them holds, and the words it means something exact by. There are no people in it. Every seat names no holder, and every profile is an agent's.
 
 ## The sources
 
@@ -29,6 +29,10 @@ Two of these sources carry documents about the model: this guide and the reposit
 | `products.md` | what the company ships | Ask what it ships, and to whom |
 | `features.md` | the {{count:Features}} features its product lets someone do | Ask what someone can do with the product, and on which concepts |
 | `concepts.md` | the {{count:Concepts}} words the company means something exact by | Look up what a word means here |
+| `systems.md` | the {{count:Systems}} systems the company runs, each of a kind, with what it connects to and what it holds | Ask what runs where and on what, and which system masters a thing |
+| `system-kinds.md` | the {{count:System kinds}} kinds a system is sorted into, each naming the ArchiMate element it is | See what sort of system something is |
+| `services.md` | the {{count:Services}} services a system exposes to others, each realizing a feature | Ask what a system offers, and to whom |
+| `data-objects.md` | the {{count:Data objects}} data objects, each realizing a concept | Ask in what form, and where, a concept's data is kept |
 | `questions.md` | the {{count:Questions}} questions visitors ask, each naming the entities its answer rests on | Find where the answer to a question, asked as people ask it, lies |
 | `question-kinds.md` | the {{count:Question kinds}} kinds a question is filed under | See what a visitor is asking about when they ask it |
 | `sources.md` | where the pages are mastered | Check where a fact would be corrected |
