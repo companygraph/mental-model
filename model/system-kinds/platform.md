@@ -7,8 +7,8 @@ element: node
 
 # Platform
 
-> What CompanyGraph's services and pages run on, and where its checks run, taken from a provider and run by CompanyGraph's own seats.
+> What CompanyGraph's deployments and pages run on, and where its checks run, taken from a provider and configured by CompanyGraph's own seats.
 
 ## What it means
 
-A platform is compute or hosting a provider builds and keeps, rented from it or taken free on its terms, which CompanyGraph's seats configure and deploy to: where a service runs, where a site is served from, where a check runs. It is not a service, which CompanyGraph builds itself and which runs on a platform, and not SaaS, which a vendor runs as software CompanyGraph uses and deploys nothing to.
+A platform is compute or hosting a provider builds and keeps, rented from it or taken free on its terms, which CompanyGraph's seats configure and deploy to: where a deployment runs, where a site is served from, where a check runs. It is not a deployment, which CompanyGraph builds itself and which runs on a platform, and not SaaS, which a vendor runs as software CompanyGraph uses and deploys nothing to.

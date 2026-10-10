@@ -1,13 +1,10 @@
 ---
 id: 01a1256e-8662-7925-9097-a884e87a2658
 source: Local
-kind: Service
+kind: Deployment
 owner: Owner
-operator: Implementer
 processor: Google Cloud
-part-of: Google Cloud Run
-realizes:
-  - An agent reads the model
+part-of: Cloud Run
 ---
 
 # MCP server

@@ -5,9 +5,16 @@ kind: SaaS
 vendor: TypeSafe
 owner: Owner
 processor: TypeSafe
-domain: Core
+serves:
+  - Answering
 ---
 
 # TypeSafe
 
-> Judges whether the tool answers a chat answer rests on carry each of its claims, and returns a verdict with its probability, for the chat server.
+> Judges whether each claim of a chat answer is carried by the tool answers it rests on, and returns a verdict with its probability, for the chat server.
+
+## References
+
+| What | URL |
+| --- | --- |
+| The vendor's documentation | https://docs.typesafe.ai/introduction |

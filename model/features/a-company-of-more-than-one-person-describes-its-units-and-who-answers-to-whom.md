@@ -8,7 +8,7 @@ concepts:
   - Type
 ---
 
-# A company of more than one person describes its units and its two lines
+# A company of more than one person describes its units and who answers to whom
 
 > A company of more than one person writes down its units and the teams drawn from them, the jobs its people are employed in, who answers to whom and who sets the discipline of whose work, and which positions it is looking to fill.
 

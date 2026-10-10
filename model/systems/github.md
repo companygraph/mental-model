@@ -4,7 +4,10 @@ source: Local
 kind: SaaS
 vendor: GitHub
 owner: Owner
-domain: Core
+serves:
+  - Delivery
+  - Contribution
+  - Feature request
 ---
 
 # GitHub

@@ -4,8 +4,8 @@ source: Local
 kind: Platform
 vendor: GitHub
 owner: Owner
-operator: Implementer
-domain: Core
+serves:
+  - Delivery
 ---
 
 # GitHub Pages

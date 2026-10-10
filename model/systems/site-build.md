@@ -1,9 +1,8 @@
 ---
 id: 01a12578-5da5-7cf7-acaf-ee2a84eb1308
 source: Local
-kind: Service
+kind: Deployment
 owner: Owner
-operator: Implementer
 part-of: GitHub Actions
 realizes:
   - The vocabulary on the web
@@ -11,13 +10,15 @@ realizes:
 
 # Site build
 
-> Renders companygraph.io's pages from the instance at one pinned commit with the design package's renderer, for the seat that moves the pin, and checks on every pull request and every merge that the pages committed are the ones that commit renders.
+> Renders companygraph.io's pages from the vocabulary and the instance, each at a pinned commit, with the design package's renderer, for the seat that moves the pins, and checks on every pull request and every merge that the pages committed are the ones those commits render.
 
 ## Connects to
 
 | System | As | Service | Carries | Via |
 | --- | --- | --- | --- | --- |
-| GitHub | the instance's repository and the design package | | Instance | HTTPS |
+| GitHub | the vocabulary's repository | | Schema | HTTPS |
+| GitHub | the instance's repository | | Instance | HTTPS |
+| GitHub | the design package | | | HTTPS |
 
 ## References
 

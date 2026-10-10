@@ -11,4 +11,4 @@ element: application-component
 
 ## What it means
 
-SaaS is software a vendor builds, runs and keeps, which CompanyGraph reaches over the vendor's own interface. Where it handles personal data the vendor is a data processor, and the system's page names it. It is not a service, which CompanyGraph builds and runs itself, and not a platform, which CompanyGraph deploys its own software to.
+SaaS is software a vendor builds, runs and keeps, which CompanyGraph reaches over the vendor's own interface. Where it handles personal data the vendor is a data processor, and the system's page names it. It is not a deployment, which CompanyGraph builds and runs itself, and not a platform, which CompanyGraph deploys its own software to.

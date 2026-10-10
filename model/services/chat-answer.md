@@ -5,11 +5,12 @@ provided-by:
   - Chat server
 realizes:
   - A visitor asks the model
+  - A chat answer marks the claims its evidence does not carry
 ---
 
 # Chat answer
 
-> The answer to a visitor's question, streamed as events to the chat panel on companygraph.io's pages, with each claim naming the entity it rests on.
+> The answer to a visitor's question, streamed as events to the chat panel on companygraph.io's pages, with each claim naming the entity it rests on and marked where that evidence does not carry it.
 
 ## References
 

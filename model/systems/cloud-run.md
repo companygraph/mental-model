@@ -4,12 +4,12 @@ source: Local
 kind: Platform
 vendor: Google
 owner: Owner
-operator: Implementer
 processor: Google Cloud
-domain: Core
+serves:
+  - Answering
 ---
 
-# Google Cloud Run
+# Cloud Run
 
 > Runs the MCP server and the chat server as containers in Google Cloud's Zürich region, deployed to by CompanyGraph's own seats on every merge to the repository that pins them.
 

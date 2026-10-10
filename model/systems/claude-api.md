@@ -5,10 +5,11 @@ kind: SaaS
 vendor: Anthropic
 owner: Owner
 processor: Anthropic
-domain: Core
+serves:
+  - Answering
 ---
 
-# Anthropic API
+# Claude API
 
 > Writes the chat's answers with Claude, from the visitor's messages and what the MCP server's tools returned, for the chat server.
 
@@ -16,4 +17,4 @@ domain: Core
 
 | What | URL |
 | --- | --- |
-| The vendor's documentation | https://docs.anthropic.com/en/api/messages |
+| The vendor's documentation | https://docs.claude.com/en/api/messages |

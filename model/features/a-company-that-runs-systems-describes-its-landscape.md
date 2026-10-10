@@ -14,9 +14,9 @@ concepts:
 
 ## Description
 
-The landscape pack, taken beside core: a system is of a kind the company names in its own words, and each kind is a specialization of one ArchiMate element, so a system goes to an architecture tool and comes back as the element it is. A system says what it runs on, who owns it and who runs it, the features it realizes and the data processor behind it; a service is what a system exposes to others, with the systems that provide it. A system names the concepts it keeps data of, one of them the master of each, and a connection is written on the system that takes the data, with the interface it goes through.
+The landscape pack, taken beside core: a system is of a kind the company names in its own words, and each kind is a specialization of one ArchiMate element, so a generator can take a system to an architecture tool and back as the element it is. A system says what it runs on, who owns it and who runs it, the features it realizes and the data processor behind it; a service is what a system exposes to others, with the systems that provide it. A system names the concepts it keeps data of, one of them the master of each, with the data object it keeps of a concept where one is modeled, and a connection is written on the system that takes the data, with the interface it goes through.
 
-It stops at the inventory. It draws no diagram, which a consumer draws from the pages, holds no cost and no license, and says nothing yet about where a system is.
+It stops at the inventory. It ships the mapping to the standard and no generator, draws no diagram, which a consumer draws from the pages, holds no cost and no license, and says nothing about where a system is.
 
 ## References
 

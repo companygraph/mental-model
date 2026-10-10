@@ -1,14 +1,10 @@
 ---
 id: 01a1256e-95a8-7252-a79b-d83322045bb1
 source: Local
-kind: Service
+kind: Deployment
 owner: Owner
-operator: Implementer
 processor: Google Cloud
-part-of: Google Cloud Run
-realizes:
-  - A visitor asks the model
-  - A chat answer marks the claims its evidence does not carry
+part-of: Cloud Run
 ---
 
 # Chat server
@@ -19,9 +15,9 @@ realizes:
 
 | System | As | Service | Carries | Via |
 | --- | --- | --- | --- | --- |
-| MCP server | MCP over HTTP | MCP endpoint | Entity | HTTPS |
-| Anthropic API | Messages API | | | HTTPS |
-| TypeSafe | the judge's API | | | HTTPS |
+| MCP server | Streamable HTTP | MCP endpoint | Entity | HTTPS |
+| Claude API | Messages API | | | HTTPS |
+| TypeSafe | System One API | | | HTTPS |
 
 ## References
 
