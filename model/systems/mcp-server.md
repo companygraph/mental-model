@@ -12,13 +12,13 @@ realizes:
 
 # MCP server
 
-> Answers questions about CompanyGraph's own model, read at one pinned commit, over the Model Context Protocol at mcp.companygraph.io, for any agent that connects and for the chat.
+> Answers questions about CompanyGraph's own model, read at one pinned commit when its image is built and not live, over the Model Context Protocol at mcp.companygraph.io, for any agent that connects and for the chat.
 
 ## Connects to
 
 | System | As | Service | Carries | Via |
 | --- | --- | --- | --- | --- |
-| GitHub | the instance's repository | | Instance | HTTPS |
+| GitHub | the instance's repository, at image build | | Instance | HTTPS |
 
 ## References
 

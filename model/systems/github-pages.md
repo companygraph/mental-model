@@ -10,7 +10,7 @@ domain: Core
 
 # GitHub Pages
 
-> Serves companygraph.io to its visitors, the site the companygraph/companygraph.github.io repository builds.
+> Serves companygraph.io to its visitors: the pages the Site build renders and checks, as merged into the companygraph/companygraph.github.io repository.
 
 ## References
 
