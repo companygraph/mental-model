@@ -9,7 +9,7 @@ seats:
 
 # Mischa Ramseyer
 
-> Human in the loop at beacon.build.
+> Co-Maintainer of CompanyGraph, and the human in the loop at beacon.build.
 
 ## Also at
 
