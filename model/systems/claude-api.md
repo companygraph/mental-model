@@ -2,7 +2,6 @@
 id: 01a1256e-e202-757e-8a03-e1c9e58b174a
 source: Local
 kind: SaaS
-vendor: Anthropic
 owner: Owner
 processor: Anthropic
 serves:

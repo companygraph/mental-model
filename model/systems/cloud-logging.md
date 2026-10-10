@@ -2,7 +2,6 @@
 id: 01a12591-6c04-7315-a0f3-b7e9aa9173c2
 source: Local
 kind: Platform
-vendor: Google
 owner: Owner
 processor: Google Cloud
 serves:
