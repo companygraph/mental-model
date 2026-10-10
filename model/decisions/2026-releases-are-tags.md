@@ -41,6 +41,6 @@ Every consumer takes a release by its tag. The meta-model's command runs straigh
 
 | What | URL |
 | --- | --- |
-| The rule in the shared conventions | https://github.com/robertblust/conventions/blob/main/WORKING.md |
+| The rule in the shared conventions | https://github.com/robertblust/conventions/blob/main/conventions/WORKING.md |
 | The command-line specification | https://github.com/companygraph/meta-model/blob/main/docs/superpowers/specs/2026-09-20-the-cli-design.md |
 | The first tooling specification | https://github.com/companygraph/meta-model/blob/main/docs/superpowers/specs/2026-08-25-companygraph-tooling-design.md |
