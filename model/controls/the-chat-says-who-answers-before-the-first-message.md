@@ -28,4 +28,4 @@ The widget our sites embed, on every page it is deployed on and in the page's la
 | What | URL |
 | --- | --- |
 | The widget, with the notice in English and German | https://github.com/robertblust/design/blob/main/assets/chat.js |
-| The surface the notice appears on | https://companygraph.io/model/#01a0c9f6-5458-7276-aae9-86088e4eb1e0 |
+| The surface the notice appears on | https://companygraph.io/id/01a0c9f6-5458-7276-aae9-86088e4eb1e0/ |
