@@ -25,4 +25,3 @@ It stops at the inventory. It ships the mapping to the standard and no generator
 | The pack's documentation, with its mapping to the standard and where it departs from its sources | https://github.com/companygraph/meta-model/blob/main/packs/landscape/README.md |
 | The standard for modeling an enterprise's architecture | https://pubs.opengroup.org/architecture/archimate4-doc/ |
 | The file format architecture tools exchange a model in | https://www.opengroup.org/xsd/archimate/ |
-| An architecture management tool's stages of an application's lifecycle | https://docs-eam.leanix.net/ |
