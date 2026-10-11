@@ -11,11 +11,11 @@ enforces:
 
 # The chat says who answers before the first message
 
-> The chat widget shows a notice under its input, before anything is sent, saying where the message goes and that the answer is asked of the model and of Claude through Anthropic's API.
+> The chat widget opens on a notice that says, first and in its own words, that an AI answers and not a person, then where the message goes and that it goes to the model and to Claude through Anthropic's API, before anything is sent.
 
 ## How it is carried out
 
-The widget our sites embed, on every page it is deployed on and in the page's language: when the chat opens, it shows the notice under the input, naming the host the message goes to and that the host asks the model and Claude through Anthropic's API, and that nothing is sent until the visitor presses send. A question handed to the chat by a page, from a chip or a link, is not sent on arrival either; it waits under the notice until the visitor sends it. The words are the widget's own and change only with a release of the design that every site then takes.
+The widget our sites embed, on every page it is deployed on and in the page's language: when the chat opens, it shows the notice at the top of its log, under a rail in the terminal's amber, opening with the sentence that an AI answers here and not a person, in the panel's ink, then naming the host the message goes to, that the host asks the model and Claude through Anthropic's API, and that nothing is sent until the visitor presses send. A question handed to the chat by a page, from a chip or a link, is not sent on arrival either; it waits under the notice until the visitor sends it. The words are the widget's own and change only with a release of the design that every site then takes.
 
 ## Applies to
 
