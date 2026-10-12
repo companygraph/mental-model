@@ -5,6 +5,7 @@ kind: Deployment
 owner: Owner
 processor: Google Cloud
 part-of: Cloud Run
+environment: Production
 ---
 
 # Chat server

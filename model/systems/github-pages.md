@@ -6,6 +6,7 @@ vendor: GitHub
 owner: Owner
 serves:
   - Delivery
+environment: Production
 ---
 
 # GitHub Pages
