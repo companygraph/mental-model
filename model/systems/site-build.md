@@ -6,6 +6,7 @@ owner: Owner
 part-of: GitHub Actions
 realizes:
   - The vocabulary on the web
+environment: Production
 ---
 
 # Site build

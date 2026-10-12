@@ -6,6 +6,7 @@ owner: Owner
 processor: Google Cloud
 serves:
   - Answering
+environment: Production
 ---
 
 # Cloud Logging
