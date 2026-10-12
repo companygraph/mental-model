@@ -1,7 +1,7 @@
 {
-  "tooling": "0.93.0",
+  "tooling": "0.94.0",
   "core": {
-    "version": "0.68.0",
+    "version": "0.69.0",
     "shape": 3,
     "source": "bundled"
   },
@@ -16,7 +16,7 @@
     "meta"
   ],
   "files": {
-    "meta/core/CONVENTIONS.md": "sha256:2788ace5f67825b8ba19a7e6ca55418cb8244c8e53f6de645ca9d74685c48906",
+    "meta/core/CONVENTIONS.md": "sha256:dd5dfc1a23f67f800f17a36589ab7e5e060727c6a4e6212200381d9492b58eed",
     "meta/core/LICENSE": "sha256:cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "meta/core/achievement-kind-schema.md": "sha256:7697cbd987d7a5ca330341d62a3cee306f9c6bc9db81ed5b742b3d2b5c8a1fc2",
     "meta/core/brand-schema.md": "sha256:85a0d0cfcd2a6ba3dd89a4abafd82cf3e1adbda354e53b69f8088d5b191f59ec",
@@ -34,7 +34,7 @@
     "meta/core/identity-schema.md": "sha256:d53b1414f6c457374d8af800a5bc832ae80bb839446d334c7060dd1eea0bed30",
     "meta/core/kpi-schema.md": "sha256:518e260893a012028855a5e82cb33b93c17171b254107428fb69d99b77a8fff0",
     "meta/core/localization-schema.md": "sha256:6d5ef97f36d10b4bde890c52d97a01c19d1529c3fb92956ed26a0dab9eb0950a",
-    "meta/core/manifest.json": "sha256:488fbc5befda8e13dedb34c17a371019843ea3f13174565b8c13b8d8589c3092",
+    "meta/core/manifest.json": "sha256:897ddd5a1c8b04ffd14e0bd6c91e874ba8da9644d768d4d84cb0b83dc5f47214",
     "meta/core/phase-schema.md": "sha256:e1b5adcc33360c2a5081e919b18ae8166f3f04e53d83f55a77c2158af3f60d9c",
     "meta/core/process-schema.md": "sha256:65a8ee2446a97455e77d2640634686e94969a895c0b5d4d7237f77dcd7a5bf27",
     "meta/core/processing-activity-schema.md": "sha256:6d8d18b2ae1e2b97d6685ee4c88141b963df679a3f418ed125945b8ae6208243",
@@ -62,16 +62,16 @@
     "meta/software/concept-design-schema.md": "sha256:87ea9fe4d860df45df098333609e26784e39a02f78cfd191a36043046feec7c7",
     "meta/software/domain-event-schema.md": "sha256:8c7a388f10ef940d1a5a5bd569f1519bfd070a4d349d5ac226eb4eb018e8d20a",
     "meta/software/feature-design-schema.md": "sha256:e57a6eb521cb47222ccd9840fabd5fe7e605a51891367e7fc8ea145de09f2103",
-    "meta/software/manifest.json": "sha256:5043893d2938b149f78685b81046eb3a4e1ac93824703c0ad1e7075481ce7cb3",
+    "meta/software/manifest.json": "sha256:646d3b2ec8b64bc54b6e63d411f42d2919031cd78ba8804a8f0d0bb93355df83",
     "meta/organization/README.md": "sha256:71abcfbace060011345848130966b685652b38bcd6b3e4dd6a8e63ad7e84f884",
     "meta/organization/group-kind-schema.md": "sha256:af9f8e2231089a1e7a274f1fb82e0ca00a4f937752130fd34850078c1edf501b",
     "meta/organization/group-schema.md": "sha256:57b35e98215d315ca857faf9b55cb0d03a5133f3e640142aa784b1e9c9e4230f",
     "meta/organization/job-schema.md": "sha256:4bef987b4df475c0f8d095ed602d1e2f9ab7466f38bde272dacc2f0c2f32a43e",
-    "meta/organization/manifest.json": "sha256:efe1de1eb4996e287a84a7b33fb76aff9bbab6a969f28640e47a0eec679fdac7",
+    "meta/organization/manifest.json": "sha256:0438234d6877ad52857cf63d25ca90a889e25837f3d902cd30be31360a80ecd2",
     "meta/landscape/README.md": "sha256:b43b20102446715f72ac9aaef1ae6d5957a78d7c1256be9700d05d0fa7e77e6e",
     "meta/landscape/data-object-schema.md": "sha256:c81877776c7ad44c27a9b08ffc0a05b58fcd91154f90bd2522c65ef98edc8ccf",
     "meta/landscape/environment-schema.md": "sha256:890fc2a6a4b348181814e38452ac9531ebeff2cb1a13281b2e5dd79fc4582542",
-    "meta/landscape/manifest.json": "sha256:37d75acbf2591989376d75842ab1ed0a1e501a41319c0bc3f6e1be23786dece1",
+    "meta/landscape/manifest.json": "sha256:e3b0acd8df373c4a3acded40b4644ead7102914e24deec4b5bf31f327e5af214",
     "meta/landscape/service-schema.md": "sha256:b76123238945e1643480deabe26c56a0d6ac790f4ba14113cccf0dd1a15940f9",
     "meta/landscape/system-kind-schema.md": "sha256:7153e5470bda61bb230e605b0470ac8d86237b6d4b8022a8f5578c50595dd050",
     "meta/landscape/system-schema.md": "sha256:5d048686f975eb031d9eaef3858f5348a69baeaa0e5c7dadedc46ccb1f2d856c",
