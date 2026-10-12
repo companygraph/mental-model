@@ -9,7 +9,8 @@
   "packs": [
     "software",
     "organization",
-    "landscape"
+    "landscape",
+    "requirements"
   ],
   "exclude": [
     "dist",
@@ -75,6 +76,10 @@
     "meta/landscape/service-schema.md": "sha256:b76123238945e1643480deabe26c56a0d6ac790f4ba14113cccf0dd1a15940f9",
     "meta/landscape/system-kind-schema.md": "sha256:7153e5470bda61bb230e605b0470ac8d86237b6d4b8022a8f5578c50595dd050",
     "meta/landscape/system-schema.md": "sha256:5d048686f975eb031d9eaef3858f5348a69baeaa0e5c7dadedc46ccb1f2d856c",
+    "meta/requirements/README.md": "sha256:fdd4e0765f62261eedfb1104cdfb0d441921baa5ac057900fbe6fe78885482ec",
+    "meta/requirements/manifest.json": "sha256:5c4c383f0cd56059c8b56c71fa93771064401ad11e3bbb6e3645043181096937",
+    "meta/requirements/requirement-schema.md": "sha256:6cd6794d2ab087dc72c5671c2be0d8b6d7c9026c7a567bbf3a7dbfd1e1fe22d7",
+    "meta/requirements/use-case-schema.md": "sha256:2cd0e55382f475e1230f9bfd411a796e1df5a08c1928899dd5f1152a8f26822a",
     ".claude/skills/companygraph-company/SKILL.md": "sha256:20c98ef47a903de3f5ae762c423692a8e22d5fe96c063a425090d295e3c62d26",
     ".claude/skills/companygraph-consent/SKILL.md": "sha256:ad2d803fb23a4678d2b9c6ed25ff6bb96cf9d437f180c81811c6aef9371aed61",
     ".claude/skills/companygraph-export/SKILL.md": "sha256:b637d333bcb143ce13ee342843bf4762e6893e22745e95e0494bdb44acf4fea3",
