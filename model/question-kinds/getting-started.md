@@ -10,6 +10,6 @@ rank: 20
 
 ## What it means
 
-A question about the first steps and what connects once the model exists: starting an instance, writing a profile, letting an agent read it, and whether the data leaves the company's hands when it runs.
+A question about the first steps and what connects once the model exists: starting an instance, what a page is written in, writing a profile, letting an agent read it and whether one may change it, and whether the data leaves the company's hands when it runs.
 
 Whether it fits at all is Fit. Price, license and the people behind it are Terms.
