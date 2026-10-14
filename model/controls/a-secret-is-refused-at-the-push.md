@@ -13,7 +13,7 @@ enforces:
 
 ## How it is carried out
 
-GitHub's secret scanning with push protection, turned on in each of our repositories and for every repository the organization creates: on every push it looks for the shapes of keys and tokens its providers register, refuses the push that carries one and names the file and line, and it keeps scanning the history for any that reached a repository before. Whoever pushes may push past a refusal by giving a reason, that the secret is used in tests, is a false positive or will be fixed later, and GitHub then opens an alert, writes the bypass to the audit log and emails the owners. It knows only those shapes, so a password someone made up, or a key in a form no provider registered, passes it; for those the rule rests on whoever writes the change.
+GitHub's secret scanning with push protection, turned on in each of our repositories and for every repository the organization creates: on every push it looks for the shapes of keys and tokens its providers register, refuses the push that carries one and names the file and line, and it keeps scanning the history for any that reached a repository before. Whoever pushes may push past a refusal by giving a reason, that the secret is used in tests, is a false positive or will be fixed later, and GitHub then records an alert, writes the bypass to the audit log and emails the owners. It knows only those shapes, so a password someone made up, or a key in a form no provider registered, passes it; for those the rule rests on whoever writes the change.
 
 ## Applies to
 
