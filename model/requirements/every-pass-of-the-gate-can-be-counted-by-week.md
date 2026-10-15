@@ -8,7 +8,7 @@ modality: must
 
 # Every pass of the gate can be counted by week
 
-> Every change applied, every required check gone past, every change of rights and every purge is kept in a log a scheduled job can read by week.
+> Every change applied, every required check gone past and every change of rights is kept in a log a scheduled job can read by week.
 
 ## Why
 
