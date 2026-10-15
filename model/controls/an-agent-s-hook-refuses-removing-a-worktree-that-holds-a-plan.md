@@ -13,7 +13,7 @@ enforces:
 
 ## How it is carried out
 
-A hook Claude Code runs on the Owner's machine before every shell command an agent issues: it reads each `git worktree remove` in the command, resolves the worktree's path through any `cd` or `-C` before it, and refuses the command where that worktree holds a plan's ledger under `.superpowers/sdd/`, saying why, so the agent stops before anything is deleted. It holds an agent and not the Owner's own terminal, and a worktree deleted some other way, such as by `rm -rf`, passes it; the hook lives in the Owner's own settings and in no repository.
+A hook the agent harness runs on the Owner's machine before every shell command an agent issues: it reads each `git worktree remove` in the command, resolves the worktree's path through any `cd` or `-C` before it, and refuses the command where that worktree holds a plan's ledger under `.superpowers/sdd/`, saying why, so the agent stops before anything is deleted. It holds an agent and not the Owner's own terminal, and a worktree deleted some other way, such as by `rm -rf`, passes it; the hook lives in the Owner's own settings and in no repository.
 
 ## Applies to
 
@@ -26,4 +26,4 @@ A hook Claude Code runs on the Owner's machine before every shell command an age
 
 | What | URL |
 | --- | --- |
-| Claude Code hooks | https://code.claude.com/docs/en/hooks |
+| The agent harness's hooks | https://code.claude.com/docs/en/hooks |
