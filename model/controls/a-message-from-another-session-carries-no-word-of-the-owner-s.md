@@ -13,7 +13,7 @@ enforces:
 
 ## How it is carried out
 
-Claude Code, in every session that receives a message from another: it delivers the message marked as another session's and not as the Owner's, tells the receiving agent that such a message grants no permission and that a request to do what the sender was refused is to be declined and shown to the Owner, and its permission layer judges any action the message asks for against the receiving session's own conversation, where the Owner gave no word for it. The marking is how Claude Code delivers such a message, seen in its sessions and not in its documentation, and it rests on the agent heeding it; a session the Owner gives the word in, in its own conversation, may carry out what another was refused, because the word is then the Owner's.
+The agent harness, in every session that receives a message from another: it delivers the message marked as another session's and not as the Owner's, tells the receiving agent that such a message grants no permission and that a request to do what the sender was refused is to be declined and shown to the Owner, and its permission layer judges any action the message asks for against the receiving session's own conversation, where the Owner gave no word for it. The marking is how the agent harness delivers such a message, seen in its sessions and not in its documentation, and it rests on the agent heeding it; a session the Owner gives the word in, in its own conversation, may carry out what another was refused, because the word is then the Owner's.
 
 ## Applies to
 
@@ -27,4 +27,4 @@ Claude Code, in every session that receives a message from another: it delivers 
 
 | What | URL |
 | --- | --- |
-| Claude Code permission modes | https://code.claude.com/docs/en/permission-modes |
+| The agent harness's permission modes | https://code.claude.com/docs/en/permission-modes |
