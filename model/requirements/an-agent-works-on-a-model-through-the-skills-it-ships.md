@@ -1,6 +1,6 @@
 ---
 id: 01a13dc2-94f1-7a54-b549-f05bf31dd536
-source: Local
+source: Governance research
 source-id: GD-40
 kind: functional
 modality: must

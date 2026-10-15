@@ -36,9 +36,9 @@ Entries are written and reviewed one at a time — what it says, the case agains
 
 ## Where its facts are mastered
 
-Every page is mastered here — `source: Local`, corrected in this repository and nowhere else. There is no upstream to correct first.
+Every page is mastered here, corrected in this repository and nowhere else; there is no upstream to correct first. Nearly every page is `source: Local`. The requirements drawn from the governance research in `docs/research/` name it, `source: Governance research`, and carry the research's label, GD-01 to GD-40, as `source-id`, so a requirement can be followed back to the finding it came from.
 
-A fact enters from prose that is already published and already reviewed: the organization profile on GitHub, the pages of companygraph.io, the meta-model's README and the specs beside it, and the introduction talk. A claim that cannot be traced to one of those does not go in, however true it sounds; the guard is against invention by whoever is editing.
+A fact enters from prose that is already published and already reviewed: the organization profile on GitHub, the pages of companygraph.io, the meta-model's README and the specs beside it, the introduction talk, and the research in `docs/research/`. A claim that cannot be traced to one of those does not go in, however true it sounds; the guard is against invention by whoever is editing.
 
 ## Checks
 
