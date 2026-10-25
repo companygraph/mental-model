@@ -9,7 +9,7 @@ sub-processor-authorization: general
 
 # Google Cloud
 
-> Runs the chat service and the MCP server in its Zürich region, and keeps the chat's log of questions there.
+> Runs the chat service and the MCP server in its Zurich region and keeps there the chat's log of questions and each signed-in reader's month; the readers' accounts are kept in the same region by blust.ch's identity service, id.blust.ch.
 
 ## References
 
