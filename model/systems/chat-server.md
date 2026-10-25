@@ -19,12 +19,14 @@ environment: Production
 | MCP server | Streamable HTTP | MCP endpoint | Entity | HTTPS |
 | Claude API | Messages API | | | HTTPS |
 | TypeSafe | System One API | | | HTTPS |
+| id.blust.ch | OpenID Connect | | | HTTPS |
 
 ## Holds
 
 | Concept | Data object | Access |
 | --- | --- | --- |
 | Conversation | Question log | writes |
+| Reader | Reader's month | writes |
 
 ## References
 
