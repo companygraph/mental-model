@@ -6,7 +6,7 @@ realizes: Reader
 
 # Reader account
 
-> A user of ZITADEL at id.blust.ch: the reader's name and email address and the roles granted to them on this site, created by the owner in its console, since accounts are by invitation only.
+> A user of ZITADEL at id.blust.ch: the reader's name and email address the roles granted to them on this site and, for a reader who signs in with Google, the link to their Google account, its id and email address, created by the owner in its console, since accounts are by invitation only.
 
 ## References
 
