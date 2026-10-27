@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-24
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # A released vocabulary never changes
@@ -23,3 +24,7 @@ An attempt by anyone but the Owner to move or delete a released version is refus
 | Type | Entity |
 | --- | --- |
 | feature | A vocabulary to describe a company in |
+
+## Realization
+
+A GitHub ruleset on release tags stands in today by refusing a move or deletion by anyone but the Owner. No release refuses it: `companygraph pins` reports a pin behind without recording what a tag pointed at, and the check of vendored files against the manifest fails an instance whose core was edited, which notices a change after the fact and prevents none.

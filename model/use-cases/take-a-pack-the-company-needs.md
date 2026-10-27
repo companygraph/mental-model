@@ -12,6 +12,7 @@ features:
 includes:
   - Move the model to a newer release
   - Write a page that holds
+realization: Released end to end
 ---
 
 # Take a pack the company needs
@@ -57,6 +58,17 @@ The company has a kind of knowledge core has no type for at all, and a pack hold
 ## Success guarantees
 
 - The pack's types are checked with core at the same release.
+
+## Realization
+
+In meta-model v0.95.0 `upgrade --pack <name>` (the menu's Move a model with a pack named, and `init --pack`) vendors the pack as a unit under `meta/<pack>/`, lists it in the manifest's `packs`, makes the pack's root folders and writes each folder's README only where the instance has none (steps 2 and 3; `plan.mjs` writes a README once and leaves one that is there). `upgrade --pack landscape` on an instance that took organization lists both and the check passes. A pack the release does not ship is refused by name with the packs it ships (2a, `packOfThisRelease`), and `--core` beside a pack is refused before anything is fetched (2b, tested). The check holds the pack's types against the pack's schemas at the same release as core (`packs.test.mjs`, `init --pack` tests), and the pack types name core's only through optional edges (guarantee, held by `packs.test.mjs`). The nearest walk is `upgrade --pack landscape on an instance that took organization lists both` in `verify/cli.test.mjs`, together with the three `init --pack ... passes check` tests; steps 1 and 4 are done by people.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/cli.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `verify/packs.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/packs.test.mjs |
 
 ## References
 

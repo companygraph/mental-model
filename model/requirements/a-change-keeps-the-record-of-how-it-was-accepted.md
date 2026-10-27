@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-11
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # A change keeps the record of how it was accepted
@@ -23,3 +24,7 @@ A year after it was applied, any change shows what changed, what was said about 
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+The record of difference, discussion, check results and applier is kept by GitHub's pull request. No release stores or reads it back.

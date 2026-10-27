@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-19
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # The model changes only by applying a change
@@ -23,3 +24,7 @@ A direct write to the current state is refused for every account. Today the rule
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Refusing a direct write to the default branch is the ruleset's pull request rule. The release's local gate (`gate: git`, a pre-commit hook that runs the checks) refuses a commit on one machine, which is no refusal for every account, so it does not meet the criterion.

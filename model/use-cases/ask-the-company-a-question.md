@@ -7,6 +7,7 @@ primary-actor: Visitor
 features:
   - A visitor asks the model
   - A chat answer marks the claims its evidence does not carry
+realization: Main scenario released
 ---
 
 # Ask the company a question
@@ -69,6 +70,20 @@ The visitor opens the chat and presses send.
 
 - Every claim names the entity a tool returned it from, and the visitor can open that entity at the commit the answer names.
 - Where the tools did not say, the answer says the model does not say.
+
+## Realization
+
+The deployed site's `chat.js` shows the notice before the first message and draws the cites, the underline, the note on hover and the line under the answer (steps 5 and 6a, 8 by the cite's link into the model page and the file at the commit). chat-server v0.38.3 carries the fence of length, page, hour, day and month with the refusal naming the next midnight UTC (2, 2a), the tool loop of at most four rounds with a last request that forbids a tool call (3, 3a), the host's types and questions read again when the commit moves (3b), the language rule and the naming rule (4, 4a, 4b), the `cite` and `names` events (5), the `verdict` event before `done`, German answers unmarked and an unanswered judge leaving no count (6, 6b, 6c), the kept line without address or answer and the settling of the meter when the visitor leaves (7, 7a). Missing: for a question that is not about the model the prompt tells the model to answer through the tools and holds no rule for one sentence on what the chat is for with no tool asked, so extension 1a is not in a release. Tests cover the server steps and the widget separately with the other side's events mocked; none walks a question from the fence to the opened page.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `test/loop.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/loop.test.mjs |
+| `test/http.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/http.test.mjs |
+| `test/verdict.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/verdict.test.mjs |
+| `chat.js` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/chat.js |
+| `test/chat-claims.test.mjs` | satisfies | https://github.com/robertblust/design/blob/v0.158.2/test/chat-claims.test.mjs |
 
 ## References
 

@@ -5,6 +5,7 @@ kind: functional
 modality: must
 follows:
   - A visitor is told an agent answers
+realization: Released
 ---
 
 # A visitor is told before the first message that an agent answers
@@ -24,6 +25,18 @@ On every page the chat is deployed for, in each of its languages, the notice is 
 | Type | Entity |
 | --- | --- |
 | feature | A visitor asks the model |
+
+## Realization
+
+The site's `chat.js`, which every page with the chat loads, opens the panel on an intro whose notice reads "An AI answers here, not a person." followed by a sentence saying the message goes to the host, which asks the model and Claude through Anthropic's API, with a link to the privacy page; the German page reads "Hier antwortet eine KI, keine Person." and the same sentence through Anthropics API. The notice is written into the intro by `writeNotice`, and the intro stands before the prompt line and the send control. A test in the design package checks that the notice comes first in the intro, before the question rows and the prompt line, and that its text says nothing is sent until the visitor presses send. No test checks that the notice names Anthropic, that the German text is shown, or that the notice is present on each page the chat is deployed for. The chat-server release ships no widget, so the notice rests on the site's file.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `chat.js` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/chat.js |
+| `test/chat-ask.test.mjs` | satisfies | https://github.com/robertblust/design/blob/v0.158.2/test/chat-ask.test.mjs |
+| `test/chat-terminal.test.mjs` | satisfies | https://github.com/robertblust/design/blob/v0.158.2/test/chat-terminal.test.mjs |
 
 ## References
 

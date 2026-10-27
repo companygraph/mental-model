@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-07
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # A change is applied whole or not at all
@@ -23,3 +24,7 @@ A change that fails while it is applied leaves the current state as it was. Toda
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Whole-or-nothing application is a property of git's merge, not of any released product of the family. No release adds to or tests it.

@@ -9,6 +9,7 @@ features:
   - An agent does the work no script can, by the skills an instance ships
 includes:
   - Check a change against the schemas
+realization: Main scenario released
 ---
 
 # Write a person's profile from their documents
@@ -62,6 +63,17 @@ The owner asks the agent to write a profile from a folder, or to extend one.
 ## Success guarantees
 
 - The profile and its experiences pass their schemas, each skill named by its H1, and each level rests on a period that shows it.
+
+## Realization
+
+meta-model v0.95.0 ships `companygraph-profile` and `companygraph-consent`, which `init` writes and hashes. The profile skill asks create or update and the folder (steps 1), reads every document and takes out only what a schema holds, leaving a birth date or a salary unwritten and out of any note (3a), asks for the person's consent where the documents are not the owner's own and writes nothing without it (2 and 2a, step 6 of the skill), takes none from the owner modeling themselves with one line in the report (2b), stops on update when the documents describe another person (3b), shows each level with the rows behind it and each sentence in the person's voice, and decides nothing until the owner does (4, 4a and 5), stops and asks when an Evidence row's experience does not list the row's skill (3c), and ends with check and the validate procedure (6). The tests that mention it check only that init writes the skill. Nothing runs the procedure or observes the success guarantee.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `agents/claude/skills/companygraph-profile/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-profile/SKILL.md |
+| `agents/claude/skills/companygraph-consent/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-consent/SKILL.md |
 
 ## References
 

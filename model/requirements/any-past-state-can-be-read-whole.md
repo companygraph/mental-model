@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-02
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # Any past state can be read whole
@@ -23,3 +24,7 @@ A state from a year before is read by its id, and the checker finds in it what i
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Reading a past state is git. The release reads states by commit in `ids --range` and `commits --range`, but it adds no store of past states; this is git's behavior and no released product meets it.

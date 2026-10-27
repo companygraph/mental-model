@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-01
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # Every applied state has an id that names its content
@@ -23,3 +24,7 @@ Two reads of one state's id return the same content, byte for byte, at any later
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+The state id is git's commit hash. The release's manifest holds file hashes of vendored files, not a name for a state of the model, so nothing released supplies it.

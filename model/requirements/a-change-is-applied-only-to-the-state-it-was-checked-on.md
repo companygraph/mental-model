@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - A state is read again before it is relied on
+realization: Not released
 ---
 
 # A change is applied only to the state it was checked on
@@ -25,3 +26,7 @@ A change whose base has moved cannot be applied until its checks have passed on 
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+No release makes a change whose base has moved wait for its checks on the current state. The criterion names GitHub's required checks in strict mode, which is a repository setting and not a behavior of any released product. `ids --range` is written to cope with a branch behind its base (it reads from the merge base, tested in `verify/cli.test.mjs`) but it does not stop such a change from being applied.

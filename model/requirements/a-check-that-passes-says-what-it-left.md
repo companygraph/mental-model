@@ -5,6 +5,7 @@ kind: functional
 modality: must
 follows:
   - A check counts only when its output was seen
+realization: Released
 ---
 
 # A check that passes says what it left
@@ -24,6 +25,18 @@ A run with no finding passes and says that every schema's writing rules were not
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+A run of `bin/check-instance.mjs` that finds nothing prints the pass line, then always prints `not checked: every ## Writing rules in every schema — that is the agent pass, R0`, and prints a second `not checked:` line naming each type for which the vendored core carries no schema. `checkInstance` returns that list as `skipped`. The `companygraph-validate` skill tells the agent to name the mechanical checks under Not checked when they cannot run (no network, no Node) and not to walk the rules by hand, and to end every report with a Not checked line. A test (`a type the vendored core does not carry is named, not passed over in silence`) observes the skipped list. No test reads the printed writing-rules line, and the agent clause is an instruction in a skill that no test exercises.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `bin/check-instance.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/bin/check-instance.mjs |
+| `agents/claude/skills/companygraph-validate/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-validate/SKILL.md |
+| `verify/instance-checks.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/instance-checks.test.mjs |
 
 ## References
 

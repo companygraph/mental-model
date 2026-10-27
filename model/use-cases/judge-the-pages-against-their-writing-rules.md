@@ -7,6 +7,7 @@ primary-actor: Owner
 features:
   - A decision model asks each page its schema's writing rules
   - An agent does the work no script can, by the skills an instance ships
+realization: Main scenario released
 ---
 
 # Judge the pages against their writing rules
@@ -60,6 +61,18 @@ The owner asks for the judge.
 ## Success guarantees
 
 - The owner holds the report and a reading of every flag, with the findings grouped by cause and a fix proposed for each.
+
+## Realization
+
+meta-model v0.95.0 has `companygraph judge` and the `companygraph-judge` skill. Without a key the command prints the question and page counts, the service, host and model, the forecast of tokens, requests and cost, the file list and a digest, and sends nothing (step 1, tested). With `--consent <digest>` and the key in the environment it sends one request per page and prints an advisory report; it refuses when a page changed after the digest (4a), when the key is missing (4b) and when the consent is for another endpoint or is not a digest (all tested in `judge.test.mjs`). The skill checks that `dist/judge/` is ignored and otherwise stops with nothing sent (1a), asks the owner in plain words and ends on a no (2 and 3a), runs the command with the digest (4), reads the known flags and treats a row with a different hash as lapsed (5 and 5a), writes the reading with findings, false flags, known flags, proposed rows and what was not checked (6), and writes rows to `judge/known.md` only on the owner's word and runs check on them (7); `check` holds those rows (`known.test.mjs`). The skill's tests match strings of the procedure. No test walks the scenario with an agent, so the success guarantee (a reading of every flag) is not observed.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/judge.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/judge.test.mjs |
+| `agents/claude/skills/companygraph-judge/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-judge/SKILL.md |
+| `verify/known.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/known.test.mjs |
 
 ## References
 

@@ -9,6 +9,7 @@ features:
   - Checks while a file is edited
 includes:
   - Check a change against the schemas
+realization: Main scenario released
 ---
 
 # Write a page that holds
@@ -57,6 +58,18 @@ A fact about the company is to be written down.
 
 - The page passes the checks of the release the instance adopted.
 - Every name on the page resolves to one entity of the type its declaration names.
+
+## Realization
+
+The plugin offers, while a reference is typed, the names the declaration's scope holds: a field's type, and for a row the owner named in the row (step 3; `test/scope.test.ts` tests the scope and `e2e/names.e2e.ts` the popup and the chosen name written, step 4). New entity creates the page under the type's folder with a fresh id, the H1 and the sections the schema requires (step 2; `e2e/entities.e2e.ts`, `src/freshid.ts`). A name that holds nothing is marked as an unresolved link when the line is left, before any check runs (3a; `e2e/editing-mark.e2e.ts`). The plugin checks the whole model on every change, bundles the meta-model checks at a pinned release and shows failures by file and rule (5a), and step 5's commit and the Check use case are the writer's. What is missing is a test that runs one page from the picker to a passing check; the e2e suite is not a required check and runs on a weekly schedule.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `e2e/names.e2e.ts` | satisfies | https://github.com/companygraph/obsidian-plugin/blob/0.34.0/e2e/names.e2e.ts |
+| `e2e/editing-mark.e2e.ts` | satisfies | https://github.com/companygraph/obsidian-plugin/blob/0.34.0/e2e/editing-mark.e2e.ts |
+| `test/scope.test.ts` | satisfies | https://github.com/companygraph/obsidian-plugin/blob/0.34.0/test/scope.test.ts |
 
 ## References
 

@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - A check counts only when its output was seen
+realization: Not released
 ---
 
 # A check's output is kept with the change it checked
@@ -25,3 +26,7 @@ The output of any check run on any applied change can be read from that change, 
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Check output is kept by GitHub Actions as the log of a check run. No release keeps or reads it, and the checks only print to the run.

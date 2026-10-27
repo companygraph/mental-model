@@ -18,6 +18,7 @@ includes:
   - Publish the model where visitors and agents reach it
   - Adopt a repository that has no model
   - Move the model to a newer release
+realization: Main scenario released
 ---
 
 # Keep the company's model
@@ -66,6 +67,18 @@ A company decides to write down what it knows once, in a structure its people an
 
 - The model passes the checks of the release it adopted.
 - Every surface shows the model at a commit the owner pinned.
+
+## Realization
+
+Each step is the use case it names, so the page reads as they do. Steps 1 (Start a company's model), 3 (Take a pack) and 10 (Move) are Released end to end in meta-model v0.95.0. Steps 2, 4, 5, 6, 7 and 9 are Main scenario released, and step 8 (Publish) is Main scenario released with the deployment at its deployed commit, so the scenario as a whole sits at that level. Extension 10a is the release notes and the check, both in meta-model. The guarantee that no vendored file is overwritten by a move the owner did not force is tested in meta-model (`upgrade refuses when core was edited inside the instance`). The guarantee that every surface shows the model at a commit the owner pinned rests on the deployment's `source.json` and the site's `source.json`. The page has no test of its own and none could walk ten use cases.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `bin/companygraph.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/bin/companygraph.mjs |
+| `verify/cli.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `source.json` | satisfies | https://github.com/companygraph/mcp-companygraph-io/blob/868854216c611db2ff536820d04f45b463b19c08/source.json |
 
 ## References
 

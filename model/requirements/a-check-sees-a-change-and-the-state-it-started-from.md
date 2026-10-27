@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-14
 kind: functional
 modality: must
+realization: Verified
 ---
 
 # A check sees a change and the state it started from
@@ -23,3 +24,14 @@ The id check refuses a change that alters an id and passes one that does not, re
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+`companygraph ids --range <base>..<head>` reads the pages at both ends of the range from git and nothing else. It fails a change to an id across a rename, naming both sides, and passes a rename that keeps its id and a page that gains its first id. It also holds a decision and a label to what the range did, compared after the form, and refuses a three-dot range or a base with no common commit. The id check against the default branch is tested for refuse and pass.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/cli.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `verify/ids.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/ids.test.mjs |

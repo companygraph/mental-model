@@ -8,6 +8,7 @@ features:
   - An instance is made and kept from one command
 includes:
   - Check a change against the schemas
+realization: Released end to end
 ---
 
 # Move the model to a newer release
@@ -58,6 +59,17 @@ A release ships whose notes say what it asks of an instance, and the owner decid
 ## Success guarantees
 
 - The manifest and the workflow name the release together, and the check at that release passes.
+
+## Realization
+
+The menu entry Move a model in meta-model v0.95.0 runs `upgrade --dry-run` and prints `write` lines for every path the move would write (step 3), asks Go ahead and on a yes runs `upgrade`, which moves core, the packs the manifest lists and the skills, records their hashes and moves the manifest's tooling and the workflow pin together (5); a no ends with nothing written (4a, code only). `upgrade` refuses and names a vendored file edited inside the instance, and `--force` overwrites it and says so (3a, tested), refuses a core newer than itself with nothing written, and runs the check afterward, saying the upgrade stands and how many problems are the model's to fix (7 and 7a). A skill of the instance's own under a name the release does not write is left alone, and one under a name it would write is refused unless forced (5a, tested for the second case; the first follows from the delete list being the manifest's). The walking test is `upgrade moves an instance between two real releases end to end` in `verify/cli.test.mjs`: it sets an instance back to an older core, runs `upgrade`, and expects the new core, every recorded hash, the tooling, `core.version`, the workflow line and a passing check, which are the page's success guarantee. It calls `upgrade` and not the menu, which is why the confidence is medium.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/cli.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `bin/companygraph.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/bin/companygraph.mjs |
 
 ## References
 

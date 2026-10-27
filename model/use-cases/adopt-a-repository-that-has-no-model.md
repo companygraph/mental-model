@@ -6,6 +6,7 @@ scope: system
 primary-actor: Owner
 features:
   - A repository is held to one form and told which pins are behind
+realization: Main scenario released
 ---
 
 # Adopt a repository that has no model
@@ -53,6 +54,18 @@ A repository around the model is to run under the same machinery an instance run
 ## Success guarantees
 
 - The repository runs the form alone under the same workflow an instance runs, and its pins are read against their upstreams.
+
+## Realization
+
+Step 1 and step 2 are in meta-model v0.95.0: `adopt` (and the menu entry Hold a repository) writes a manifest with a tooling and no core, the workflow, the seat hook and `pins.json`, and refuses an instance by name. Step 3 is the owner's edit of `pins.json`. Step 4 is the `repository-check.yml` workflow, which runs `companygraph form .`; the form check reads no configuration of the repository's own, so a nested configuration cannot turn a rule of the form off (4a). Step 5 is `companygraph pins`: it reports each declared pin as current, behind (naming the newest tag), unknown or unmanaged, writes nothing and exits 0 with a pin behind (5a). A package line the file does not declare is reported unmanaged and its upstream is not asked (5b), and an entry whose file holds no line is reported missing and the report exits 1 (5c). Each piece has its own test (`adopt` tests, `form.test.mjs`, `pins.test.mjs`, and one test that runs `pins` on an adopted folder), but I found no test that adopts a folder, declares a pin that is behind and reads the report as one run, so the level stays below Released end to end.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/cli.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `verify/pins.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/pins.test.mjs |
+| `.github/workflows/repository-check.yml` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/.github/workflows/repository-check.yml |
 
 ## References
 

@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - A commit keeps the author it was made with
+realization: Verified
 ---
 
 # Every change says who made it and in which work
@@ -25,3 +26,14 @@ A change without an author, a process or a phase is refused, and every applied c
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+`companygraph commits` (through `judgeCommit` in `lib/seats.mjs`) refuses a commit with no Process trailer, no Phase trailer, a process that is none of the instance's or a phase that is none of the process's, and says that git reads trailers only from the last paragraph. The author is judged against the seats at the instance's domain. A commit shows its author, committer and date through git. The refusal runs at commit time and on each pull request, as for the seat check. An owner's commit and a bot's pass without trailers, so a change by those is not refused for lacking them.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `lib/seats.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/lib/seats.mjs |
+| `verify/seats.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/seats.test.mjs |

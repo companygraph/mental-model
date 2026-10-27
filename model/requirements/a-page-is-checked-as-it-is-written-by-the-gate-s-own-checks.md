@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-16
 kind: functional
 modality: must
+realization: Released
 ---
 
 # A page is checked as it is written by the gate's own checks
@@ -23,3 +24,14 @@ Before the change is proposed, an editor shows the failure the gate would report
 | Type | Entity |
 | --- | --- |
 | feature | Checks while a file is edited |
+
+## Realization
+
+The Obsidian plugin 0.34.0 depends on `companygraph-meta-model` at v0.94.0 and calls `checkInstance`, the gate's own checker, on the vault's files each time they change, then shows each failure located in its page and a status line ("complies" or a failure count) with a note when the instance's pin differs from the bundled checker. The plugin bundles one fixed checker and not the instance's release, so it shows what that release would report, and the pin note is the only sign of a difference. `test/model.test.ts` observes the model builder's failures, not the editor's display.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `src/model.ts` | satisfies | https://github.com/companygraph/obsidian-plugin/blob/0.34.0/src/model.ts |
+| `test/model.test.ts` | satisfies | https://github.com/companygraph/obsidian-plugin/blob/0.34.0/test/model.test.ts |
