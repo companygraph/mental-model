@@ -9,6 +9,7 @@ features:
   - An agent does the work no script can, by the skills an instance ships
 includes:
   - Check a change against the schemas
+realization: Released end to end
 ---
 
 # Start a company's model
@@ -61,6 +62,17 @@ The owner runs the command from a release tag, with nothing after it.
 
 - The instance passes the checks on its first day, with nothing in its model but the stubs.
 - The manifest names the release that made the instance and a hash for every file it vendored.
+
+## Realization
+
+In meta-model v0.95.0 the menu entry Make a model asks the folder (and adds beside existing files only on a yes), the company's name and the gate, and the agent is claude, the one agent the release writes for, so it is not asked; this is the only difference from step 2 as the page words it. `init` vendors the release's core and records a sha256 per vendored file in the manifest (3), writes the sources page, the singular entities, a README in the model and in each root type folder (4), the workflow pinned to the release of the checker (5), `AGENTS.md`, `CLAUDE.md` and the skills with their hashes (6), and prints the check command and the vault command (7). Extensions: a folder that holds `meta/` or `.companygraph/` is refused naming it with nothing written (2a, `plan.test.mjs`), an agent it does not write for is refused by name (2b), and a core newer than the release is refused before anything is written (3a). The test `the menu makes an instance from answers alone, and what it made passes the checks` in `verify/cli.test.mjs` picks Make a model, answers the questions, and runs the check on the result with no failures; `an instance init writes passes the mechanical checks on its first day` and `what it wrote is what its manifest says it wrote` observe the two success guarantees (a pass on the first day, the release and a hash for every vendored file).
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `verify/cli.test.mjs` | verifies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `verify/plan.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/plan.test.mjs |
 
 ## References
 

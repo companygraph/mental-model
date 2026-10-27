@@ -3,6 +3,7 @@ id: 01a1312d-0688-7aba-a96a-fcbd55585385
 source: Local
 kind: functional
 modality: must
+realization: Released
 ---
 
 # An answer says where the model does not say
@@ -22,6 +23,17 @@ Given a question the tools returned nothing for, the answer says the model does 
 | Type | Entity |
 | --- | --- |
 | use-case | Ask the company a question |
+
+## Realization
+
+The prompt tells the model that where the tools do not say, it says the model does not say, and the last request repeats it. The answer check reads a claim that the model holds nothing as `says-nothing` where every tool call found nothing and as `withheld` where a call found rows; `withheld` counts as not carried, and a test checks both verdicts and that `withheld` is unsupported. Whether an answer to a question the tools returned nothing for really says so is the model's behavior and no test observes it.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `test/verdict.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/verdict.test.mjs |
+| `lib/model.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/lib/model.mjs |
 
 ## References
 

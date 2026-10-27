@@ -7,6 +7,7 @@ primary-actor: Owner
 features:
   - An agent reads the model
   - A visitor asks the model
+realization: Main scenario released
 ---
 
 # Publish the model where visitors and agents reach it
@@ -53,6 +54,19 @@ The owner decides to publish the model, or moves the pin to a later commit.
 ## Success guarantees
 
 - Every answer from the server and from the chat names the pinned commit.
+
+## Realization
+
+The deployment's `source.json` names the instance and the commit it serves, and `deployment.json` and `chat/chat.json` name its project and hosts (step 1). The workflow it calls from mcp-server v0.69.0 draws the graph once from that commit with the parser, which fails an unresolved name, before it builds the image (2, 2a), and serves it over MCP with every answer naming the commit while the chat beside it answers from those tools (3); chat-server reads the host's types and questions again when the commit moves and names the new commit in `done` (3a, tested in `host.test.mjs`). The deployment's tests, run before the image is built, check that the snapshot is the pinned commit and that every tool answers inside its schema with the commit. Step 4 is the owner's edit to the model. Missing for the next level: no test walks a question through the chat, and none feeds the build a page that names nothing.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `source.json` | satisfies | https://github.com/companygraph/mcp-companygraph-io/blob/868854216c611db2ff536820d04f45b463b19c08/source.json |
+| `.github/workflows/deploy-google.yml` | satisfies | https://github.com/companygraph/mcp-server/blob/v0.69.0/.github/workflows/deploy-google.yml |
+| `deploy/test/tools.mjs` | satisfies | https://github.com/companygraph/mcp-server/blob/v0.69.0/deploy/test/tools.mjs |
+| `test/host.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/host.test.mjs |
 
 ## References
 

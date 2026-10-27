@@ -3,6 +3,7 @@ id: 01a1312c-d8ca-7860-838e-396197f5aeba
 source: Local
 kind: functional
 modality: must
+realization: Released
 ---
 
 # A person's documents are used only under that person's consent
@@ -23,6 +24,18 @@ Given documents of a person who is not the owner and whose consent is not given,
 | --- | --- |
 | feature | A profile is written from a person's documents |
 | feature | An agent does the work no script can, by the skills an instance ships |
+
+## Realization
+
+`companygraph-consent` proposes a consent as needed for any person drawn from a source and as not needed for a person modeling themselves ("no, and the step is one line in the report"), takes only what the operator states, and treats a consent the operator cannot state as not given. `companygraph-profile` step 6 runs it before anything is written: for the owner modeling themselves "the step is one line in the report", and for any other person "a consent not given ends the run with nothing written". `companygraph-company` step 7 drops a person's rows whose consent is not given and goes on, and step 5 never mentions a struck person in the model. No test runs a procedure, and nothing mechanical reads consent.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `agents/claude/skills/companygraph-consent/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-consent/SKILL.md |
+| `agents/claude/skills/companygraph-profile/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-profile/SKILL.md |
+| `agents/claude/skills/companygraph-company/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-company/SKILL.md |
 
 ## References
 

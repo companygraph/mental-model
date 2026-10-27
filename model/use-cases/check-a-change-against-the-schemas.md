@@ -6,6 +6,7 @@ scope: system
 primary-actor: Writer
 features:
   - Checks an instance runs
+realization: Main scenario released
 ---
 
 # Check a change against the schemas
@@ -60,6 +61,18 @@ A change is pushed, or the writer runs the check from the instance root.
 
 - Every mechanical rule the release names passed over the change as it now stands.
 - The writing rules were read by an agent, and its report names what it skipped.
+
+## Realization
+
+In meta-model v0.95.0 `bin/check-instance.mjs` (also reached as `companygraph check`) reads the schemas from the core under the instance's `meta/core` and not from the release that runs (step 2), refuses before reading a page when the manifest names another tooling release (1a), when the vendored core is newer than the checker (1b, tested) and when the manifest takes a pack the checker does not ship (1c, tested). It holds every vendored file and skill to its recorded hash (3a, tested), runs the reference, table, id and frontmatter checks with a failure that names the page and the rule (3 and 3b), refuses a name that exists only under another type (3c, `instance-checks.test.mjs`), reports a type the vendored core lacks as not checked (3d), and on a pass prints that every `## Writing rules` is the agent pass's (4). The instance workflow calls the same checker at the pinned release. Step 5 is `agents/claude/skills/companygraph-validate/SKILL.md`, which says to name the mechanical checks under Not checked when there is no network or Node (5a) and ends the report with a Not checked list; the tests that name it only check that init writes it and hashes it. `verify/cli.test.mjs` runs init and then check and expects no failures, which walks steps 1 to 4, but no test observes the second success guarantee (the writing rules read by an agent), so I keep the page below Released end to end.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `bin/check-instance.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/bin/check-instance.mjs |
+| `verify/cli.test.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/verify/cli.test.mjs |
+| `agents/claude/skills/companygraph-validate/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-validate/SKILL.md |
 
 ## References
 

@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - A secret is never written into a repository
+realization: Not released
 ---
 
 # A change that carries a secret is refused
@@ -25,3 +26,7 @@ A change carrying a key in a known form is refused, and a push past the refusal 
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Secret refusal is GitHub's push protection. No release scans a change for secrets.

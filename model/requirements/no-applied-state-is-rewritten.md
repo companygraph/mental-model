@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - What is cited from outside the model is not rewritten
+realization: Not released
 ---
 
 # No applied state is rewritten
@@ -25,3 +26,7 @@ An attempt to rewrite or delete a past state is refused and the refusal is recor
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Refusing a force push or deletion is a GitHub ruleset. `conventions/WORKING.md` says rewriting a pushed branch is done only on the owner's word, a written rule. No release refuses or records it.

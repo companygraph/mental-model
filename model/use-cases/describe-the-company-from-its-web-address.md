@@ -8,6 +8,7 @@ features:
   - An agent does the work no script can, by the skills an instance ships
 includes:
   - Check a change against the schemas
+realization: Main scenario released
 ---
 
 # Describe the company from its web address
@@ -62,6 +63,17 @@ The owner gives the agent the company's web address.
 ## Success guarantees
 
 - Every fact in the instance names the source it was read from, and every tagline is marked as a draft for the owner.
+
+## Realization
+
+meta-model v0.95.0 ships `companygraph-company` (and `companygraph-consent`) as skills that `init` writes into the instance and hashes. The company skill asks create or update, reads `robots.txt` first and confirms the company's name before anything else (steps 1 and 2, 2a and 2b), reads the pages a person would read and the GitHub organization and writes every page read to a ledger in `dist/research/` with address and date (3), after checking that `dist/` is ignored and asking to add it when it is not (3a). It takes out only what a schema holds and leaves out numbers that move (4 and 4a), asks one question per turn with a proposal and lets the owner strike a person by name, who is then mentioned nowhere (5), runs the consent skill per source with the company's consent ending the run when it is not given and a person's dropping that person's rows (6, 6a and 6b), writes sources first and then the rest with a fresh id per page and the tagline as a draft (7), and runs check and the validate procedure (8). It commits nothing. The only mechanical evidence is that `verify/cli.test.mjs` checks the skills are written, hashed and named in AGENTS.md; nothing runs the procedure, so the page is not Released end to end.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `agents/claude/skills/companygraph-company/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-company/SKILL.md |
+| `agents/claude/skills/companygraph-consent/SKILL.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/agents/claude/skills/companygraph-consent/SKILL.md |
 
 ## References
 

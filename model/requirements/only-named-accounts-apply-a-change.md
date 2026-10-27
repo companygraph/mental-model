@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - The Owner's word merges
+realization: Not released
 ---
 
 # Only named accounts apply a change
@@ -25,3 +26,7 @@ An account that may propose a change is refused when it applies one. Today the p
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Restricting who applies a change is a GitHub setting. No release names the accounts or refuses another.

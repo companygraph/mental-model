@@ -8,6 +8,7 @@ features:
   - An agent reads the model
 includes:
   - Walk a long list a page at a time
+realization: Released end to end
 ---
 
 # Read the model from an agent
@@ -57,6 +58,18 @@ The visitor asks their agent something about the company.
 ## Success guarantees
 
 - Every answer the agent passes on names the commit it was read at and the id of each entity it rests on.
+
+## Realization
+
+mcp-server v0.69.0 has `list_types`, `describe_schema`, `search`, `get_entity`, `find_evidence`, `list_rules` and `describe_rule` (steps 1, 2 and 4), each answering from the snapshot drawn at the pinned commit with references resolved to ids, the `via` that drew each edge and the commit under `model` (3). Lists page with a cursor (5, see Walk a long list a page at a time). An ambiguous name is refused with every candidate's id, and each id then answers (2a, `contract.test.mjs`). A refusal carries a code, details and the sentence, and `describe_errors` serves the codes and the schema of a refusal (2b, `describe-errors.test.mjs`). Every entity is addressed by a stable id apart from the page's address (3a, `stable-ids.test.mjs`). Every tool says it only reads (`server.test.mjs`), so no call changes the model. The tests that read most as the scenario are in `test/contract.test.mjs`, which connects an MCP client over HTTP and checks each tool's answer against its declared schema, including the walks and the refusals; step 6 is the agent's own answer and needs no release.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `test/contract.test.mjs` | verifies | https://github.com/companygraph/mcp-server/blob/v0.69.0/test/contract.test.mjs |
+| `test/stable-ids.test.mjs` | satisfies | https://github.com/companygraph/mcp-server/blob/v0.69.0/test/stable-ids.test.mjs |
+| `docs/INTERFACE.md` | satisfies | https://github.com/companygraph/mcp-server/blob/v0.69.0/docs/INTERFACE.md |
 
 ## References
 

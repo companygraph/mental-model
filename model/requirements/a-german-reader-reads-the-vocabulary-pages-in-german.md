@@ -3,6 +3,7 @@ id: 01a1312d-9384-77bc-a0e9-c22318bb2902
 source: Local
 kind: functional
 modality: should
+realization: Released
 ---
 
 # A German reader reads the vocabulary pages in German
@@ -22,6 +23,18 @@ Switched to German, the model page around the figure and the stage's own labels 
 | Type | Entity |
 | --- | --- |
 | feature | The vocabulary on the web |
+
+## Realization
+
+The site's `model/index.html` carries a German value on every label, note and caption around the figure, including the stage's own buttons and hints, and a note saying the page is generated from the core and the packs at the commit beside the figure "in der einen Sprache, in der das Modell geschrieben ist". The schemas are drawn from `model.json` and are not translated. The site's `verify` suite loads the model page, switches to German, checks that "Das Modell", "gezeichnet" and "Wie man es liest" show and the English heading is gone, then checks that every element carrying a German value shows exactly it and that switching back restores the English. No test asserts that the drawn schema names stay English or that the note beside the figure says so; that rests on the page's text.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `model/index.html` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/model/index.html |
+| `verify/check.mjs` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/verify/check.mjs |
+| `verify/pages.mjs` | satisfies | https://github.com/robertblust/design/blob/v0.158.2/verify/pages.mjs |
 
 ## References
 

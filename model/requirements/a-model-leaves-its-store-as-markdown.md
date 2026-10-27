@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-39
 kind: functional
 modality: must
+realization: Released
 ---
 
 # A model leaves its store as Markdown
@@ -23,3 +24,14 @@ A state exported and imported again is the same state, and the exported files pa
 | Type | Entity |
 | --- | --- |
 | feature | A vocabulary to describe a company in |
+
+## Realization
+
+In v0.95.0 the model's only store is its Markdown pages, each with its `id` in frontmatter, and `companygraph check` reads those files directly; there is no other store, no export command and no import command, so the round trip is the identity. The `companygraph-export` skill builds a bundle for an agent and a Gemini notebook from the Markdown, but it is not an export of a state back into the form. A requirement that expects a second store to leave is met only because none exists; no test observes a state exported and imported again.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `bin/check-instance.mjs` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/bin/check-instance.mjs |
+| `core/CONVENTIONS.md` | satisfies | https://github.com/companygraph/meta-model/blob/v0.95.0/core/CONVENTIONS.md |

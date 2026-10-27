@@ -4,6 +4,7 @@ source: Local
 level: subfunction
 scope: component
 primary-actor: Agent
+realization: Released end to end
 ---
 
 # Walk a long list a page at a time
@@ -43,6 +44,18 @@ primary-actor: Agent
 ## Success guarantees
 
 - Every result arrived exactly once, in one order, at one commit.
+
+## Realization
+
+mcp-server v0.69.0 pages every list tool (`list_entities`, `search`, `list_references`) with a default of 50, a maximum of 200, and a limit outside the range served at the nearest bound, so a limit of zero returns one entry and the page says so (1a). Each page carries `total`, `returned`, `hasMore`, `nextCursor` and the commit under `model` (steps 2 and 4). A cursor written for another commit is refused as `invalid_cursor` with the reason `other_commit`, and the refusal carries the served commit under `model` (3a); a cursor the server did not write is refused with the reason `malformed` and a sentence that says to leave it out (3b). `test/contract.test.mjs` walks each of the three tools at page sizes 2 and 200 through an MCP client, expects the same list in both and nothing twice, and `test/paging.test.mjs` tests the refusals. One gap in the page's second guarantee: a cursor sent back with other arguments than the call that made it is not detected, which `docs/INTERFACE.md` says.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `test/contract.test.mjs` | verifies | https://github.com/companygraph/mcp-server/blob/v0.69.0/test/contract.test.mjs |
+| `test/paging.test.mjs` | verifies | https://github.com/companygraph/mcp-server/blob/v0.69.0/test/paging.test.mjs |
+| `lib/paging.mjs` | satisfies | https://github.com/companygraph/mcp-server/blob/v0.69.0/lib/paging.mjs |
 
 ## References
 

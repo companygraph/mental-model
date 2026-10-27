@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-23
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # Who may read a model is set for each model
@@ -23,3 +24,7 @@ A model set private cannot be read by an account outside it, and a published one
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Read access is a GitHub repository setting. No release sets or enforces it.

@@ -6,6 +6,7 @@ scope: system
 primary-actor: Visitor
 features:
   - The vocabulary on the web
+realization: Main scenario released
 ---
 
 # Read the vocabulary in a browser
@@ -47,6 +48,19 @@ The visitor opens the model page of the site.
 ## Success guarantees
 
 - The visitor has read the vocabulary at a named commit without cloning anything.
+
+## Realization
+
+At the deployed commit the site's `build/build.mjs` reads the schemas of core and the packs at the pinned meta-model commit and writes `model.json`, and `stage.js` draws a folder per pack, a square per schema, a dashed line per reference field and the commit beside the figure (steps 1 and 2); the example page is drawn from `example.json` (3); `build/jsonld.mjs` writes the model page's term set with each term's `url` at `blob/<commit>/` of its schema file (4). The German switch (2a) is checked by the suite; the statement that the schemas stay English is on the page and not asserted. The build stops with the parser's R4 message, naming the value, where it was written and the type searched, and writes nothing for that target (2b). The site's `verify` suite and `pages:check` check the model page's figure, its provenance and the term set separately; none walks from the model page to the example page to the term set, and the pin of the parser is v0.94.0 where v0.95.0 is the latest tag.
+
+## Evidence
+
+| What | Shows | URL |
+| --- | --- | --- |
+| `build/build.mjs` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/build/build.mjs |
+| `build/jsonld.mjs` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/build/jsonld.mjs |
+| `verify/check.mjs` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/verify/check.mjs |
+| `build/renderers.test.mjs` | satisfies | https://github.com/companygraph/companygraph.github.io/blob/3f8e4a25f599cc0e3c77cce8cce17e585d7a6b0e/build/renderers.test.mjs |
 
 ## References
 

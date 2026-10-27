@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-06
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # A change is prepared apart from the model
@@ -23,3 +24,7 @@ Two changes edit the same entity and neither sees the other's edit before it is 
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+Preparing a change on a branch in a worktree is git. The conventions ask for one branch per change (`conventions/WORKING.md`), which is guidance and no behavior of a release. No release builds, isolates or tests it.

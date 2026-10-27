@@ -6,6 +6,7 @@ kind: functional
 modality: must
 follows:
   - A commit keeps the author it was made with
+realization: Not released
 ---
 
 # Applying a change keeps its author
@@ -25,3 +26,7 @@ An applied change shows the seat that made it, and apart from it the account tha
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Keeping the author is done by GitHub's merge commit with squash and rebase turned off. `conventions/WORKING.md` v1.52.0 requires `gh pr merge --merge` and explains why, but that is a written rule; no release refuses a squash or shows the applier apart from the author.

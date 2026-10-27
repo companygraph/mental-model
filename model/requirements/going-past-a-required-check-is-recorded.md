@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-21
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # Going past a required check is recorded
@@ -23,3 +24,7 @@ Every change of a week applied past a required check can be listed with that che
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Recording a bypass is GitHub's rule suites. No release lists or stores it.

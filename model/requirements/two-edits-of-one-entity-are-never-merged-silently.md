@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-09
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # Two edits of one entity are never merged silently
@@ -23,3 +24,7 @@ Two changes edit one field of one entity, and the second cannot be applied until
 | Type | Entity |
 | --- | --- |
 | product | CompanyGraph Core |
+
+## Realization
+
+The conflict is git's. No release detects or refuses a merge of two edits of one entity.

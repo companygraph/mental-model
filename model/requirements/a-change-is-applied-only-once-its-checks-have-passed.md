@@ -4,6 +4,7 @@ source: Governance research
 source-id: GD-12
 kind: functional
 modality: must
+realization: Not released
 ---
 
 # A change is applied only once its checks have passed
@@ -23,3 +24,7 @@ A change whose required check failed, or never ran, cannot be applied. Today the
 | Type | Entity |
 | --- | --- |
 | feature | Checks an instance runs |
+
+## Realization
+
+Nothing in a release refuses to apply a change whose required check failed or never ran. The only mechanism is the branch ruleset's required status checks, which GitHub provides and the family's conventions describe (`conventions/WORKING.md`, which says a ruleset requires the `conventions` job by its job id) without any product enforcing it. The checks themselves exist (`companygraph check`, `ids --range`, `commits --range` in the instance-check workflow), but the refusal to apply belongs to GitHub.
