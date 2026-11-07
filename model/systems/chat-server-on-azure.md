@@ -10,7 +10,7 @@ environment: Production
 
 # Chat server on Azure
 
-> Answers the questions a visitor sends once the chat on companygraph.io is set to Azure, from what the MCP server on Azure returns, has a language model write each answer, reached by a federated identity and no key, and logs each question it answers or refuses; it checks no answer and signs no reader in.
+> Answers the questions a visitor sends once the chat on companygraph.io is set to Azure, from what the MCP server on Azure returns, has a language model write each answer, reached by a federated identity and no key, and logs each question it answers or refuses; it checks no answer.
 
 ## Connects to
 
@@ -18,12 +18,14 @@ environment: Production
 | --- | --- | --- | --- | --- |
 | MCP server on Azure | Streamable HTTP | MCP endpoint | Entity | HTTPS |
 | Claude API | Messages API | | | HTTPS |
+| id.blust.ch | OpenID Connect | | | HTTPS |
 
 ## Holds
 
 | Concept | Data object | Access |
 | --- | --- | --- |
 | Conversation | Question log | writes |
+| Reader | Reader's month | writes |
 
 ## References
 
