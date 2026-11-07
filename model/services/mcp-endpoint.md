@@ -3,13 +3,14 @@ id: 01a1256f-009b-7dca-b327-76f8b78a27cf
 source: Local
 provided-by:
   - MCP server
+  - MCP server on Azure
 realizes:
   - An agent reads the model
 ---
 
 # MCP endpoint
 
-> The Model Context Protocol endpoint at mcp.companygraph.io/mcp, where any agent client, and the chat, lists the types CompanyGraph's model declares, reads its entities and searches it, without signing in.
+> The Model Context Protocol endpoint at mcp.companygraph.io/mcp, and a second time at mcp.azure.companygraph.io/mcp, where any agent client, and the chat, lists the types CompanyGraph's model declares, reads its entities and searches it, without signing in.
 
 ## References
 
