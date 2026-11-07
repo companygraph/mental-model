@@ -77,3 +77,4 @@ mcp-server v0.69.0 has `list_types`, `describe_schema`, `search`, `get_entity`, 
 | --- | --- |
 | The server's interface | https://github.com/companygraph/mcp-server/blob/main/docs/INTERFACE.md |
 | The server this model answers at | https://mcp.companygraph.io/ |
+| The same server on Azure | https://mcp.azure.companygraph.io/ |

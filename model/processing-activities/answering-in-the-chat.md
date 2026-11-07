@@ -5,6 +5,7 @@ legal-basis: legitimate-interests
 retention: The conversation is kept only in the visitor's browser tab and ends when the tab closes
 surfaces:
   - chat.companygraph.io chat
+  - chat.azure.companygraph.io chat
 ---
 
 # Answering in the chat
@@ -25,5 +26,6 @@ surfaces:
 | Processor | Receives |
 | --- | --- |
 | Google Cloud | The messages and the visitor's address, on the way to the answer |
+| Microsoft Azure | The messages and the visitor's address, on the way to the answer, when the visitor chose the chat on Azure |
 | Anthropic | The message and the earlier messages of the same conversation |
 | TypeSafe | The answer's sentences and the parts of the model's pages they rest on |

@@ -26,7 +26,7 @@ A deployment of the server and the chat names the company's own cloud project an
 
 ## Realization
 
-A deployment of the server is its own repository calling the release's workflow with its `deployment.json`, which names its Google Cloud project, billing account, region and domain, and the image is built and pushed to that project's registry; the model is read from the company's own repository at the pinned commit. A deployment of the chat names its host and its model host in `chat.json`, and the language model is reached through the company's own Vertex project or through an Anthropic organization's workload-identity federation that `chat.json` names, whose shape the release's `deploy-config.test.mjs` checks; sign-in names the company's own identity issuer. The code of the two servers contains no address of a host the makers run except links in the pages' footers, and the only outbound reads are GitHub's raw files, the language model and the cloud's own log and storage. No test records the requests a running deployment makes.
+A deployment of the server is its own repository calling the release's workflow with its `deployment.json`, which names its Google Cloud project, billing account, region and domain, and the image is built and pushed to that project's registry; the model is read from the company's own repository at the pinned commit. A deployment on Azure names its tenant, subscription, resource group and location in the same file instead, and the image goes to that resource group's registry. A deployment of the chat names its host and its model host in `chat.json`, and the language model is reached through the company's own Vertex project or through an Anthropic organization's workload-identity federation that `chat.json` names, whose shape the release's `deploy-config.test.mjs` checks; sign-in names the company's own identity issuer. The code of the two servers contains no address of a host the makers run except links in the pages' footers, and the only outbound reads are GitHub's raw files, the language model and the cloud's own log and storage. No test records the requests a running deployment makes.
 
 ## Evidence
 
@@ -34,6 +34,7 @@ A deployment of the server is its own repository calling the release's workflow 
 | --- | --- | --- |
 | `deployment.json` | satisfies | https://github.com/companygraph/mcp-companygraph-io/blob/868854216c611db2ff536820d04f45b463b19c08/deployment.json |
 | `chat/chat.json` | satisfies | https://github.com/companygraph/mcp-companygraph-io/blob/868854216c611db2ff536820d04f45b463b19c08/chat/chat.json |
+| `deployment.json` on Azure | satisfies | https://github.com/companygraph/mcp-azure-companygraph-io/blob/9f6f01834bd1678b45a2ce4abae5af737d83a67f/deployment.json |
 | `test/deploy-config.test.mjs` | satisfies | https://github.com/companygraph/chat-server/blob/v0.38.3/test/deploy-config.test.mjs |
 
 ## References

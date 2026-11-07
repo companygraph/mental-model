@@ -17,4 +17,5 @@ kind: This chat
 | requirement | The question is kept and the answer is not | | what is kept and what never is |
 | data-processor | Anthropic | | who writes the answer |
 | data-processor | Google Cloud | | who runs the chat and keeps the questions |
+| data-processor | Microsoft Azure | | who runs the chat and keeps the questions once Azure is chosen |
 | data-processor | TypeSafe | | who checks the answer |

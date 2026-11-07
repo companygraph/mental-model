@@ -5,6 +5,7 @@ legal-basis: legitimate-interests
 retention: Ninety days, and the weekly report made from the questions is gone before any question it holds
 surfaces:
   - chat.companygraph.io chat
+  - chat.azure.companygraph.io chat
 ---
 
 # Keeping the chat's questions
@@ -24,3 +25,4 @@ surfaces:
 | Processor | Receives |
 | --- | --- |
 | Google Cloud | The question and whether the model could answer it, kept in its Zürich region with the weekly report made from them |
+| Microsoft Azure | The question and whether the model could answer it, kept in its Switzerland North region with the weekly report made from them, when the visitor chose the chat on Azure |
