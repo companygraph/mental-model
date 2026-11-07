@@ -15,4 +15,5 @@ kind: This chat
 | seat | Answerer | | who answers, and what it may never do |
 | process | Answering | | how an answer is made |
 | surface | chat.companygraph.io chat | | that it reads this model |
+| surface | chat.azure.companygraph.io chat | | that a visitor may choose it with /backend, and that it reads the same model |
 | requirement | A visitor is told before the first message that an agent answers | | that a visitor is told an agent answers |

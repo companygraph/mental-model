@@ -15,4 +15,5 @@ kind: Getting started
 | feature | An agent reads the model | | what an agent can ask |
 | strategy | Read-Only Server Strategy | | why it only reads |
 | surface | mcp.companygraph.io MCP server | | one running now |
+| surface | mcp.azure.companygraph.io MCP server | | a second one running, on Azure |
 | decision | The server only reads, and answers at one named commit | | what else was weighed |

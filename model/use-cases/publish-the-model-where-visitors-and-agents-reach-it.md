@@ -75,3 +75,4 @@ The deployment's `source.json` names the instance and the commit it serves, and 
 | The server | https://github.com/companygraph/mcp-server |
 | The chat | https://github.com/companygraph/chat-server |
 | The deployment that serves this model | https://github.com/companygraph/mcp-companygraph-io |
+| The deployment that serves it a second time, on Azure | https://github.com/companygraph/mcp-azure-companygraph-io |

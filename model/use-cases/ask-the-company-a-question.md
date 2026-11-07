@@ -92,3 +92,4 @@ The deployed site's `chat.js` shows the notice before the first message and draw
 | The interface, with the kept line's fields | https://github.com/companygraph/chat-server/blob/main/docs/INTERFACE.md |
 | The design of one message answered | https://github.com/companygraph/chat-server/blob/main/docs/design/answering.md |
 | The chat this model answers at | https://chat.companygraph.io/ |
+| The same chat on Azure | https://chat.azure.companygraph.io/ |

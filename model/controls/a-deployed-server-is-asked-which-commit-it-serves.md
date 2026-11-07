@@ -13,7 +13,7 @@ enforces:
 
 ## How it is carried out
 
-The deploy job that mcp.companygraph.io's workflow calls from the MCP server, on every push to main, once Terraform has applied: it calls the live server's own `list_types` tool, reads the commit every answer names under `model`, and fails unless it is the commit `source.json` pins. A deploy that applied cleanly but left an earlier revision serving, or one built from another commit, then turns the run red instead of reading as done.
+The deploy job that mcp.companygraph.io's workflow calls from the MCP server, on every push to main, once Terraform has applied: it calls the live server's own `list_types` tool, reads the commit every answer names under `model`, and fails unless it is the commit `source.json` pins. A deploy that applied cleanly but left an earlier revision serving, or one built from another commit, then turns the run red instead of reading as done. The deploy of mcp.azure.companygraph.io asks the same of its server, from the same release's Azure workflow.
 
 ## Applies to
 
@@ -27,3 +27,4 @@ The deploy job that mcp.companygraph.io's workflow calls from the MCP server, on
 | --- | --- |
 | The deploy job and its check | https://github.com/companygraph/mcp-server/blob/main/.github/workflows/deploy-google.yml |
 | The workflow that calls it | https://github.com/companygraph/mcp-companygraph-io/blob/main/.github/workflows/deploy.yml |
+| The workflow that calls it on Azure | https://github.com/companygraph/mcp-azure-companygraph-io/blob/main/.github/workflows/deploy.yml |
