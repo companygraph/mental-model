@@ -5,6 +5,7 @@ legal-basis: legitimate-interests
 retention: As long as the reader's account at id.blust.ch exists
 surfaces:
   - chat.companygraph.io chat
+  - chat.azure.companygraph.io chat
 ---
 
 # Signing a reader in
@@ -28,3 +29,4 @@ surfaces:
 | --- | --- |
 | Google Cloud | The reader's name, email address and roles, and the link to their Google account where they made one, held by id.blust.ch in its Zurich region, and the access token each message carries |
 | Google | That the reader signs in to id.blust.ch, only when they choose to sign in with Google |
+| Microsoft Azure | The access token each message carries, when the reader chose the chat on Azure |
