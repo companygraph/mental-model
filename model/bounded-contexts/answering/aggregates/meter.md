@@ -18,12 +18,13 @@ root: Meter
 | INV-A15 | The day's count starts again at midnight UTC and the month's at the first of the month, and neither falls below zero. |
 | INV-A16 | While the owner has switched the chat off, every reservation is refused. |
 | INV-A17 | Cost is counted in input-equivalent tokens: input as it is, and cache writes, cache reads and output each at the model's price ratio to input, rounded up per request. |
+| INV-A22 | Only a signed-in reader with a role on the deployment's site has a month of their own: their reservation counts against their own month and the chat's, never against the day's share, and one that would carry their own month past its ceiling is refused until the first of the next month. A signed-in reader without such a role reserves against the day's share and the chat's month, as a visitor does. |
 
 ## Handled commands
 
 | Command | Emits | When | Description |
 | --- | --- | --- | --- |
-| Reserve for a request | | | Adds the estimate to the day and the month, or refuses where the chat is closed or a line would be crossed |
+| Reserve for a request | | | Adds the estimate to the day and the month, or for a reader with a role to the month and their own month, or refuses where the chat is closed or a line would be crossed |
 | Settle a request | | | Replaces the estimate with what the request cost |
 | Read the standing | | | Gives the ceiling, the share, what the day and the month have spent and whether the chat is closed, without spending anything |
 

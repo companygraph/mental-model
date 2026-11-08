@@ -6,4 +6,4 @@ domain: Core
 
 # Reader
 
-> A person the owner has invited to sign in to the chat, who holds an account at id.blust.ch and may choose the model that answers within the roles granted to them; anyone who asks without signing in is a visitor.
+> A person who holds an account at id.blust.ch and signs in to the chat with it, and who may choose the model that answers within the roles granted to them; anyone who asks without signing in is a visitor.
