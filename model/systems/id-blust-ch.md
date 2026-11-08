@@ -10,7 +10,7 @@ serves:
 
 # id.blust.ch
 
-> Signs readers in to the chat with ZITADEL, the identity service blust.ch runs at id.blust.ch in Google Cloud's Zurich region, by invitation only, and issues the token from which the chat server reads the models a reader may choose.
+> Signs readers in to the chat with ZITADEL, the identity service blust.ch runs at id.blust.ch in Google Cloud's Zurich region, by invitation only, and issues the token from which the chat server reads the models a reader may choose. Beside ZITADEL, in the same region, blust.ch runs the link check, a small service of its own that ZITADEL calls after every sign-in with Google or Microsoft: it links that account to an existing one by its address only where the provider proved the address and exactly one account holds it with its address verified, and it keeps nothing and logs no address and no token.
 
 ## Connects to
 
