@@ -6,7 +6,7 @@ realizes: Reader
 
 # Reader account
 
-> A user of ZITADEL at id.blust.ch: the reader's name and email address the roles granted to them on this site and, for a reader who signs in with Google, the link to their Google account, its id and email address, created by the owner in its console, since accounts are by invitation only.
+> A user of ZITADEL at id.blust.ch: the reader's name and email address, the roles granted to them on this site and, for a reader who signs in with Google or Microsoft, the link to that account, its id and the email address it names. Where the reader set them up, it also holds their password as ZITADEL keeps it, the public key of their passkey or security key and the secret their authenticator app shares with id.blust.ch. Anyone may open one, at the login with their email address or by signing in with Google or Microsoft, and the owner may also make one in ZITADEL's console and send an invitation; it holds no role until the owner grants one.
 
 ## References
 

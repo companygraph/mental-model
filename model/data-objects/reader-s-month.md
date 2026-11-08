@@ -6,7 +6,7 @@ realizes: Reader
 
 # Reader's month
 
-> One Firestore document per signed-in reader who has sent a message, `chat-readers/<key>`, holding the month it counts and what the reader's answers cost in it, where the key is the token's `sub` signed with the deployment's secret, so the document holds nothing id.blust.ch would recognize.
+> One Firestore document per signed-in reader with a role on companygraph.io who has sent a message, `chat-readers/<key>`, holding the month it counts and what the reader's answers cost in it, where the key is the token's `sub` signed with the deployment's secret, so the document holds nothing id.blust.ch would recognize.
 
 ## References
 

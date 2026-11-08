@@ -9,7 +9,7 @@ sub-processor-authorization: general
 
 # Microsoft Azure
 
-> Runs the second copies of the chat service and the MCP server in its Switzerland North region and keeps there the chat's log of questions, its meter and the month of each reader who signs in on this copy, under a key the chat cannot turn back into the account; the reader's account stays at id.blust.ch, and this copy only checks the token each of their messages carries.
+> Runs the second copies of the chat service and the MCP server in its Switzerland North region and keeps there the chat's log of questions, its meter and the month of each reader with a role on companygraph.io who signs in on this copy, under a key the chat cannot turn back into the account; the reader's account stays at id.blust.ch, and this copy only checks the token each of their messages carries.
 
 ## References
 
