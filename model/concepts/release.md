@@ -6,7 +6,7 @@ domain: Core
 
 # Release
 
-> A version of the vocabulary fixed under a tag, with notes saying what changed for whoever takes it, what breaks and how to take it; the tag is the whole of it, and nothing is published anywhere else.
+> A version of the vocabulary fixed under a tag, with notes saying what changed for whoever takes it, what breaks and how to take it; the tag is the release, and the package npm holds at the same version is published from it and from nothing else.
 
 ## Also known as
 
