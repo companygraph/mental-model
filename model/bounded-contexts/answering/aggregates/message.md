@@ -45,6 +45,18 @@ decisions:
 | Keep the question | | | Writes the one line kept of the message once it has its answer or its refusal |
 | Check the answer | Answer checked | the deployment checks its answers and the check ran within its budget (INV-A18) | Reads each claim back against its evidence after the last text, and sends nothing where the check cannot run |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Answer a message | Refused |
+| | Answer a message | Answering |
+| Answering | | Refused |
+| Answering | Stop answering | Stopped |
+| Answering | Check the answer | Checked |
+| Answering | | Answered |
+| Checked | | Answered |
+
 ## References
 
 | What | URL |
