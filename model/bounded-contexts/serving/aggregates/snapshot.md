@@ -33,6 +33,13 @@ decisions:
 | Answer a tool call | | | Holds the arguments to the tool's input schema and answers from the snapshot, or refuses with a code |
 | Hand out the next page | | | Answers the page a cursor points at, or refuses a cursor this server did not write or wrote for another commit |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Take a snapshot | Refused |
+| | Take a snapshot | Taken |
+
 ## References
 
 | What | URL |
