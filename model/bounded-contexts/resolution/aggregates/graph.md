@@ -33,6 +33,13 @@ decisions:
 | Read an instance | | | Reads every page against the schemas the instance vendors and draws the graph, or refuses at the first name that resolves to nothing |
 | Resolve a row | | | Finds what one table row's Type, Entity and Owner cells name, for an editor completing a cell as it is written |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Read an instance | Refused |
+| | Read an instance | Drawn |
+
 ## References
 
 | What | URL |
