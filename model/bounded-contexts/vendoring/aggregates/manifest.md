@@ -34,6 +34,17 @@ decisions:
 | Move an instance to a release | | | Writes what the release changed and removes what it dropped, takes a pack not taken before, then runs the check and says what the model owes; with `--dry-run` it lists what it would write and remove, and it refuses while the Markdown is out of the form unless forced |
 | Adopt a repository | | | Writes a manifest with no core, the workflow that runs the form, the seat hook and a `pins.json` into a repository with no manifest; refuses one that has a manifest and points at the move |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Make an instance | Refused |
+| | Make an instance | Vendored |
+| | Adopt a repository | Refused |
+| | Adopt a repository | Adopted |
+| Vendored | Move an instance to a release | Vendored |
+| Adopted | Move an instance to a release | Adopted |
+
 ## References
 
 | What | URL |
