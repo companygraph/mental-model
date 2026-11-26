@@ -41,6 +41,14 @@ decisions:
 | Render the share cards | | | Renders each card from its page in a browser and writes its stamp beside it |
 | Date the sitemap | | | Dates each sitemap entry from its page's last commit |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Move a pin | Current |
+| Current | | Behind |
+| Behind | Move a pin | Current |
+
 ## References
 
 | What | URL |

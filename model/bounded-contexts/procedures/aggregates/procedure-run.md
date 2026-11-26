@@ -40,6 +40,19 @@ decisions:
 | Produce a surface | | | Writes one surface's content by the rules its page records; a request naming no surface against a model holding several is asked, not chosen |
 | Export the instance | | | Builds the agent's skill archive and the notebook bundle from one walk and verifies both against the model |
 
+## State transitions
+
+| From | Command | To |
+| --- | --- | --- |
+| | Build an instance from a web address | Stopped |
+| | Build an instance from a web address | Written |
+| | Write a profile from documents | Stopped |
+| | Write a profile from documents | Written |
+| | Record a source's terms and consent | Written |
+| Written | Validate an instance | Handed back |
+| | Produce a surface | Produced |
+| | Export the instance | Built |
+
 ## References
 
 | What | URL |
